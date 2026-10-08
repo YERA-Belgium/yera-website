@@ -1,0 +1,8 @@
+---
+import site from '@/data/site.json';import {url} from '@/lib/utils';
+interface Props{event?:typeof site.events[number];locale?:'en'|'nl';}
+const {event=site.events[0],locale='en'}=Astro.props;const [day,month,year]=event.date.split('/');
+const valid=!!year&&Number(month)>0;const date=valid?new Date(`${year}-${month}-${day}T12:00:00Z`):null;const past=date&&date<new Date();
+const monthText=date?new Intl.DateTimeFormat(locale==='nl'?'nl-BE':'en-GB',{month:'short',timeZone:'UTC'}).format(date):'';
+---
+<article class="event-row"><div class="event-date"><span>{monthText} {year}</span><strong>{day}</strong></div><div>{past&&<span class="event-status">{locale==='nl'?'Voorbij':'Past event'}</span>}<h3><a href={url(event.path)}>{event.title}</a></h3><p class="event-info">{event.start} {event.start&&'·'} {event.location}</p></div><a class="text-link" href={url(event.path)}>{locale==='nl'?'Bekijk event':'View event'}</a></article>

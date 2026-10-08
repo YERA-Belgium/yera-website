@@ -1,0 +1,160 @@
+{
+  "routes": [
+    {
+      "path": "/alumni",
+      "name": "alumni"
+    },
+    {
+      "path": "/article",
+      "name": "article"
+    },
+    {
+      "path": "/articles",
+      "name": "articles"
+    },
+    {
+      "path": "/authors",
+      "name": "authors"
+    },
+    {
+      "path": "/board",
+      "name": "board"
+    },
+    {
+      "path": "/event",
+      "name": "event"
+    },
+    {
+      "path": "/events",
+      "name": "events"
+    },
+    {
+      "path": "/",
+      "name": "index"
+    }
+  ],
+  "messages": {
+    "nl": {
+      "navigation": {
+        "articles": "Artikels",
+        "events": "Events",
+        "contact": "Contact",
+        "about": "Over YERA",
+        "board": "Bestuur",
+        "alumni": "Ereleden",
+        "authors": "Auteurs",
+        "formerBoards": "Oud bestuur",
+        "honoraryMembers": "Honorary members"
+      },
+      "about": {
+        "title": "Over YERA",
+        "boardOf": "Huidig bestuur",
+        "text": "YERA (Young Energy Reviewers Associations) vzw streeft ernaar betrouwbare, onbevooroordeelde en toegankelijke informatie over energiegerelateerde onderwerpen ter beschikking te stellen van studenten en het grote publiek. De bedoeling is om zowel de toegewijde energieliefhebber als de ge&#239;nteresseerde leek aan te spreken. De vzw is opgericht en gedreven door studenten met een gedeelde passie voor energie, waarvan de meeste een achtergrond hebben in de ingenieurswetenschappen. Om interesse te wekken, discussies op gang te brengen en informatie te verspreiden, organiseert YERA een vari&#235;teit aan evenementen en publiceert artikels in verschillende tijdschriften, magazines en online."
+      },
+      "articles": {
+        "title": "Artikels",
+        "more": "MEER",
+        "readMore": "Lees meer",
+        "source": "Bronnen"
+      },
+      "event": {
+        "showAll": "Alle events",
+        "upcomingEvent": "Opkomend event",
+        "readMore": "Lees meer",
+        "when": "Wanneer",
+        "where": "Waar",
+        "start": "Start",
+        "end": "Einde",
+        "signUp": {
+          "title": "Schrijf je in",
+          "firstName": "Voornaam",
+          "name": "Naam",
+          "tel": "Telefoon",
+          "subscribe": "Contacteer me in de toekomst",
+          "confirmSignUp": "Inschrijven"
+        }
+      },
+      "contact": {
+        "title": "Contacteer ons",
+        "subtitle": "Vul het formulier in en we nemen zo snel mogelijk contact met je op",
+        "name": "Naam",
+        "message": "Bericht",
+        "send": "Verzenden"
+      },
+      "alumni": {
+        "title": "Ereleden",
+        "subtitle": "YERA bedankt de volgende personen voor hun steun en bijdrage aan YERA",
+        "becomeAlumni": "Word zelf erelid",
+        "howToSupport": "Wilt u YERA graag ondersteunen door erelid te worden? Neem dan zeker contact met ons op via <a href='mailto:info@yera.be'>info@yera.be</a>."
+      },
+      "footer": {
+        "socials": "Volg ons online",
+        "madeBy": "Gemaakt door"
+      },
+      "author": {
+        "title": "Auteurs"
+      }
+    },
+    "en": {
+      "navigation": {
+        "articles": "Articles",
+        "events": "Events",
+        "contact": "Contact",
+        "about": "About YERA",
+        "board": "Board",
+        "alumni": "Alumni",
+        "authors": "Authors",
+        "formerBoards": "Former boards",
+        "honoraryMembers": "Ereleden"
+      },
+      "about": {
+        "title": "About YERA",
+        "boardOf": "Current board",
+        "text": "YERA (Young Energy Reviewers Association) vzw aspires to provide reliable, unbiased and accessible information on energy-related topics to students and the wider audience. The aim is to generate content that appeals to both the more knowledgeable energy enthusiast as the more casually interested public. The non-profit organisation is founded and driven by students mostly from an engineering background united through a passion for energy. To increase interest, spark debate and spread information, YERA organises a variety of events and publishes articles in multiple journals, magazines and online."
+      },
+      "articles": {
+        "title": "Articles",
+        "more": "More",
+        "readMore": "Read more",
+        "source": "Source"
+      },
+      "event": {
+        "showAll": "All events",
+        "upcomingEvent": "Upcoming event",
+        "readMore": "Read more",
+        "when": "When",
+        "where": "Where",
+        "start": "From",
+        "end": "Until",
+        "signUp": {
+          "title": "Sign up!",
+          "firstName": "First name",
+          "name": "Name",
+          "tel": "Phone number",
+          "subscribe": "Contact me in the future",
+          "confirmSignUp": "Sign up"
+        }
+      },
+      "contact": {
+        "title": "Get in touch!",
+        "subtitle": "Fill out the form and we will contact you as soon as possible.",
+        "name": "Name",
+        "message": "Message",
+        "send": "Send"
+      },
+      "alumni": {
+        "title": "Honorary members",
+        "subtitle": "YERA is grateful to these people for their support and contribution to the organization",
+        "becomeAlumni": "Become an honorary member",
+        "howToSupport": "Do you want to support our operations by becoming an honorary member? Contact the board at <a href='mailto:info@yera.be'>info@yera.be</a>."
+      },
+      "footer": {
+        "socials": "Follow us online",
+        "madeBy": "Made by"
+      },
+      "author": {
+        "title": "Authors"
+      }
+    }
+  }
+}

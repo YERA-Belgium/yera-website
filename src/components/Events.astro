@@ -1,0 +1,6 @@
+---
+import site from '@/data/site.json';import EventRow from './EventRow.astro';
+interface Props{locale?:'en'|'nl';}const {locale='en'}=Astro.props;
+const years=[...new Set(site.events.map(e=>e.date.split('/')[2]||'Archive'))].sort((a,b)=>b.localeCompare(a));
+---
+<section class="page-intro"><div class="container archive-intro"><div><span class="eyebrow">{locale==='nl'?'Het gesprek gaat verder':'Beyond the page'}</span><h1>{site.messages[locale].navigation.events}</h1></div><p>{locale==='nl'?'Lezingen, debatten en bezoeken. Ontdek waar het energiegesprek ons brengt.':'Lectures, debates and visits. Explore where the energy conversation takes us.'}</p></div></section><section class="section container"><p class="result-count" style="margin-bottom:35px">{site.events.length} events</p>{years.map(year=><section class="event-year"><h2>{year}</h2><div>{site.events.filter(e=>(e.date.split('/')[2]||'Archive')===year).map(event=><EventRow event={event} locale={locale}/>)}</div></section>)}</section>

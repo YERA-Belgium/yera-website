@@ -1,0 +1,2356 @@
+[
+  {
+    "id": 4930,
+    "date": "2024-04-25T20:33:28",
+    "date_gmt": "2024-04-25T18:33:28",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=yera_author&#038;p=4930"
+    },
+    "modified": "2024-04-25T20:33:29",
+    "modified_gmt": "2024-04-25T18:33:29",
+    "slug": "robin-butzen",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/robin-butzen/",
+    "title": {
+      "rendered": "Robin Butzen"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4930",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "",
+      "image": false
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Robin Butzen -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/robin-butzen/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Robin Butzen -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/robin-butzen/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2024-04-25T18:33:29+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/robin-butzen\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/robin-butzen\\/\",\"name\":\"Robin Butzen -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2024-04-25T18:33:28+00:00\",\"dateModified\":\"2024-04-25T18:33:29+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/robin-butzen\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/robin-butzen\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/robin-butzen\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Robin Butzen\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Robin Butzen -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/robin-butzen/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Robin Butzen -",
+      "og_url": "http://www.yera.be/yera_author/robin-butzen/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2024-04-25T18:33:29+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/robin-butzen/",
+            "url": "http://www.yera.be/yera_author/robin-butzen/",
+            "name": "Robin Butzen -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2024-04-25T18:33:28+00:00",
+            "dateModified": "2024-04-25T18:33:29+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/robin-butzen/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/robin-butzen/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/robin-butzen/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Robin Butzen"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4930",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4930"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4827,
+    "date": "2023-08-23T19:03:33",
+    "date_gmt": "2023-08-23T17:03:33",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=yera_author&#038;p=4827"
+    },
+    "modified": "2023-08-23T19:03:34",
+    "modified_gmt": "2023-08-23T17:03:34",
+    "slug": "seppe-van-gemert",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/seppe-van-gemert/",
+    "title": {
+      "rendered": "Seppe Van Gemert"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4827",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "",
+      "image": false
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Seppe Van Gemert -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/seppe-van-gemert/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Seppe Van Gemert -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/seppe-van-gemert/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2023-08-23T17:03:34+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/seppe-van-gemert\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/seppe-van-gemert\\/\",\"name\":\"Seppe Van Gemert -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2023-08-23T17:03:33+00:00\",\"dateModified\":\"2023-08-23T17:03:34+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/seppe-van-gemert\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/seppe-van-gemert\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/seppe-van-gemert\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Seppe Van Gemert\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Seppe Van Gemert -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/seppe-van-gemert/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Seppe Van Gemert -",
+      "og_url": "http://www.yera.be/yera_author/seppe-van-gemert/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2023-08-23T17:03:34+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/seppe-van-gemert/",
+            "url": "http://www.yera.be/yera_author/seppe-van-gemert/",
+            "name": "Seppe Van Gemert -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2023-08-23T17:03:33+00:00",
+            "dateModified": "2023-08-23T17:03:34+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/seppe-van-gemert/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/seppe-van-gemert/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/seppe-van-gemert/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Seppe Van Gemert"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4827",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4827"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4826,
+    "date": "2023-08-23T19:02:44",
+    "date_gmt": "2023-08-23T17:02:44",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=yera_author&#038;p=4826"
+    },
+    "modified": "2023-08-23T19:02:45",
+    "modified_gmt": "2023-08-23T17:02:45",
+    "slug": "jesse-kamerling",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/jesse-kamerling/",
+    "title": {
+      "rendered": "Jesse Kamerling"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4826",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "",
+      "image": false
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Jesse Kamerling -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/yera_author/jesse-kamerling/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Jesse Kamerling -\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/yera_author/jesse-kamerling/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2023-08-23T17:02:45+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/yera_author\\/jesse-kamerling\\/\",\"url\":\"https:\\/\\/www.yera.be\\/yera_author\\/jesse-kamerling\\/\",\"name\":\"Jesse Kamerling -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2023-08-23T17:02:44+00:00\",\"dateModified\":\"2023-08-23T17:02:45+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/yera_author\\/jesse-kamerling\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/yera_author\\/jesse-kamerling\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/yera_author\\/jesse-kamerling\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Jesse Kamerling\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Jesse Kamerling -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/yera_author/jesse-kamerling/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Jesse Kamerling -",
+      "og_url": "https://www.yera.be/yera_author/jesse-kamerling/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2023-08-23T17:02:45+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/yera_author/jesse-kamerling/",
+            "url": "https://www.yera.be/yera_author/jesse-kamerling/",
+            "name": "Jesse Kamerling -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2023-08-23T17:02:44+00:00",
+            "dateModified": "2023-08-23T17:02:45+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/yera_author/jesse-kamerling/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/yera_author/jesse-kamerling/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/yera_author/jesse-kamerling/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Jesse Kamerling"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4826",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4826"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4735,
+    "date": "2023-02-25T14:53:56",
+    "date_gmt": "2023-02-25T13:53:56",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=yera_author&#038;p=4735"
+    },
+    "modified": "2023-02-25T14:53:57",
+    "modified_gmt": "2023-02-25T13:53:57",
+    "slug": "arne-borgermans",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/arne-borgermans/",
+    "title": {
+      "rendered": "Arne Borgermans"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4735",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "",
+      "image": {
+        "ID": 4736,
+        "id": 4736,
+        "title": "yera_auteur_arne_borgermans",
+        "filename": "yera_auteur_arne_borgermans.jpg",
+        "filesize": 6012,
+        "url": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+        "link": "https://www.yera.be/yera_author/arne-borgermans/yera_auteur_arne_borgermans/",
+        "alt": "",
+        "author": "42",
+        "description": "",
+        "caption": "",
+        "name": "yera_auteur_arne_borgermans",
+        "status": "inherit",
+        "uploaded_to": 4735,
+        "date": "2023-02-25 13:53:02",
+        "modified": "2023-02-25 13:53:57",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2023/02/yera_auteur_arne_borgermans.jpg",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arne Borgermans -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/arne-borgermans/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arne Borgermans -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/arne-borgermans/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2023-02-25T13:53:57+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/arne-borgermans\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/arne-borgermans\\/\",\"name\":\"Arne Borgermans -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2023-02-25T13:53:56+00:00\",\"dateModified\":\"2023-02-25T13:53:57+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/arne-borgermans\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/arne-borgermans\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/arne-borgermans\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Arne Borgermans\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arne Borgermans -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/arne-borgermans/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Arne Borgermans -",
+      "og_url": "http://www.yera.be/yera_author/arne-borgermans/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2023-02-25T13:53:57+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/arne-borgermans/",
+            "url": "http://www.yera.be/yera_author/arne-borgermans/",
+            "name": "Arne Borgermans -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2023-02-25T13:53:56+00:00",
+            "dateModified": "2023-02-25T13:53:57+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/arne-borgermans/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/arne-borgermans/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/arne-borgermans/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Arne Borgermans"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4735",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4735"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4073,
+    "date": "2020-10-28T15:53:46",
+    "date_gmt": "2020-10-28T14:53:46",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4073"
+    },
+    "modified": "2020-11-02T20:58:54",
+    "modified_gmt": "2020-11-02T19:58:54",
+    "slug": "christophe-del-fosse-et-despierres",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/",
+    "title": {
+      "rendered": "Christophe del Fosse et d Espierres"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4073",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "https://www.linkedin.com/in/christophe-del-fosse/?fbclid=IwAR1sZj64UODAdY_NPuUz9fAbGsYtXGeqdOQ2V0jYVyLxi1Me4TE_KNnjzI8",
+      "image": {
+        "ID": 4086,
+        "id": 4086,
+        "title": "christophe",
+        "filename": "christophe.png",
+        "filesize": 52740,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/christophe/",
+        "alt": "",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "christophe",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-11-02 19:58:03",
+        "modified": "2020-11-02 19:58:03",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/christophe.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Christophe del Fosse et d Espierres -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Christophe del Fosse et d Espierres -\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-11-02T19:58:54+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/yera_author\\/christophe-del-fosse-et-despierres\\/\",\"url\":\"https:\\/\\/www.yera.be\\/yera_author\\/christophe-del-fosse-et-despierres\\/\",\"name\":\"Christophe del Fosse et d Espierres -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:53:46+00:00\",\"dateModified\":\"2020-11-02T19:58:54+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/yera_author\\/christophe-del-fosse-et-despierres\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/yera_author\\/christophe-del-fosse-et-despierres\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/yera_author\\/christophe-del-fosse-et-despierres\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Christophe del Fosse et d Espierres\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Christophe del Fosse et d Espierres -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Christophe del Fosse et d Espierres -",
+      "og_url": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-11-02T19:58:54+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/",
+            "url": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/",
+            "name": "Christophe del Fosse et d Espierres -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:53:46+00:00",
+            "dateModified": "2020-11-02T19:58:54+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Christophe del Fosse et d Espierres"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4073",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4073"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4072,
+    "date": "2020-10-28T15:52:22",
+    "date_gmt": "2020-10-28T14:52:22",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4072"
+    },
+    "modified": "2020-10-28T17:08:21",
+    "modified_gmt": "2020-10-28T16:08:21",
+    "slug": "quinten-voordeckers",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/quinten-voordeckers/",
+    "title": {
+      "rendered": "Quinten Voordeckers"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4072",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "",
+      "image": {
+        "ID": 4074,
+        "id": 4074,
+        "title": "122938539_846316252852446_8060877711896550359_n",
+        "filename": "122938539_846316252852446_8060877711896550359_n.png",
+        "filesize": 3161,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/122938539_846316252852446_8060877711896550359_n/",
+        "alt": "No face author",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "122938539_846316252852446_8060877711896550359_n",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-10-28 16:07:27",
+        "modified": "2020-10-28 16:07:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Quinten Voordeckers -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/quinten-voordeckers/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Quinten Voordeckers -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/quinten-voordeckers/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-10-28T16:08:21+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/quinten-voordeckers\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/quinten-voordeckers\\/\",\"name\":\"Quinten Voordeckers -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:52:22+00:00\",\"dateModified\":\"2020-10-28T16:08:21+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/quinten-voordeckers\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/quinten-voordeckers\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/quinten-voordeckers\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Quinten Voordeckers\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Quinten Voordeckers -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/quinten-voordeckers/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Quinten Voordeckers -",
+      "og_url": "http://www.yera.be/yera_author/quinten-voordeckers/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-10-28T16:08:21+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/quinten-voordeckers/",
+            "url": "http://www.yera.be/yera_author/quinten-voordeckers/",
+            "name": "Quinten Voordeckers -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:52:22+00:00",
+            "dateModified": "2020-10-28T16:08:21+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/quinten-voordeckers/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/quinten-voordeckers/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/quinten-voordeckers/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Quinten Voordeckers"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4072",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4072"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4071,
+    "date": "2020-10-28T15:51:52",
+    "date_gmt": "2020-10-28T14:51:52",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4071"
+    },
+    "modified": "2020-11-10T10:50:32",
+    "modified_gmt": "2020-11-10T09:50:32",
+    "slug": "lucas-de-vrieze",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/lucas-de-vrieze/",
+    "title": {
+      "rendered": "Lucas De Vrieze"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4071",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "https://www.linkedin.com/in/lucas-de-vrieze-1b3b851b8/",
+      "image": {
+        "ID": 4074,
+        "id": 4074,
+        "title": "122938539_846316252852446_8060877711896550359_n",
+        "filename": "122938539_846316252852446_8060877711896550359_n.png",
+        "filesize": 3161,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/122938539_846316252852446_8060877711896550359_n/",
+        "alt": "No face author",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "122938539_846316252852446_8060877711896550359_n",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-10-28 16:07:27",
+        "modified": "2020-10-28 16:07:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Lucas De Vrieze -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/lucas-de-vrieze/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Lucas De Vrieze -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/lucas-de-vrieze/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-11-10T09:50:32+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/lucas-de-vrieze\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/lucas-de-vrieze\\/\",\"name\":\"Lucas De Vrieze -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:51:52+00:00\",\"dateModified\":\"2020-11-10T09:50:32+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/lucas-de-vrieze\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/lucas-de-vrieze\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/lucas-de-vrieze\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Lucas De Vrieze\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Lucas De Vrieze -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/lucas-de-vrieze/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Lucas De Vrieze -",
+      "og_url": "http://www.yera.be/yera_author/lucas-de-vrieze/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-11-10T09:50:32+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/lucas-de-vrieze/",
+            "url": "http://www.yera.be/yera_author/lucas-de-vrieze/",
+            "name": "Lucas De Vrieze -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:51:52+00:00",
+            "dateModified": "2020-11-10T09:50:32+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/lucas-de-vrieze/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/lucas-de-vrieze/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/lucas-de-vrieze/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Lucas De Vrieze"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4071",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4071"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4070,
+    "date": "2020-10-28T15:50:25",
+    "date_gmt": "2020-10-28T14:50:25",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4070"
+    },
+    "modified": "2020-11-10T10:50:24",
+    "modified_gmt": "2020-11-10T09:50:24",
+    "slug": "lotte-hacour",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/lotte-hacour/",
+    "title": {
+      "rendered": "Lotte Hacour"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4070",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "https://www.linkedin.com/in/lotte-hacour-065538180/",
+      "image": {
+        "ID": 4074,
+        "id": 4074,
+        "title": "122938539_846316252852446_8060877711896550359_n",
+        "filename": "122938539_846316252852446_8060877711896550359_n.png",
+        "filesize": 3161,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/122938539_846316252852446_8060877711896550359_n/",
+        "alt": "No face author",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "122938539_846316252852446_8060877711896550359_n",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-10-28 16:07:27",
+        "modified": "2020-10-28 16:07:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Lotte Hacour -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/lotte-hacour/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Lotte Hacour -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/lotte-hacour/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-11-10T09:50:24+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/lotte-hacour\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/lotte-hacour\\/\",\"name\":\"Lotte Hacour -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:50:25+00:00\",\"dateModified\":\"2020-11-10T09:50:24+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/lotte-hacour\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/lotte-hacour\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/lotte-hacour\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Lotte Hacour\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Lotte Hacour -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/lotte-hacour/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Lotte Hacour -",
+      "og_url": "http://www.yera.be/yera_author/lotte-hacour/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-11-10T09:50:24+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/lotte-hacour/",
+            "url": "http://www.yera.be/yera_author/lotte-hacour/",
+            "name": "Lotte Hacour -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:50:25+00:00",
+            "dateModified": "2020-11-10T09:50:24+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/lotte-hacour/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/lotte-hacour/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/lotte-hacour/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Lotte Hacour"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4070",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4070"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4069,
+    "date": "2020-10-28T15:49:45",
+    "date_gmt": "2020-10-28T14:49:45",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4069"
+    },
+    "modified": "2020-11-10T10:47:49",
+    "modified_gmt": "2020-11-10T09:47:49",
+    "slug": "michael-martens",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/michael-martens/",
+    "title": {
+      "rendered": "Michaël Martens"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4069",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "https://www.linkedin.com/in/michael-j-martens/",
+      "image": {
+        "ID": 4074,
+        "id": 4074,
+        "title": "122938539_846316252852446_8060877711896550359_n",
+        "filename": "122938539_846316252852446_8060877711896550359_n.png",
+        "filesize": 3161,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/122938539_846316252852446_8060877711896550359_n/",
+        "alt": "No face author",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "122938539_846316252852446_8060877711896550359_n",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-10-28 16:07:27",
+        "modified": "2020-10-28 16:07:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Michaël Martens -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/michael-martens/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Michaël Martens -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/michael-martens/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-11-10T09:47:49+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/michael-martens\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/michael-martens\\/\",\"name\":\"Michaël Martens -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:49:45+00:00\",\"dateModified\":\"2020-11-10T09:47:49+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/michael-martens\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/michael-martens\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/michael-martens\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Michaël Martens\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Michaël Martens -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/michael-martens/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Michaël Martens -",
+      "og_url": "http://www.yera.be/yera_author/michael-martens/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-11-10T09:47:49+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/michael-martens/",
+            "url": "http://www.yera.be/yera_author/michael-martens/",
+            "name": "Michaël Martens -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:49:45+00:00",
+            "dateModified": "2020-11-10T09:47:49+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/michael-martens/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/michael-martens/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/michael-martens/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Michaël Martens"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4069",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4069"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4068,
+    "date": "2020-10-28T15:49:26",
+    "date_gmt": "2020-10-28T14:49:26",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4068"
+    },
+    "modified": "2020-11-10T10:48:30",
+    "modified_gmt": "2020-11-10T09:48:30",
+    "slug": "milo-moerkerke",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/milo-moerkerke/",
+    "title": {
+      "rendered": "Milo Moerkerke"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4068",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "https://www.linkedin.com/in/milo-moerkerke/",
+      "image": {
+        "ID": 4074,
+        "id": 4074,
+        "title": "122938539_846316252852446_8060877711896550359_n",
+        "filename": "122938539_846316252852446_8060877711896550359_n.png",
+        "filesize": 3161,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/122938539_846316252852446_8060877711896550359_n/",
+        "alt": "No face author",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "122938539_846316252852446_8060877711896550359_n",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-10-28 16:07:27",
+        "modified": "2020-10-28 16:07:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Milo Moerkerke -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/milo-moerkerke/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Milo Moerkerke -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/milo-moerkerke/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-11-10T09:48:30+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/milo-moerkerke\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/milo-moerkerke\\/\",\"name\":\"Milo Moerkerke -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:49:26+00:00\",\"dateModified\":\"2020-11-10T09:48:30+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/milo-moerkerke\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/milo-moerkerke\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/milo-moerkerke\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Milo Moerkerke\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Milo Moerkerke -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/milo-moerkerke/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Milo Moerkerke -",
+      "og_url": "http://www.yera.be/yera_author/milo-moerkerke/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-11-10T09:48:30+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/milo-moerkerke/",
+            "url": "http://www.yera.be/yera_author/milo-moerkerke/",
+            "name": "Milo Moerkerke -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:49:26+00:00",
+            "dateModified": "2020-11-10T09:48:30+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/milo-moerkerke/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/milo-moerkerke/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/milo-moerkerke/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Milo Moerkerke"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4068",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4068"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4067,
+    "date": "2020-10-28T15:47:21",
+    "date_gmt": "2020-10-28T14:47:21",
+    "guid": {
+      "rendered": "http://www.yera.be/?post_type=yera_author&#038;p=4067"
+    },
+    "modified": "2020-11-10T10:48:54",
+    "modified_gmt": "2020-11-10T09:48:54",
+    "slug": "wim-van-uytven",
+    "status": "publish",
+    "type": "yera_author",
+    "link": "https://www.yera.be/yera_author/wim-van-uytven/",
+    "title": {
+      "rendered": "Wim Van Uytven"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4067",
+      "yera_author",
+      "type-yera_author",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "linkedin": "https://www.linkedin.com/in/wim-van-uytven-b3568513b/",
+      "image": {
+        "ID": 4074,
+        "id": 4074,
+        "title": "122938539_846316252852446_8060877711896550359_n",
+        "filename": "122938539_846316252852446_8060877711896550359_n.png",
+        "filesize": 3161,
+        "url": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+        "link": "https://www.yera.be/yera_author/christophe-del-fosse-et-despierres/122938539_846316252852446_8060877711896550359_n/",
+        "alt": "No face author",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "122938539_846316252852446_8060877711896550359_n",
+        "status": "inherit",
+        "uploaded_to": 4073,
+        "date": "2020-10-28 16:07:27",
+        "modified": "2020-10-28 16:07:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 150,
+        "height": 150,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium-width": 150,
+          "medium-height": 150,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "medium_large-width": 150,
+          "medium_large-height": 150,
+          "large": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "large-width": 150,
+          "large-height": 150,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "1536x1536-width": 150,
+          "1536x1536-height": 150,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2020/10/122938539_846316252852446_8060877711896550359_n.png",
+          "2048x2048-width": 150,
+          "2048x2048-height": 150
+        }
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Wim Van Uytven -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/yera_author/wim-van-uytven/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Wim Van Uytven -\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/yera_author/wim-van-uytven/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2020-11-10T09:48:54+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/wim-van-uytven\\/\",\"url\":\"http:\\/\\/www.yera.be\\/yera_author\\/wim-van-uytven\\/\",\"name\":\"Wim Van Uytven -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2020-10-28T14:47:21+00:00\",\"dateModified\":\"2020-11-10T09:48:54+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/wim-van-uytven\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/yera_author\\/wim-van-uytven\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/yera_author\\/wim-van-uytven\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Wim Van Uytven\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Wim Van Uytven -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/yera_author/wim-van-uytven/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Wim Van Uytven -",
+      "og_url": "http://www.yera.be/yera_author/wim-van-uytven/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2020-11-10T09:48:54+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/yera_author/wim-van-uytven/",
+            "url": "http://www.yera.be/yera_author/wim-van-uytven/",
+            "name": "Wim Van Uytven -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2020-10-28T14:47:21+00:00",
+            "dateModified": "2020-11-10T09:48:54+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/yera_author/wim-van-uytven/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/yera_author/wim-van-uytven/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/yera_author/wim-van-uytven/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Wim Van Uytven"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author/4067",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/yera_author"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/yera_author"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4067"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

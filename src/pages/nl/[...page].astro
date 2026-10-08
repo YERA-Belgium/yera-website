@@ -1,0 +1,9 @@
+---
+import Layout from '@/layouts/Layout.astro';import Home from '@/components/Home.astro';import About from '@/components/About.astro';import Contact from '@/components/Contact.astro';import Directory from '@/components/Directory.astro';import Events from '@/components/Events.astro';import ArticleArchive from '@/components/ArticleArchive.astro';
+export function getStaticPaths(){return [undefined,'articles','events','about','board','alumni','authors','contact'].map(page=>({params:{page}}));}
+const page=Astro.params.page;
+const titles:Record<string,string>={articles:'Artikels',events:'Events',about:'Over YERA',board:'Oud bestuur',alumni:'Ereleden',authors:'Auteurs',contact:'Contacteer ons'};
+---
+<Layout locale="nl" title={titles[page||'']||'Young Energy Reviewers Association'}>
+{!page&&<Home locale="nl"/>}{page==='about'&&<About locale="nl"/>}{page==='contact'&&<Contact locale="nl"/>}{page==='events'&&<Events locale="nl"/>}{['board','alumni','authors'].includes(page||'')&&<Directory locale="nl" kind={page as 'board'|'alumni'|'authors'}/>}{page==='articles'&&<ArticleArchive locale="nl"/>}
+</Layout>

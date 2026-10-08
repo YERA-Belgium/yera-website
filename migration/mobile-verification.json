@@ -1,0 +1,7 @@
+{
+  "verifiedAt": "2026-10-08T13:30:07.368372+00:00",
+  "width": 375,
+  "checked": 180,
+  "failures": [],
+  "method": "Production Playwright audit after document.fonts.ready"
+}

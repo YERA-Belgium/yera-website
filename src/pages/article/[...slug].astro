@@ -1,0 +1,8 @@
+---
+import site from '@/data/site.json';
+import Layout from '@/layouts/Layout.astro';
+import ArticleDetail from '@/components/ArticleDetail.astro';
+export function getStaticPaths(){return site.articles.filter(a=>a.collection==='Main collection').map(article=>({params:{slug:article.slug},props:{article}}));}
+const {article}=Astro.props;
+---
+<Layout title={article.title} description={article.description}><ArticleDetail article={article}/></Layout>

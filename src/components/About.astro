@@ -1,0 +1,5 @@
+---
+import site from '@/data/site.json';import MemberGrid from './MemberGrid.astro';import {url} from '@/lib/utils';
+interface Props{locale?:'en'|'nl';}const {locale='en'}=Astro.props;const copy=site.messages[locale];const current=site.boards.find(b=>b.current);
+---
+<section class="page-intro"><div class="container"><span class="eyebrow">Young Energy Reviewers Association</span><h1>{copy.about.title}</h1></div></section><section class="section container about-intro"><h2>{locale==='nl'?'Een gedeelde nieuwsgierigheid.':'A shared curiosity.'}</h2><div class="prose"><p set:html={copy.about.text}/></div></section>{current&&<section class="section board-section" id="board"><div class="container"><div class="section-heading"><div><span class="eyebrow">{current.title}</span><h2>{copy.about.boardOf}</h2></div><a class="text-link" href={url((locale==='nl'?'nl/':'')+'board/')}>{copy.navigation.formerBoards}</a></div><MemberGrid memberIds={current.memberIds}/></div></section>}

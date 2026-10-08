@@ -1,0 +1,9 @@
+---
+import site from '@/data/site.json';import MemberGrid from './MemberGrid.astro';import {url} from '@/lib/utils';
+interface Props{kind:'board'|'alumni'|'authors';locale?:'en'|'nl';}
+const {kind,locale='en'}=Astro.props;const copy=site.messages[locale];
+const title=kind==='board'?copy.navigation.formerBoards:kind==='alumni'?copy.alumni.title:copy.author.title;
+---
+<section class="page-intro"><div class="container"><span class="eyebrow">YERA</span><h1>{title}</h1>{kind==='alumni'&&<p>{copy.alumni.subtitle}</p>}</div></section>
+<section class="section container">{kind==='board'?site.boards.filter(b=>!b.current).map(board=><section class="board-year"><h2>{board.title}</h2>{board.image&&<img class="board-photo" src={url(board.image)} alt={`YERA ${board.title}`} loading="lazy"/>}<MemberGrid memberIds={board.memberIds} compact/></section>):<div class="member-grid">{(kind==='alumni'?site.alumni:site.authors).map(person=><article class="member-card">{'image' in person&&person.image&&<img src={url(person.image)} alt={person.name} width="320" height="320" loading="lazy"/>}<h3>{person.name}</h3>{'role' in person&&<p>{person.role}</p>}{person.linkedin&&<a class="text-link" href={person.linkedin}>LinkedIn</a>}</article>)}</div>}
+{kind==='alumni'&&<div class="prose" style="margin-top:60px"><h2>{copy.alumni.becomeAlumni}</h2><p set:html={copy.alumni.howToSupport}/></div>}</section>

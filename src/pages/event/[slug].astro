@@ -1,0 +1,11 @@
+---
+import site from '@/data/site.json';
+import Layout from '@/layouts/Layout.astro';
+import {url} from '@/lib/utils';
+import {localHtml} from '@/lib/content';
+export function getStaticPaths(){return site.events.map(event=>({params:{slug:event.slug},props:{event}}));}
+const {event}=Astro.props;
+const [day,month,year]=event.date.split('/');
+const past=!!year&&new Date(`${year}-${month}-${day}T23:59:59+02:00`)<new Date();
+---
+<Layout title={event.title}><section class="page-intro"><div class="container"><a class="eyebrow" href={url('events/')}>YERA / Events</a><h1>{event.title}</h1>{event.subtitle&&<p>{event.subtitle}</p>}</div></section><section class="section container article-layout"><aside class="article-sidebar"><dl><dt>Date</dt><dd>{event.date}</dd><dt>From / Until</dt><dd>{event.start} – {event.end}</dd><dt>Location</dt><dd>{event.location}</dd></dl></aside><article class="prose original-content">{past&&<p class="badge">Past event · Registration closed</p>}{event.image&&<img class="event-cover" src={url(event.image)} alt={event.title}/>}<div set:html={localHtml(event.content)}/>{!event.content.replace(/<[^>]*>/g,'').trim()&&<p class="source-text">{event.extraContent}</p>}</article></section></Layout>

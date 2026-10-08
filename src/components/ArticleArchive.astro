@@ -1,0 +1,6 @@
+---
+import site from '@/data/site.json';import ArticleLibrary from './ArticleLibrary';
+interface Props{locale?:'en'|'nl';}const {locale='en'}=Astro.props;
+const articles=site.articles.map(({content,sources,...card})=>card);
+---
+<section class="page-intro"><div class="container archive-intro"><div><span class="eyebrow">{locale==='nl'?'Het YERA-archief':'The YERA journal'}</span><h1>{locale==='nl'?'Ideeën die energie geven.':'Ideas to think with.'}</h1></div><p>{locale==='nl'?'Artikels, interviews en analyses over de technologieën en keuzes achter ons energiesysteem.':'Articles, interviews and analysis on the technologies and choices shaping our energy system.'}</p></div></section><section class="section container library-section"><ArticleLibrary articles={articles} locale={locale} client:load/><noscript><p>{locale==='nl'?'Alle artikels worden getoond. Schakel JavaScript in om te zoeken en te filteren.':'All articles are shown. Enable JavaScript to search and filter.'}</p></noscript></section>

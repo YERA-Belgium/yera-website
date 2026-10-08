@@ -1,0 +1,834 @@
+[
+  {
+    "id": 5175,
+    "date": "2025-11-28T11:26:16",
+    "date_gmt": "2025-11-28T10:26:16",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item&#038;p=5175"
+    },
+    "modified": "2025-11-28T11:37:16",
+    "modified_gmt": "2025-11-28T10:37:16",
+    "slug": "high-voltage-grid-upgrade-belgium",
+    "status": "publish",
+    "type": "carousel_item",
+    "link": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/",
+    "title": {
+      "rendered": "Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\"><strong>Introduction</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>In Belgium, Elia, as the transmission system operator (TSO), is responsible for transporting</em> <em>electricity at high voltage (30 kV – 380 kV) and for maintaining the associated</em> <em>infrastructure. This infrastructure consists of various components. According to Elia [1],</em> <em>the company operates more than 800 high-voltage substations, 22.000 pylons, 5.500 km</em> <em>of overhead lines, and 3.000 km of underground cables. As a result, this infrastructure is</em> <em>a visible part of the landscape almost everywhere</em>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Electrification plays a crucial role in the energy transition, and the demand for electricity is</em> <em>expected to increase significantly in the coming years. Elia forecasts an annual increase</em> <em>of 3,7% between 2024 and 2034, from 82,9 TWh to 132,9 TWh, meaning that demand in</em> <em>2034 will be about 60% higher than in 2024. In the medium and long term, reinforcements</em> <em>and extensions of the transmission grid are therefore inevitable. According to the same</em> <em>study [2], nearly 3 GW of additional transmission capacity will already be required by</em> <em>2029.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>There are two ways to increase the active electrical power (P = U ∗ I): either by raising</em> <em>the voltage or by increasing the current. If the network voltage were to change, all installations</em> <em>(transformers, converters, insulators, &#8230;) would need to be adapted to the new</em> <em>voltage. This would be an enormously costly adjustment and is therefore highly undesirable.</em> <em>To transmit more power at the same voltage, the current must be increased. Many</em> <em>existing overhead lines cannot cope with these higher currents as they risk overheating,</em> <em>expanding, and sagging too low [1]. Underground cables are not always suitable for increased</em> <em>currents either, as the generated heat cannot always be sufficiently dissipated</em> <em>[3]. For this reason, Elia is carrying out various projects to replace high-voltage cables,</em> <em>both overhead and underground. But how does such a project actually proceed? And</em> <em>which cable technologies are suitable?</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Replacement of Overhead Lines</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">At present, several projects are underway to replace existing overhead lines. One example is the 380 kV line between the high-voltage substations Mercator in Kruibeke and Bruegel in Dilbeek [1]. For the replacement, new HTLS (High Temperature, Low Sag) conductors are being installed. Owing to their composition, these conductors are less prone to sagging as a result of the heat generated during electricity transmission. Because the new conductors are heavier than the old ones, the foundations of all seventy pylons must be reinforced, and six pylons have to be replaced entirely.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The replacement of overhead lines involves various challenges and follows a precise procedure. First, Elia installs temporary wooden protection portals at points where the route crosses obstacles such as houses, roads, or railways [4]. These portals ensure that the conductors remain at a safe height during the works, even if they temporarily sag too far [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\">Next, running blocks are attached to each arm of a high-voltage pylon, allowing the conductors to be pulled smoothly across the pylons. Afterwards, the spacers and insulators of the old conductors are removed. To ensure safe working conditions, the overhead line is divided into several sections, so that the conductors can be replaced one by one [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\">Both the old and the new conductors are then attached to pulling ropes so that, with the aid of winches and braking machines, the new conductors can be drawn directly onto the pylons while the old ones are wound up. This method makes the replacement process highly efficient [5]. Finally, the new insulators and spacers are installed. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the new conductors are heavier than the previous ones, it is sometimes necessary to replace entire pylons. In order to maintain supply security during the works, Elia installs temporary pylons while an existing one is being dismantled. As a result, three pylons may temporarily stand at a single location [1].</p>\n\n\n\n<div class=\"wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-88c01e81 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"211\" height=\"320\" src=\"http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg\" alt=\"\" class=\"wp-image-5157\" style=\"width:259px;height:auto\" srcset=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg 211w, https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4-198x300.jpeg 198w\" sizes=\"auto, (max-width: 211px) 100vw, 211px\" /><figcaption class=\"wp-element-caption\"><br><em>Figure 1: Running Blocks with Insulator [6]</em></figcaption></figure>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"384\" height=\"512\" src=\"http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-1-1.jpeg\" alt=\"\" class=\"wp-image-5158\" style=\"width:296px;height:auto\" srcset=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-1-1.jpeg 384w, https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-1-1-225x300.jpeg 225w\" sizes=\"auto, (max-width: 384px) 100vw, 384px\" /><figcaption class=\"wp-element-caption\"><br><em>Figure 2: Temporary Pylon [7]</em></figcaption></figure>\n</div>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Replacement of Underground Cables</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">AC underground cables are commonly installed in one of three configurations: as a bundled three-phase cable, as three separate cables arranged in a triangular formation, or as three individual cables laid flat side by side. The flat configuration offers a key operational advantage, as the magnetic fields of the individual cables interfere less with one another. In addition, cables that are spaced slightly apart can dissipate heat more efficiently [8]. Consequently, the flat arrangement is generally preferred.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Underground cables occasionally need to be replaced. The most commonly used method for this purpose is open-trench excavation. For each section, a trench of approximately two metres deep and six to twelve metres wide is excavated to allow the new cables to be installed in a flat configuration [9]. This method offers additional advantages, including technical simplicity and the possibility of implementing soil improvement measures. Since not all soil types conduct heat equally well, using backfill material with high thermal conductivity allows the cables to dissipate heat more effectively, thereby enhancing their current-carrying capacity [8].</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, this technique also presents several significant disadvantages. Excavation has a considerable impact on the landscape and requires a large working area. In addition to the trench itself, space is needed for the temporary storage of excavated soil and for the movement of construction machinery. The method is also material- and time-intensive, and it can cause substantial disruption in densely populated or frequently used areas. When a trench crosses agricultural land, that land cannot be used for cultivation during the construction period, requiring compensation to the landowner. Such negotiations further increase both project duration and cost [8].</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"684\" src=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-2-1024x684.jpeg\" alt=\"\" class=\"wp-image-5155\" srcset=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-2-1024x684.jpeg 1024w, https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-2-300x200.jpeg 300w, https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-2-768x513.jpeg 768w, https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-2.jpeg 1205w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Figure 3: Open-trench excavation [8]</figcaption></figure>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\">Despite the operational advantages of open-trench excavation once the cable is in service, the disruption it causes drives the search for alternative methods. In 2010, new cables were still installed via excavation in 90% of cases, whereas by 2020, excavation was used for only around half of new installations [8]. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Today, guided drilling has emerged as a competitive alternative to open-trench excavation [8]. This is a trenchless technique that is increasingly used for underground infrastructure, including electrical lines. The process takes place in three stages. First, a pilot bore is conducted using a small, asymmetric drill head that creates a narrow tunnel. By locking certain parts of the head, it can be accurately steered thanks to its asymmetric shape. Next, the tunnel is enlarged, and finally, the cables are pulled through the bored tunnel [10]. Figure 4 illustrates this process.</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"512\" height=\"262\" src=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-3.jpeg\" alt=\"\" class=\"wp-image-5156\" style=\"width:650px;height:auto\" srcset=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-3.jpeg 512w, https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-3-300x154.jpeg 300w\" sizes=\"auto, (max-width: 512px) 100vw, 512px\" /><figcaption class=\"wp-element-caption\">Figure 4: Guided Drilling [11]</figcaption></figure>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\"><strong>Cable Technology</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">For decades, aluminium conductors with steel reinforcement (ACSR) have been the standard in transmission networks. These cables consist of a central steel core, wrapped with one or more layers of aluminium conductors. Aluminium provides low mass and high electrical conductivity, while the steel core increases mechanical strength and, due to its corrosion resistance, extends the service life of the line [12].</p>\n\n\n\n<p class=\"wp-block-paragraph\">A significant disadvantage of ACSR lines, however, is that they expand considerably at higher temperatures, typically above approximately 100°C. This causes the conductors to sag, which can be problematic for the pylons and for objects beneath the line. To mitigate this, HTLS (High Temperature, Low Sag) cables are increasingly being used. These cables have a core made of materials with high thermal resistance and tensile strength, such as carbon fibre or specialised alloys. The outer conductors are made of an aluminium alloy capable of withstanding higher temperatures. Thanks to these properties, HTLS cables can operate safely at elevated temperatures, allowing them to carry more current and therefore provide a substantially higher load capacity than conventional ACSR cables [12].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Conclusion</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Strengthening the transmission network is a crucial prerequisite for enabling the energy transition. Growing electrification and rising power demand require a robust infrastructure capable of safely and efficiently transporting large amounts of electricity. The replacement of existing overhead lines and underground cables forms an essential part of this effort.</p>\n\n\n\n<p class=\"wp-block-paragraph\">New HTLS conductors allow higher power transfer at elevated temperatures without adverse effects on the infrastructure. For underground cables, techniques such as open-trench excavation and guided drilling each offer their own advantages and limitations, but together they provide the necessary flexibility for network renewal.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In the coming years, the challenge will be to implement these upgrades on a large scale and in a timely manner, taking into account both technical feasibility and societal impact. Only by doing so can the transmission network be made sufficiently future-proof to support the energy transition, ensuring that the often-invisible backbone of our electricity system continues to meet the growing demand.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-5175",
+      "carousel_item",
+      "type-carousel_item",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 5176,
+        "id": 5176,
+        "title": "Scherm­afbeelding 2025-11-28 om 11.27.59",
+        "filename": "Scherm­afbeelding-2025-11-28-om-11.27.59.png",
+        "filesize": 516262,
+        "url": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59.png",
+        "link": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/schermafbeelding-2025-11-28-om-11-27-59/",
+        "alt": "",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "schermafbeelding-2025-11-28-om-11-27-59",
+        "status": "inherit",
+        "uploaded_to": 5175,
+        "date": "2025-11-28 10:29:26",
+        "modified": "2025-11-28 10:29:26",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1765,
+        "height": 588,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59-256x256.png",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59-300x100.png",
+          "medium-width": 300,
+          "medium-height": 100,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59-768x256.png",
+          "medium_large-width": 768,
+          "medium_large-height": 256,
+          "large": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59-1024x341.png",
+          "large-width": 1024,
+          "large-height": 341,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59-1536x512.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 512,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2025/11/Scherm­afbeelding-2025-11-28-om-11.27.59.png",
+          "2048x2048-width": 1765,
+          "2048x2048-height": 588
+        }
+      },
+      "author": "Kobe Avonds",
+      "category": "Artikel",
+      "sources": "[1] Elia. “Project mercator-bruegel: Versterking noord-zuidas van het belgische elektriciteitsnet.” [Accessed: Sep. 28, 2025]. (2021), [Online].\r\nhttps://www.elia.be/projecten\r\n[2] Enerdata. “Belgium power demand is forecast to increase by 60% over 2022–2035.” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://www.enerdata.net/publications/daily-energy-news/belgiums-power-demand-forecast-increase-60-over-2022-2035.html\r\n[3] TenneT. “Kabels in de grond: Een koud kunstje?” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://www.tennet.eu/nl/kabels-de-grond-een-koudkunstje\r\n[4] Wikipedia. “Hoogspanningsleiding.” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://nl.wikipedia.org/w/index.php?title=Hoogspanningsleiding&oldid=69105446\r\n[5] TenneT Netherlands. “Zo bouwt tennet een hoogspanningsverbinding met windtrackmasten.” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://www.youtube.com/watch?v=Rk5CQP-gilk\r\n[6] Wikimedia. [Accessed: Oct. 28, 2025]. (2025), [Online].\r\n(No direct source URL provided)\r\n[7] S. D. Block. LinkedIn. [Accessed: Oct. 28, 2025]. (2025), [Online].\r\n(No direct source URL provided)\r\n[8] HoogspanningsNet. “Ontgraving.” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://www.hoogspanningsnet.com/kabel/aanleg/ontgraving/\r\n[9] Elia. “Vervanging verouderde ondergrondse hoogspanningskabels.” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://www.elia.be/nl/infrastructuur-en-projecten/infrastructuurprojecten/gent-oost/20250516-vervanging-verouderde-ondergrondse-hoogspanningskabels\r\n[10] Wikipedia. “Horizontaal gestuurd boren.” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://nl.wikipedia.org/w/index.php?title=Horizontaal_gestuurd_boren&oldid=60552128\r\n[11] Hunze en Aa’s. “Horizontaal gestuurd boren.” [Accessed: Oct. 28, 2025]. (2025), [Online].\r\nhttps://kennis.hunzeenaas.nl/index.php/Id-f6d187e1-f53e-d2af-d222-c0c110ba2a25\r\n[12] Dosense Cable Co. “What is the difference between htls conductor and acsr conductor?” [Accessed: Sep. 28, 2025]. (2025), [Online].\r\nhttps://www.dosensecable.es/htls-conductor-acsr-conductor/",
+      "caption": "New Article",
+      "verwijst_naar": {
+        "ID": 5152,
+        "post_author": "40",
+        "post_date": "2025-11-28 10:18:12",
+        "post_date_gmt": "2025-11-28 09:18:12",
+        "post_content": "<!-- wp:paragraph -->\n<p><strong>Introduction</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><em>In Belgium, Elia, as the transmission system operator (TSO), is responsible for transporting</em> <em>electricity at high voltage (30 kV – 380 kV) and for maintaining the associated</em> <em>infrastructure. This infrastructure consists of various components. According to Elia [1],</em> <em>the company operates more than 800 high-voltage substations, 22.000 pylons, 5.500 km</em> <em>of overhead lines, and 3.000 km of underground cables. As a result, this infrastructure is</em> <em>a visible part of the landscape almost everywhere.</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><em>Electrification plays a crucial role in the energy transition, and the demand for electricity is</em> <em>expected to increase significantly in the coming years. Elia forecasts an annual increase</em> <em>of 3,7% between 2024 and 2034, from 82,9 TWh to 132,9 TWh, meaning that demand in</em> <em>2034 will be about 60% higher than in 2024. In the medium and long term, reinforcements</em> <em>and extensions of the transmission grid are therefore inevitable. According to the same</em> <em>study [2], nearly 3 GW of additional transmission capacity will already be required by</em> <em>2029.</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><em>There are two ways to increase the active electrical power (P = U ∗ I): either by raising</em> <em>the voltage or by increasing the current. If the network voltage were to change, all installations</em> <em>(transformers, converters, insulators, ...) would need to be adapted to the new</em> <em>voltage. This would be an enormously costly adjustment and is therefore highly undesirable.</em> <em>To transmit more power at the same voltage, the current must be increased. Many</em> <em>existing overhead lines cannot cope with these higher currents as they risk overheating,</em> <em>expanding, and sagging too low [1]. Underground cables are not always suitable for increased</em> <em>currents either, as the generated heat cannot always be sufficiently dissipated</em> <em>[3]. For this reason, Elia is carrying out various projects to replace high-voltage cables,</em> <em>both overhead and underground. But how does such a project actually proceed? And</em> <em>which cable technologies are suitable?</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Replacement of Overhead Lines</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>At present, several projects are underway to replace existing overhead lines. One example is the 380 kV line between the high-voltage substations Mercator in Kruibeke and Bruegel in Dilbeek [1]. For the replacement, new HTLS (High Temperature, Low Sag) conductors are being installed. Owing to their composition, these conductors are less prone to sagging as a result of the heat generated during electricity transmission. Because the new conductors are heavier than the old ones, the foundations of all seventy pylons must be reinforced, and six pylons have to be replaced entirely.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The replacement of overhead lines involves various challenges and follows a precise procedure. First, Elia installs temporary wooden protection portals at points where the route crosses obstacles such as houses, roads, or railways [4]. These portals ensure that the conductors remain at a safe height during the works, even if they temporarily sag too far [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Next, running blocks are attached to each arm of a high-voltage pylon, allowing the conductors to be pulled smoothly across the pylons. Afterwards, the spacers and insulators of the old conductors are removed. To ensure safe working conditions, the overhead line is divided into several sections, so that the conductors can be replaced one by one [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Both the old and the new conductors are then attached to pulling ropes so that, with the aid of winches and braking machines, the new conductors can be drawn directly onto the pylons while the old ones are wound up. This method makes the replacement process highly efficient [5]. Finally, the new insulators and spacers are installed. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Because the new conductors are heavier than the previous ones, it is sometimes necessary to replace entire pylons. In order to maintain supply security during the works, Elia installs temporary pylons while an existing one is being dismantled. As a result, three pylons may temporarily stand at a single location [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"layout\":{\"type\":\"flex\",\"flexWrap\":\"nowrap\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-group\"><!-- wp:image {\"id\":5157,\"width\":\"259px\",\"height\":\"auto\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg\" alt=\"\" class=\"wp-image-5157\" style=\"width:259px;height:auto\"/><figcaption class=\"wp-element-caption\"><br><em>Figure 1: Running Blocks with Insulator [6]</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":5158,\"width\":\"296px\",\"height\":\"auto\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-1-1.jpeg\" alt=\"\" class=\"wp-image-5158\" style=\"width:296px;height:auto\"/><figcaption class=\"wp-element-caption\"><br><em>Figure 2: Temporary Pylon [7]</em></figcaption></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group -->\n\n<!-- wp:paragraph -->\n<p><br><strong>Replacement of Underground Cables</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>AC underground cables are commonly installed in one of three configurations: as a bundled three-phase cable, as three separate cables arranged in a triangular formation, or as three individual cables laid flat side by side. The flat configuration offers a key operational advantage, as the magnetic fields of the individual cables interfere less with one another. In addition, cables that are spaced slightly apart can dissipate heat more efficiently [8]. Consequently, the flat arrangement is generally preferred.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Underground cables occasionally need to be replaced. The most commonly used method for this purpose is open-trench excavation. For each section, a trench of approximately two metres deep and six to twelve metres wide is excavated to allow the new cables to be installed in a flat configuration [9]. This method offers additional advantages, including technical simplicity and the possibility of implementing soil improvement measures. Since not all soil types conduct heat equally well, using backfill material with high thermal conductivity allows the cables to dissipate heat more effectively, thereby enhancing their current-carrying capacity [8].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>However, this technique also presents several significant disadvantages. Excavation has a considerable impact on the landscape and requires a large working area. In addition to the trench itself, space is needed for the temporary storage of excavated soil and for the movement of construction machinery. The method is also material- and time-intensive, and it can cause substantial disruption in densely populated or frequently used areas. When a trench crosses agricultural land, that land cannot be used for cultivation during the construction period, requiring compensation to the landowner. Such negotiations further increase both project duration and cost [8].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5155,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-2-1024x684.jpeg\" alt=\"\" class=\"wp-image-5155\"/><figcaption class=\"wp-element-caption\">Figure 3: Open-trench excavation [8]</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">Despite the operational advantages of open-trench excavation once the cable is in service, the disruption it causes drives the search for alternative methods. In 2010, new cables were still installed via excavation in 90% of cases, whereas by 2020, excavation was used for only around half of new installations [8]. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Today, guided drilling has emerged as a competitive alternative to open-trench excavation [8]. This is a trenchless technique that is increasingly used for underground infrastructure, including electrical lines. The process takes place in three stages. First, a pilot bore is conducted using a small, asymmetric drill head that creates a narrow tunnel. By locking certain parts of the head, it can be accurately steered thanks to its asymmetric shape. Next, the tunnel is enlarged, and finally, the cables are pulled through the bored tunnel [10]. Figure 4 illustrates this process.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5156,\"width\":\"650px\",\"height\":\"auto\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-3.jpeg\" alt=\"\" class=\"wp-image-5156\" style=\"width:650px;height:auto\"/><figcaption class=\"wp-element-caption\">Figure 4: Guided Drilling [11]</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\"><strong>Cable Technology</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>For decades, aluminium conductors with steel reinforcement (ACSR) have been the standard in transmission networks. These cables consist of a central steel core, wrapped with one or more layers of aluminium conductors. Aluminium provides low mass and high electrical conductivity, while the steel core increases mechanical strength and, due to its corrosion resistance, extends the service life of the line [12].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A significant disadvantage of ACSR lines, however, is that they expand considerably at higher temperatures, typically above approximately 100°C. This causes the conductors to sag, which can be problematic for the pylons and for objects beneath the line. To mitigate this, HTLS (High Temperature, Low Sag) cables are increasingly being used. These cables have a core made of materials with high thermal resistance and tensile strength, such as carbon fibre or specialised alloys. The outer conductors are made of an aluminium alloy capable of withstanding higher temperatures. Thanks to these properties, HTLS cables can operate safely at elevated temperatures, allowing them to carry more current and therefore provide a substantially higher load capacity than conventional ACSR cables [12].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Conclusion</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Strengthening the transmission network is a crucial prerequisite for enabling the energy transition. Growing electrification and rising power demand require a robust infrastructure capable of safely and efficiently transporting large amounts of electricity. The replacement of existing overhead lines and underground cables forms an essential part of this effort.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>New HTLS conductors allow higher power transfer at elevated temperatures without adverse effects on the infrastructure. For underground cables, techniques such as open-trench excavation and guided drilling each offer their own advantages and limitations, but together they provide the necessary flexibility for network renewal.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In the coming years, the challenge will be to implement these upgrades on a large scale and in a timely manner, taking into account both technical feasibility and societal impact. Only by doing so can the transmission network be made sufficiently future-proof to support the energy transition, ensuring that the often-invisible backbone of our electricity system continues to meet the growing demand.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+        "post_title": "Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "high-voltage-grid-upgrade-belgium",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-11-28 11:38:10",
+        "post_modified_gmt": "2025-11-28 10:38:10",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article&#038;p=5152",
+        "menu_order": 0,
+        "post_type": "article",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today -</title>\n<meta name=\"description\" content=\"An in-depth look at how Belgium upgrades its high-voltage grid, from replacing overhead lines with modern HTLS conductors to renewing underground cables using advanced techniques. Discover the technologies and processes that strengthen the electricity system for the future.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today -\" />\n<meta property=\"og:description\" content=\"An in-depth look at how Belgium upgrades its high-voltage grid, from replacing overhead lines with modern HTLS conductors to renewing underground cables using advanced techniques. Discover the technologies and processes that strengthen the electricity system for the future.\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2025-11-28T10:37:16+00:00\" />\n<meta property=\"og:image\" content=\"http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"8 minuten\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/\",\"name\":\"Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/#primaryimage\"},\"thumbnailUrl\":\"http:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/11\\/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg\",\"datePublished\":\"2025-11-28T10:26:16+00:00\",\"dateModified\":\"2025-11-28T10:37:16+00:00\",\"description\":\"An in-depth look at how Belgium upgrades its high-voltage grid, from replacing overhead lines with modern HTLS conductors to renewing underground cables using advanced techniques. Discover the technologies and processes that strengthen the electricity system for the future.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/#primaryimage\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/11\\/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/11\\/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg\",\"width\":211,\"height\":320},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/high-voltage-grid-upgrade-belgium\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today -",
+      "description": "An in-depth look at how Belgium upgrades its high-voltage grid, from replacing overhead lines with modern HTLS conductors to renewing underground cables using advanced techniques. Discover the technologies and processes that strengthen the electricity system for the future.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today -",
+      "og_description": "An in-depth look at how Belgium upgrades its high-voltage grid, from replacing overhead lines with modern HTLS conductors to renewing underground cables using advanced techniques. Discover the technologies and processes that strengthen the electricity system for the future.",
+      "og_url": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2025-11-28T10:37:16+00:00",
+      "og_image": [
+        {
+          "url": "http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg",
+          "type": "",
+          "width": "",
+          "height": ""
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "8 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/",
+            "url": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/",
+            "name": "Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/#primaryimage"
+            },
+            "thumbnailUrl": "http://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg",
+            "datePublished": "2025-11-28T10:26:16+00:00",
+            "dateModified": "2025-11-28T10:37:16+00:00",
+            "description": "An in-depth look at how Belgium upgrades its high-voltage grid, from replacing overhead lines with modern HTLS conductors to renewing underground cables using advanced techniques. Discover the technologies and processes that strengthen the electricity system for the future.",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/#primaryimage",
+            "url": "https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg",
+            "contentUrl": "https://www.yera.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-26-at-12.55.29-4.jpeg",
+            "width": 211,
+            "height": 320
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item/high-voltage-grid-upgrade-belgium/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item/5175",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=5175"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 5140,
+    "date": "2025-10-07T16:36:56",
+    "date_gmt": "2025-10-07T14:36:56",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item&#038;p=5140"
+    },
+    "modified": "2025-11-28T11:22:09",
+    "modified_gmt": "2025-11-28T10:22:09",
+    "slug": "28-april-2025-iberian-blackout",
+    "status": "publish",
+    "type": "carousel_item",
+    "link": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/",
+    "title": {
+      "rendered": "28 April 2025 Iberian Blackout"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\"><strong>Introduction</strong><br><em>On April 28th 2025, the Iberian Peninsula experienced one of the most significant power blackouts in European history, affecting Portugal, Spain and parts of southwestern France. More than 60 million grid users were impacted, with outages lasting around ten hours in most regions, and even longer in some areas. The blackout disrupted communication, transportation, hospitals and other essential services.</em></p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"761\" height=\"762\" src=\"http://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.36.28.png\" alt=\"\" class=\"wp-image-5130\" srcset=\"https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.36.28.png 761w, https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.36.28-300x300.png 300w, https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.36.28-256x256.png 256w\" sizes=\"auto, (max-width: 761px) 100vw, 761px\" /><figcaption class=\"wp-element-caption\">Figure 1: Geographic area affected by the incident of 28 April 2025 [1]</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Now, five months after the lights went out in Iberia, important questions remain. Do we already know what caused this major blackout? Could it have been avoided? How did transmission system operators manage to restore the network so quickly? And what was the impact of the blackout?</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Investigation by expert Panel</strong><br>On May 12, 2025, two weeks after the blackout, the European Network of Transmission System Operators for Electricity (ENTSO-E) established a joint expert panel composed of representatives from transmission system operators (TSOs), the Agency for the Co-operation of Energy Regulators (ACER), national regulatory authorities (NRAs), and regional coordination centres (RCCs). The detailed composition of the panel is provided in ENTSO-E’s official webpage on the blackout [1]. The panel is mandated to investigate the root causes of the incident and to publish its conclusions.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>The investigation is conducted in two phases. In the first phase, the panel gathers all available data from the affected TSOs and relevant authorities. This material is analysed to produce a factual report that reconstructs the events of April 28 and provides an initial explanation of the causes of the blackout. On the moment of writing, the report is scheduled for publication on October 3, 2025. However, ENTSO-E has already released preliminary findings [1], which will be discussed in the following section.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>In the second phase, the panel will issue a final report containing a more in-depth analysis and a set of recommendations. This report will examine the root causes of the incident in greater detail, evaluate the actions taken to mitigate system oscillations, assess the performance of generators with respect to protection settings, and review both the system defence plans and the measures implemented during the restoration phase [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Timeline</strong><br>On April 28th, prior to the disturbance, the Iberian Peninsula was operating with a grid dominated by renewables electricity. According to the Spanish TSO, REE, the load was covered for 59.8% by solar power, 10.6% by wind power, and 10.5% by nuclear power and Spain was exporting energy to all its neighboring countries [2]. </p>\n\n\n\n<p class=\"wp-block-paragraph\">It is worth noting that the high share of renewable energy in the generation mix resulted in lower grid inertia [2], [3]. Grid inertia refers to the tendency of the power system to remain in its operating state. It can therefore be seen as a resistance to frequency changes. This inertia is provided by the kinetic energy stored in the rotating mass of the synchronous generators connected to the grid, all rotating at synchronous speed [4]. A lower grid inertia implies a higher sensitivity of the grid to disturbances and means the system requires faster control mechanisms to maintain stability.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>From 09:00 Central European Summer Time (CEST) voltage variabilities were observed in Spain. However the voltage in the transmission system remained under its upper operational limit, and at 12:00 CEST the transmission network was around its nominal working conditions again [1]. REE concluded in its report [5] that these oscillations were neither significant nor the cause of what happened subsequently. Before 12:03 CEST, the system is said to be within acceptable voltage and frequency limits.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>Between 12:00 and 12:30 CEST, the Iberian grid experienced two periods of oscillations, signalling the growing instability of the system. An analysis performed by ENTSO-E allowed to determine that the first of these two periods, taking place from 12:03 to 12:07 CEST, was a forced oscillation induced by an external source, such as a power plant.<br></p>\n\n\n\n<p class=\"wp-block-paragraph\">In order to mitigate the voltage oscillations, the system operators took measures like reactive power adjustments and switching in lines to decrease the system impedance and improve generator stability. To reduce the risk of system oscillations spreading, operators lowered the AC power flow between Spain and France. This effectively reduced the phase angle differences between the Iberian Peninsula and the rest of Continental Europe, helping stabilize both regions [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>The second period of oscillations was inter-area and took place between 12:19 and 12:22 CEST. These oscillations were successfully mitigated by additional countertrading measures. These measures further reduced power flows between Spain and France and strengthened the internal connections of the southern Spanish grid [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>While grid operators had successfully contained earlier instabilities, the system remained fragile and new issues soon emerged. As shown on Figure 2, at 12h32 CEST Spain’s net active power exchange began to decrease which in turn led to a rise in voltage levels. According to the Expert Panel, the primary driver of this development was the loss of more than 500 MW of wind and solar generation connected to Spain’s distribution networks. The exact cause of these disconnections remains unclear, largely due to limited observability at the medium- and low-voltage levels [1].</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"544\" src=\"https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.40.42-1024x544.png\" alt=\"\" class=\"wp-image-5131\" srcset=\"https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.40.42-1024x544.png 1024w, https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.40.42-300x159.png 300w, https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.40.42-768x408.png 768w, https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.40.42.png 1313w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Figure 2: Evolution of the voltage in the Carmona substation and of the net active power exchange position of Spain in the minute preceding the blackout [1]</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">After the periods of oscillations, three successive generation losses occurred within only twenty seconds. First, more than 350 MW of wind and solar power were lost following the tripping of a generation transformer in the Granada area. Subsequently, around 725 MW of injection was interrupted at two 400 kV substations. Finally, at 12:33:16, in less than one second, wind farms, solar-thermal plants, and other generators with a combined capacity exceeding 1100 MW tripped. The causes of these events are still under investigation, with further details expected in the Expert Panel’s factual report to be published in early October. No generation trips were observed in Portugal or France during this<br>timeframe [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>As a result of the generation trips, the grid frequency dropped and the voltage increased drastically in the South of Spain, and, as a consequence, also in Portugal. This overvoltage triggered a cascade of more generation losses, which in turn caused the frequency of the Spanish and Portuguese power systems to decline. The Iberian system lost synchronism with the wider European grid. Between 12:33:19 and 12:33:22 CEST, Spain’s and Portugal’s automatic load-shedding mechanisms and Systems Defence plans were activated, but were unable to prevent the collapse. At 12:33:24 CEST, the Iberian power sys-<br>tem experienced a full black-out. Consequently, the AC interconnection between Spain and Morocco tripped due to underfrequency and the AC overhead lines with France were disconnected against loss of synchronism [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>The restoration process<br></strong>The TSOs initiated the restoration of the Iberian grid through a series of coordinated steps. Shortly after the blackout, REN requested start-ups for the Castelo de Bode hydropower plant (138 MW installed capacity [6]) and the Tapada do Outeiro combined-cycle gas turbine plant (990 MW installed capacity [7]) in Portugal [1]. These are powerplants with black-start capacity, meaning they can deliver electricity without requiring electric power from the grid themselves [8]. REE in Spain relied on multiple hydropower plants equipped with black-start capabilities as well, but also on the quick re-energizing of inter-<br>connections. Morocco supplied 900 MW and France was able to provide from 700 MW in the beginning up to 2 GW [2].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>At 18:36 CEST, a first (220 kV) line between Spain and Portugal was re-energised, later followed by the first 400 kV tie-line at 21:35 CEST. The Portuguese power system was fully operational at 00:22 CEST and the Spanish grid followed at 04:00 CEST, both on 29th of April.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact of the blackout<br></strong>The International Energy Agency (IEA) emphasizes on its website [9] that the Iberian Blackout illustrates how deeply electricity is woven into modern society. When a failure occurs, millions of citizens and businesses are immediately affected as power outages disrupt homes, schools, communication networks, financial services, and much more. The world is rapidly entering a new age of electricity. Traditional uses of power continue to grow, while emerging demands, such as electric vehicles and AI-driven data centers, are becoming increasingly significant. At the same time, the supply side of the electricity sector is undergoing profound change, driven by the rapid deployment of renewable tech-<br>nologies like solar photovoltaics and wind power worldwide. In this context, safeguarding the security and resilience of power systems is not merely a technical challenge but a strategic imperative.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>One of the most critical sectors affected by the blackout was the health system, although it received surprisingly little public attention. Hospitals were able to sustain essential services such as emergency departments, intensive care units, and life-support systems through backup generators. Nevertheless, the simultaneous shutdown of mobile networks, landlines, and internet services created severe communication bottlenecks. Most hospitals were unable to coordinate effectively with each other, civil protection authorities,<br>or emergency services. Even the national emergency number (112) became temporarily inaccessible, leaving citizens without a vital lifeline at a critical moment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The consequences extended beyond healthcare facilities themselves. Failures in traffic lights, road congestion, and disrupted communication between ambulance dispatch centers likely caused delays in emergency transport and patient transfers. In its perspective article, Frontiers [10] argues that healthcare resilience must be recognized as a fundamental pillar of national security. It calls for regulatory reforms, decentralized energy solutions, digital redundancies, and integrated command structures linking healthcare to other strategic sectors. According to Frontiers, the blackout acted as a decisive stress<br>test for Portugal’s National Health Service, exposing a convergence of structural, digital, and operational vulnerabilities that critically undermined healthcare delivery during the crisis.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>The blackout also had economic consequences. CaixaBank estimates that the the impact on Spains GDP was less than a tenth of a percentage point, amounting just under 400 million euros [11]. </p>\n\n\n\n<p class=\"wp-block-paragraph\">But the most tragic consequences of the blackout were deaths potentially linked to the event. According to the BBC [12], three people died from carbon monoxide poisoning caused by a faulty generator used in their home. Other fatalities remain under investigation, such as a woman in Madrid who died in a fire, possibly started by a candle used during the outage. Additional deaths were reported that day, though the causes are not always agreed upon.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Could blackouts happen elsewhere in Europe?<br></strong>The Iberian Peninsula faces challenges due to limited interconnection, but even highly connected countries like Belgium or the Netherlands are not immune to blackouts. While Spain’s interconnection capacity is 8% of peak demand, the Netherlands reaches nearly 48%, according to Rabobank [13]. However, strong interconnections do not fully eliminate blackout risks.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>The Dutch grid is among Europe’s most reliable, with households experiencing only 22 minutes of outage in 2023, and a nationwide blackout has never occurred. Its resilience is supported by larger battery storage, interconnectors, and thermal capacity compared to Spain. However, concerns remain about the future: after 2030, the planned phaseout of some thermal capacity may leave demand uncovered at times, forcing temporary load shedding. Additionally, grid congestion has become a pressing issue in some regions. Therefore, regular short-term outages are now considered increasingly likely [13].</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Conclusion</strong><br>Although we are waiting on the factual report for definitive answers, we can state that the Iberian blackout of April 28th 2025 was caused by a complex series of events, which made it extremely hard to prevent. Reduced system inertia was not a direct cause, however strengthening grid inertia will likely be a crucial safeguard against future disruptions. The use of grid-forming inverters combined with storage systems can provide synthetic inertia and thus substantially enhance system stability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Following the blackout, electricity grids became a priority on political agendas. Portugal’s government already announced a €400 million investment in the electricity system [14]. Spain’s TSO also pledged greater investment, though with more debate on the specifics. It seems inevitable that other governments will follow suit, recognizing that grid stability is not just a technical matter but a cornerstone of energy security in a decarbonizing Europe.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-5140",
+      "carousel_item",
+      "type-carousel_item",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 5174,
+        "id": 5174,
+        "title": "Banner carousel",
+        "filename": "Banner-carousel.png",
+        "filesize": 120792,
+        "url": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel.png",
+        "link": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/banner-carousel/",
+        "alt": "",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "banner-carousel",
+        "status": "inherit",
+        "uploaded_to": 5140,
+        "date": "2025-11-28 10:21:56",
+        "modified": "2025-11-28 10:21:56",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1926,
+        "height": 642,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel-256x256.png",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel-300x100.png",
+          "medium-width": 300,
+          "medium-height": 100,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel-768x256.png",
+          "medium_large-width": 768,
+          "medium_large-height": 256,
+          "large": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel-1024x341.png",
+          "large-width": 1024,
+          "large-height": 341,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel-1536x512.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 512,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2025/10/Banner-carousel.png",
+          "2048x2048-width": 1926,
+          "2048x2048-height": 642
+        }
+      },
+      "author": "Kobe Avonds",
+      "category": "Artikel",
+      "sources": "[1] ENTSO-E. “28 April 2025 blackout.” [Accessed: Sep. 16, 2025]. (2025), [Online].\r\nhttps://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/#Expert_Panel_Investigation\r\n[2] S. Linnert et al. “Blackout and system restoration on the Iberian Peninsula on April 28 and 29, 2025.” [Accessed: Sep. 19, 2025]. (2025), [Online].\r\nhttps://www.ees.tf.fau.de/files/2025/05/Blackout_ES_PT_FR_28_04_2025_en.pdf\r\n[3] R. Butzen et al. “Assessment of policy options for securing inertia.” [Accessed: Sep. 23, 2025]. (2025), [Online].\r\nhttps://op.europa.eu/en/publication-detail/-/publication/46433435-7f17-11f0-9af8-01aa75ed71a1\r\n[4] P. Denholm et al. “Inertia and the power grid: A guide without the spin.” [Accessed: Sep. 19, 2025]. (2025), [Online].\r\nhttps://docs.nrel.gov/docs/fy20osti/73856.pdf\r\n[5] Red Eléctrica. “Red Eléctrica presents its report on the incident of 28 April and proposes recommendations.” [Accessed: Sep. 16, 2025]. (2025), [Online].\r\nhttps://www.ree.es/en/press-office/news/press-release/2025/06/red-electrica-presents-report-incident-28-april-and-proposes-recommendations\r\n[6] Wikipedia. “Castelo do Bode Dam.” [Accessed: Sep. 23, 2025]. (2025), [Online].\r\nhttps://en.wikipedia.org/wiki/Castelo_do_Bode_Dam\r\n[7] Wikipedia. “Tapada do Outeiro Central.” [Accessed: Sep. 23, 2025]. (2025), [Online].\r\nhttps://pt.wikipedia.org/wiki/Central_da_Tapada_do_Outeiro\r\n[8] Wikipedia. “Black start.” [Accessed: Sep. 19, 2025]. (2025), [Online].\r\nhttps://en.wikipedia.org/wiki/Black_start\r\n[9] P. Hevia-Koch and B. Wanner. “The Iberian blackout has highlighted the critical importance of electricity security.” [Accessed: Sep. 19, 2025]. (2025), [Online].\r\nhttps://www.iea.org/commentaries/the-iberian-blackout-has-highlighted-the-critical-importance-of-electricity-security\r\n[10] F. Goiana-da-Silva et al. “When the lights went out: Impacts of the April 2025 Iberian blackout on the Portuguese National Health Service sovereignty – a reflection on national defence, health sovereignty, risk, and infrastructural dependency.” [Accessed: Sep. 19, 2025]. (2025), [Online].\r\nhttps://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1630933/full\r\n[11] The Brussels Times. “Blackout cost Spain €400 million.” [Accessed: Sep. 19, 2025]. (2025), [Online].\r\nhttps://www.brusselstimes.com/1566479/blackout-cost-spain-e400-million\r\n[12] G. Hedgecoe and A. Lamche. “At least three deaths linked to massive Spain power cut.” [Accessed: Sep. 23, 2025]. (2025), [Online].\r\nhttps://www.bbc.com/news/articles/cp31rqevdr5o\r\n[13] P. Ruiz and C. Hutters. “Facts and lessons learned from the Iberian blackout.” [Accessed: Sep. 23, 2025]. (2025), [Online].\r\nhttps://www.rabobank.com/knowledge/d011479255-facts-and-lessons-learned-from-the-iberian-blackout\r\n[14] C. Murray. “Portugal to invest €400 million into grid and BESS after Iberian blackout.” [Accessed: Sep. 23, 2025]. (2025), [Online].\r\nhttps://www.energy-storage.news/portugal-to-invest-e400-million-into-grid-and-bess-after-iberian-blackout/",
+      "caption": "New Article",
+      "verwijst_naar": {
+        "ID": 5129,
+        "post_author": "40",
+        "post_date": "2025-10-06 12:01:06",
+        "post_date_gmt": "2025-10-06 10:01:06",
+        "post_content": "<!-- wp:paragraph -->\n<p><strong>Introduction</strong><br><em>On April 28th 2025, the Iberian Peninsula experienced one of the most significant power blackouts in European history, affecting Portugal, Spain and parts of southwestern France. More than 60 million grid users were impacted, with outages lasting around ten hours in most regions, and even longer in some areas. The blackout disrupted communication, transportation, hospitals and other essential services.</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5130,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"http://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.36.28.png\" alt=\"\" class=\"wp-image-5130\"/><figcaption class=\"wp-element-caption\">Figure 1: Geographic area affected by the incident of 28 April 2025 [1]</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p><em>Now, five months after the lights went out in Iberia, important questions remain. Do we already know what caused this major blackout? Could it have been avoided? How did transmission system operators manage to restore the network so quickly? And what was the impact of the blackout?</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Investigation by expert Panel</strong><br>On May 12, 2025, two weeks after the blackout, the European Network of Transmission System Operators for Electricity (ENTSO-E) established a joint expert panel composed of representatives from transmission system operators (TSOs), the Agency for the Co-operation of Energy Regulators (ACER), national regulatory authorities (NRAs), and regional coordination centres (RCCs). The detailed composition of the panel is provided in ENTSO-E’s official webpage on the blackout [1]. The panel is mandated to investigate the root causes of the incident and to publish its conclusions.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>The investigation is conducted in two phases. In the first phase, the panel gathers all available data from the affected TSOs and relevant authorities. This material is analysed to produce a factual report that reconstructs the events of April 28 and provides an initial explanation of the causes of the blackout. On the moment of writing, the report is scheduled for publication on October 3, 2025. However, ENTSO-E has already released preliminary findings [1], which will be discussed in the following section.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>In the second phase, the panel will issue a final report containing a more in-depth analysis and a set of recommendations. This report will examine the root causes of the incident in greater detail, evaluate the actions taken to mitigate system oscillations, assess the performance of generators with respect to protection settings, and review both the system defence plans and the measures implemented during the restoration phase [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Timeline</strong><br>On April 28th, prior to the disturbance, the Iberian Peninsula was operating with a grid dominated by renewables electricity. According to the Spanish TSO, REE, the load was covered for 59.8% by solar power, 10.6% by wind power, and 10.5% by nuclear power and Spain was exporting energy to all its neighboring countries [2]. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It is worth noting that the high share of renewable energy in the generation mix resulted in lower grid inertia [2], [3]. Grid inertia refers to the tendency of the power system to remain in its operating state. It can therefore be seen as a resistance to frequency changes. This inertia is provided by the kinetic energy stored in the rotating mass of the synchronous generators connected to the grid, all rotating at synchronous speed [4]. A lower grid inertia implies a higher sensitivity of the grid to disturbances and means the system requires faster control mechanisms to maintain stability.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>From 09:00 Central European Summer Time (CEST) voltage variabilities were observed in Spain. However the voltage in the transmission system remained under its upper operational limit, and at 12:00 CEST the transmission network was around its nominal working conditions again [1]. REE concluded in its report [5] that these oscillations were neither significant nor the cause of what happened subsequently. Before 12:03 CEST, the system is said to be within acceptable voltage and frequency limits.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>Between 12:00 and 12:30 CEST, the Iberian grid experienced two periods of oscillations, signalling the growing instability of the system. An analysis performed by ENTSO-E allowed to determine that the first of these two periods, taking place from 12:03 to 12:07 CEST, was a forced oscillation induced by an external source, such as a power plant.<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In order to mitigate the voltage oscillations, the system operators took measures like reactive power adjustments and switching in lines to decrease the system impedance and improve generator stability. To reduce the risk of system oscillations spreading, operators lowered the AC power flow between Spain and France. This effectively reduced the phase angle differences between the Iberian Peninsula and the rest of Continental Europe, helping stabilize both regions [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>The second period of oscillations was inter-area and took place between 12:19 and 12:22 CEST. These oscillations were successfully mitigated by additional countertrading measures. These measures further reduced power flows between Spain and France and strengthened the internal connections of the southern Spanish grid [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>While grid operators had successfully contained earlier instabilities, the system remained fragile and new issues soon emerged. As shown on Figure 2, at 12h32 CEST Spain’s net active power exchange began to decrease which in turn led to a rise in voltage levels. According to the Expert Panel, the primary driver of this development was the loss of more than 500 MW of wind and solar generation connected to Spain’s distribution networks. The exact cause of these disconnections remains unclear, largely due to limited observability at the medium- and low-voltage levels [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5131,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://www.yera.be/wp-content/uploads/2025/10/Scherm­afbeelding-2025-10-06-om-11.40.42-1024x544.png\" alt=\"\" class=\"wp-image-5131\"/><figcaption class=\"wp-element-caption\">Figure 2: Evolution of the voltage in the Carmona substation and of the net active power exchange position of Spain in the minute preceding the blackout [1]</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>After the periods of oscillations, three successive generation losses occurred within only twenty seconds. First, more than 350 MW of wind and solar power were lost following the tripping of a generation transformer in the Granada area. Subsequently, around 725 MW of injection was interrupted at two 400 kV substations. Finally, at 12:33:16, in less than one second, wind farms, solar-thermal plants, and other generators with a combined capacity exceeding 1100 MW tripped. The causes of these events are still under investigation, with further details expected in the Expert Panel’s factual report to be published in early October. No generation trips were observed in Portugal or France during this<br>timeframe [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>As a result of the generation trips, the grid frequency dropped and the voltage increased drastically in the South of Spain, and, as a consequence, also in Portugal. This overvoltage triggered a cascade of more generation losses, which in turn caused the frequency of the Spanish and Portuguese power systems to decline. The Iberian system lost synchronism with the wider European grid. Between 12:33:19 and 12:33:22 CEST, Spain’s and Portugal’s automatic load-shedding mechanisms and Systems Defence plans were activated, but were unable to prevent the collapse. At 12:33:24 CEST, the Iberian power sys-<br>tem experienced a full black-out. Consequently, the AC interconnection between Spain and Morocco tripped due to underfrequency and the AC overhead lines with France were disconnected against loss of synchronism [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>The restoration process<br></strong>The TSOs initiated the restoration of the Iberian grid through a series of coordinated steps. Shortly after the blackout, REN requested start-ups for the Castelo de Bode hydropower plant (138 MW installed capacity [6]) and the Tapada do Outeiro combined-cycle gas turbine plant (990 MW installed capacity [7]) in Portugal [1]. These are powerplants with black-start capacity, meaning they can deliver electricity without requiring electric power from the grid themselves [8]. REE in Spain relied on multiple hydropower plants equipped with black-start capabilities as well, but also on the quick re-energizing of inter-<br>connections. Morocco supplied 900 MW and France was able to provide from 700 MW in the beginning up to 2 GW [2].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>At 18:36 CEST, a first (220 kV) line between Spain and Portugal was re-energised, later followed by the first 400 kV tie-line at 21:35 CEST. The Portuguese power system was fully operational at 00:22 CEST and the Spanish grid followed at 04:00 CEST, both on 29th of April.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Impact of the blackout<br></strong>The International Energy Agency (IEA) emphasizes on its website [9] that the Iberian Blackout illustrates how deeply electricity is woven into modern society. When a failure occurs, millions of citizens and businesses are immediately affected as power outages disrupt homes, schools, communication networks, financial services, and much more. The world is rapidly entering a new age of electricity. Traditional uses of power continue to grow, while emerging demands, such as electric vehicles and AI-driven data centers, are becoming increasingly significant. At the same time, the supply side of the electricity sector is undergoing profound change, driven by the rapid deployment of renewable tech-<br>nologies like solar photovoltaics and wind power worldwide. In this context, safeguarding the security and resilience of power systems is not merely a technical challenge but a strategic imperative.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>One of the most critical sectors affected by the blackout was the health system, although it received surprisingly little public attention. Hospitals were able to sustain essential services such as emergency departments, intensive care units, and life-support systems through backup generators. Nevertheless, the simultaneous shutdown of mobile networks, landlines, and internet services created severe communication bottlenecks. Most hospitals were unable to coordinate effectively with each other, civil protection authorities,<br>or emergency services. Even the national emergency number (112) became temporarily inaccessible, leaving citizens without a vital lifeline at a critical moment.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The consequences extended beyond healthcare facilities themselves. Failures in traffic lights, road congestion, and disrupted communication between ambulance dispatch centers likely caused delays in emergency transport and patient transfers. In its perspective article, Frontiers [10] argues that healthcare resilience must be recognized as a fundamental pillar of national security. It calls for regulatory reforms, decentralized energy solutions, digital redundancies, and integrated command structures linking healthcare to other strategic sectors. According to Frontiers, the blackout acted as a decisive stress<br>test for Portugal’s National Health Service, exposing a convergence of structural, digital, and operational vulnerabilities that critically undermined healthcare delivery during the crisis.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>The blackout also had economic consequences. CaixaBank estimates that the the impact on Spains GDP was less than a tenth of a percentage point, amounting just under 400 million euros [11]. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>But the most tragic consequences of the blackout were deaths potentially linked to the event. According to the BBC [12], three people died from carbon monoxide poisoning caused by a faulty generator used in their home. Other fatalities remain under investigation, such as a woman in Madrid who died in a fire, possibly started by a candle used during the outage. Additional deaths were reported that day, though the causes are not always agreed upon.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Could blackouts happen elsewhere in Europe?<br></strong>The Iberian Peninsula faces challenges due to limited interconnection, but even highly connected countries like Belgium or the Netherlands are not immune to blackouts. While Spain’s interconnection capacity is 8% of peak demand, the Netherlands reaches nearly 48%, according to Rabobank [13]. However, strong interconnections do not fully eliminate blackout risks.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><br>The Dutch grid is among Europe’s most reliable, with households experiencing only 22 minutes of outage in 2023, and a nationwide blackout has never occurred. Its resilience is supported by larger battery storage, interconnectors, and thermal capacity compared to Spain. However, concerns remain about the future: after 2030, the planned phaseout of some thermal capacity may leave demand uncovered at times, forcing temporary load shedding. Additionally, grid congestion has become a pressing issue in some regions. Therefore, regular short-term outages are now considered increasingly likely [13].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Conclusion</strong><br>Although we are waiting on the factual report for definitive answers, we can state that the Iberian blackout of April 28th 2025 was caused by a complex series of events, which made it extremely hard to prevent. Reduced system inertia was not a direct cause, however strengthening grid inertia will likely be a crucial safeguard against future disruptions. The use of grid-forming inverters combined with storage systems can provide synthetic inertia and thus substantially enhance system stability.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Following the blackout, electricity grids became a priority on political agendas. Portugal’s government already announced a €400 million investment in the electricity system [14]. Spain’s TSO also pledged greater investment, though with more debate on the specifics. It seems inevitable that other governments will follow suit, recognizing that grid stability is not just a technical matter but a cornerstone of energy security in a decarbonizing Europe.</p>\n<!-- /wp:paragraph -->",
+        "post_title": "28 April 2025 Iberian Blackout",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "28-april-2025-iberian-blackout",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-10-07 16:06:20",
+        "post_modified_gmt": "2025-10-07 14:06:20",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article&#038;p=5129",
+        "menu_order": 0,
+        "post_type": "article",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>28 April 2025 Iberian Blackout -</title>\n<meta name=\"description\" content=\"Discover YERA’s analysis of the April 2025 Iberian Peninsula blackout — causes, restoration process, and lessons for Europe’s energy security.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"28 April 2025 Iberian Blackout -\" />\n<meta property=\"og:description\" content=\"Discover YERA’s analysis of the April 2025 Iberian Peninsula blackout — causes, restoration process, and lessons for Europe’s energy security.\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2025-11-28T10:22:09+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"11 minuten\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/28-april-2025-iberian-blackout\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item\\/28-april-2025-iberian-blackout\\/\",\"name\":\"28 April 2025 Iberian Blackout -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2025-10-07T14:36:56+00:00\",\"dateModified\":\"2025-11-28T10:22:09+00:00\",\"description\":\"Discover YERA’s analysis of the April 2025 Iberian Peninsula blackout — causes, restoration process, and lessons for Europe’s energy security.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/28-april-2025-iberian-blackout\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item\\/28-april-2025-iberian-blackout\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/28-april-2025-iberian-blackout\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"28 April 2025 Iberian Blackout\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "28 April 2025 Iberian Blackout -",
+      "description": "Discover YERA’s analysis of the April 2025 Iberian Peninsula blackout — causes, restoration process, and lessons for Europe’s energy security.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "28 April 2025 Iberian Blackout -",
+      "og_description": "Discover YERA’s analysis of the April 2025 Iberian Peninsula blackout — causes, restoration process, and lessons for Europe’s energy security.",
+      "og_url": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2025-11-28T10:22:09+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "11 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/",
+            "url": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/",
+            "name": "28 April 2025 Iberian Blackout -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2025-10-07T14:36:56+00:00",
+            "dateModified": "2025-11-28T10:22:09+00:00",
+            "description": "Discover YERA’s analysis of the April 2025 Iberian Peninsula blackout — causes, restoration process, and lessons for Europe’s energy security.",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item/28-april-2025-iberian-blackout/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "28 April 2025 Iberian Blackout"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item/5140",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=5140"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4969,
+    "date": "2024-09-28T14:07:14",
+    "date_gmt": "2024-09-28T12:07:14",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item&#038;p=4969"
+    },
+    "modified": "2025-11-28T11:23:15",
+    "modified_gmt": "2025-11-28T10:23:15",
+    "slug": "electric-vessels-the-next-tech-of-energy-storage",
+    "status": "publish",
+    "type": "carousel_item",
+    "link": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/",
+    "title": {
+      "rendered": "Electric vessels: the next tech of energy storage?"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\"><strong>Introduction</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (Oil, Coal and natural gas) was respectively 56 years, 139 years and 49 years left. (2) And its consumption is still increasing.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"638\" height=\"145\" src=\"https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg\" alt=\"\" class=\"wp-image-4963\" srcset=\"https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg 638w, https://www.yera.be/wp-content/uploads/2024/09/fig1-300x68.jpg 300w\" sizes=\"auto, (max-width: 638px) 100vw, 638px\" /><figcaption class=\"wp-element-caption\"><em>Figure 1: Vessel &#8211; to-grid concept (source: Bluegrid.energy (1)</em></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">One of the sectors where there is large fossil fuel energy demand is the marine sector. Cargo ships, ferries, fishing vessels, patrol boats… These vessels are powered by diesel engines. And the number of vessels are growing. According to UNCTAD (3), there are more than 105,000 ships globally with at least one hundred gross tonnage, consisting of oil tankers, bulk carriers, ferries, and cargo ships. Most ships transport goods like livestock, toys, clothing and heating fuel (LNG). This made the world commodities accessible to its consumers. However, it also has driven emissions with it. Our World in Data estimated that Global emissions from transportation accounted around one-fifth of the world’s total emissions where shipping alone is responsible for almost 11 percent of total transport emissions (4).</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Future of marine transport</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Under the Paris Agreement, world leaders agreed to stay below 2°C rise in global temperature, ideally 1,5°C according to historical global temperatures. With that framework in mind, the International Marine organization developed a strategy to decarbonize and reduce the marine sector’s emissions to net zero by 2050. (5)</p>\n\n\n\n<p class=\"wp-block-paragraph\">One of the workable solutions is to electrify the marine sector where technically and economically possible. For example, the first hybrid-electric fishing boat was built by a Norwegian company Selfa Article in collaboration with Siemens in 2015. The fishing boat, named “<em>Karoline</em>” functions with a 500-litre diesel engine and two battery packs with a total capacity of 195 kWh. This hybrid-electric boat saves 70% of diesel fuel compared to a traditional fully diesel-powered boat. (6) (see figure 2)</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"576\" src=\"https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-1024x576.jpg\" alt=\"\" class=\"wp-image-4964\" style=\"width:650px;height:auto\" srcset=\"https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-1024x576.jpg 1024w, https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-300x169.jpg 300w, https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-768x432.jpg 768w, https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-1536x864.jpg 1536w, https://www.yera.be/wp-content/uploads/2024/09/Karoline-1.jpg 1920w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\"><em>Figure 2: World first hybrid electric fishing boat &#8220;Karoline”.</em></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">“Having a fishing boat, equipped with an electric engine and at least 100 kWh of total battery capacity, could be a new asset for both fishers and utilities”, must have thought the Canadian software company Bluegrid (former ‘Rimot’). Their headquarters is located in the province of Nova Scotia, which has a fishing large domestic fishing industry. (7)</p>\n\n\n\n<p class=\"wp-block-paragraph\">They came with a concept and the world first vessel prototype in collaboration with ABCO (1) where electric (fishing) vessels, equipped with battery packs and a charging system similar of electric vehicles, could provide the local utility grid during peak hours or emergency situations while in periods of overproduction and low consumption, the vessels can charge their batteries again (<em>Bidirectional charging</em>). This could benefit the grid with more flexibility and stability and for fishers, it is an extra income during off-season. This was already proven with electric vehicles (<em>Vehicle-to-grid</em>). Prousalidis et Al, 2014, refer the principle as “<em>cold ironing</em>” (8) while “ironing” refers to <em>shorepower</em>, where ships can connect to port grids and switch off their diesel engines while the ships equipment is in function.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Challenging technology</strong></p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"835\" height=\"709\" src=\"https://www.yera.be/wp-content/uploads/2024/09/fig3.jpg\" alt=\"\" class=\"wp-image-4965\" style=\"width:594px;height:auto\" srcset=\"https://www.yera.be/wp-content/uploads/2024/09/fig3.jpg 835w, https://www.yera.be/wp-content/uploads/2024/09/fig3-300x255.jpg 300w, https://www.yera.be/wp-content/uploads/2024/09/fig3-768x652.jpg 768w\" sizes=\"auto, (max-width: 835px) 100vw, 835px\" /><figcaption class=\"wp-element-caption\"><em>Figure 3: Prototype of the MCS plug (13)</em></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">However, the technology is not fully integrated and there is still more development underway. For example, regulatory barriers, economic barriers, lack of knowledge or lack of existing technology as of the required power needed to charge one vessel: things are challenging. Luckily, a promising charging system standard called the “Megawatt Charging Standard,” presented in Oslo, in 2022 (9)(10) (see figure 3) could force a breakthrough in heavy machinery power supply, especially because of the ISO 15118-20 protocol integration of MCS. Companies as ABB and Cavotec developed a market-ready product version of the MCS plug. (11)(12) However, the MCS will currently remain for short and medium distances, depending on the battery capacity of the used vehicle/vessel/aircraft…</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Conclusion</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The concept of Vessel-to-grid has been proven with a prototype. Yet, it is a matter of time, money, regulations, and well skilled engineers to scale this solution up so that a global fleet of zero emissions vessels (in hydrogen, bio-LNG, electricity, methanol…) will exist.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4969",
+      "carousel_item",
+      "type-carousel_item",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "subtitle": "What is Vessel-to-grid, and can it become a new form of electricity storage?",
+      "image": {
+        "ID": 4968,
+        "id": 4968,
+        "title": "Karoline_banner",
+        "filename": "Karoline_banner.jpg",
+        "filesize": 139899,
+        "url": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner.jpg",
+        "link": "https://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/karoline_banner/",
+        "alt": "",
+        "author": "44",
+        "description": "",
+        "caption": "",
+        "name": "karoline_banner",
+        "status": "inherit",
+        "uploaded_to": 4967,
+        "date": "2024-09-27 21:04:45",
+        "modified": "2024-09-27 21:04:45",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1801,
+        "height": 600,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-256x256.jpg",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-300x100.jpg",
+          "medium-width": 300,
+          "medium-height": 100,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-768x256.jpg",
+          "medium_large-width": 768,
+          "medium_large-height": 256,
+          "large": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-1024x341.jpg",
+          "large-width": 1024,
+          "large-height": 341,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-1536x512.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 512,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner.jpg",
+          "2048x2048-width": 1801,
+          "2048x2048-height": 600
+        }
+      },
+      "author": "Dorian Berintan",
+      "category": "Artikel",
+      "sources": "Bluegrid Energy. (2024, may 31). Bluegrid-evoy and abco annouce worlds first successful vessel to grid retrieved from bluegrid.energy:\r\nHttps://bluegrid.energy/bluegrid-evoy-and-abco-announce-worlds-first-successful-vessel-to-grid/\r\nEnergy Institute - Statistical Review of World Energy (2024) – with major processing by Our World in Data. “Coal” [dataset]. \r\nEnergy Institute, “Statistical Review of World Energy” [original data].\r\nAtlas Magazine. (2023, Juni). World Merchant Fleet. Retrieved from Atlas Magazine : \r\nhttps://www.atlas-mag.net/en/category/tags/focus/the-world-merchant-fleet\r\nHannah Ritchie (2020) - “Cars, planes, trains: where do CO₂ emissions from transport come from?” Published online at OurWorldInData.org. Retrieved from: \r\nhttps://ourworldindata.org/co2-emissions-from-transport\r\nInternational Maritiem Organization. (2023). IMO.org. Retrieved from Media press- Hot topics- Cutting GHG emissions: https://www.imo.org/en/MediaCentre/HotTopics/Pages/Cutting-GHG-emissions.aspx\r\nBusiness Norway. (2022, july 7). Selfa Arctic World first hybrid fishing boat. Retrieved from: https://businessnorway.com/solutions/Selfa-arctic-world-first-hybrid-fishing-boat\r\nNovascotia.ca. (2024). A World of Opportunity - Right Here. Retrieved from NovaScotia.ca: https://novascotia.ca/righthere/\r\nJ. Prousalidis, G. Antonopoulos, C. Patsios, A. Greig and R. Bucknall, \"Green shipping in emission-controlled areas: Combining smart grids and cold ironing,\" 2014 International Conference on Electrical Machines (ICEM), Berlin, Germany, 2014, pp. 2299-2305, doi: \r\n10.1109/ICELMACH.2014.6960506.\r\nCharin.global  (2022). Youtube- Megawatt Charging system MCS launch at EVS35 . Retrieved from: https://www.youtube.com/watch?v=NlHuok6h50E\r\nCharin.global. (2024). Megawatt Charging system MCS. Retrieved from: Megawatt Charging System: https://www.charin.global/technology/mcs/\r\ncavotec.com. (2024). Charging Solutions - Megawatt Charging System. Retrieved from cavotec.com:\r\nhttps://www.cavotec.com/en/your-applications/industry-mining/e-charging/product-megawatt-charging-system-mcs\r\nABB. (2021, october 13). ABB and Lilium team to revolutionize charging infrastructure for regional air travel.retrieved from: \r\nhttps://new.abb.com/news/detail/83430/abb-and-lilium-team-to-revolutionize-charging-infrastructure-for-regional-air-travel\r\nYocharge.com. (sd). What is megawatt charging system mcs? Retrieved from Yocharge.com:\r\nhttps://yocharge.com/faq/what-is-megawatt-charging-system-mcs/\r\n\r\n\r\n",
+      "caption": "New Article",
+      "verwijst_naar": {
+        "ID": 4970,
+        "post_author": "44",
+        "post_date": "2024-09-28 14:12:26",
+        "post_date_gmt": "2024-09-28 12:12:26",
+        "post_content": "<!-- wp:paragraph -->\n<p><strong>Introduction</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (oil, coal and natural gas) was respectively 56 years, 139 years and 49 years left. (2) And its consumption is still increasing.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4963,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg\" alt=\"\" class=\"wp-image-4963\"/><figcaption class=\"wp-element-caption\"><em>Figure 1: Vessel - to-grid concept (source: Bluegrid.energy (1))</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>One of the sectors where there is large fossil fuel energy demand is the marine sector. Cargo ships, ferries, fishing vessels, patrol boats… These vessels are powered by diesel engines. And the number of vessels are growing. According to UNCTAD (3), there are more than 105,000 ships globally with at least one hundred gross tonnage, consisting of oil tankers, bulk carriers, ferries, and cargo ships. Most ships transport goods like livestock, toys, clothing and heating fuel (LNG). This made the world commodities accessible to its consumers. However, it also has driven emissions with it. Our World in Data estimated that global emissions from transportation accounted around one-fifth of the world’s total emissions where shipping alone is responsible for almost 11 percent of total transport emissions (4).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Future of marine transport</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Under the Paris agreement, world leaders agreed to stay below 2°C rise in global temperature, ideally 1,5°C according to historical global temperatures. With that framework in mind, the International Maritime Organization developed a strategy to decarbonize and reduce the marine sector’s emissions to net zero by 2050. (5)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>One of the workable solutions is to electrify the marine sector where technically and economically possible. For example, the first hybrid-electric fishing boat was built by a Norwegian company Selfa Article in collaboration with Siemens in 2015. The fishing boat, named “<em>Karoline</em>” functions with a 500-litre diesel engine and two battery packs with a total capacity of 195 kWh. This hybrid-electric boat saves 70% of diesel fuel compared to a traditional fully diesel-powered boat. (6) (see figure 2)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4964,\"width\":\"650px\",\"height\":\"auto\",\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large is-resized\"><img src=\"https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-1024x576.jpg\" alt=\"\" class=\"wp-image-4964\" style=\"width:650px;height:auto\"/><figcaption class=\"wp-element-caption\"><em>Figure 2: World first hybrid electric fishing boat \"Karoline”</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>“Having a fishing boat, equipped with an electric engine and at least 100 kWh of total battery capacity, could be a new asset for both fishers and utilities”, must have thought the Canadian software company Bluegrid (former ‘Rimot’). Their headquarters is located in the province of Nova Scotia, which has a fishing large domestic fishing industry. (7)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>They came with a concept and the world first vessel prototype in collaboration with ABCO (1) where electric (fishing) vessels, equipped with battery packs and a charging system similar of electric vehicles, could provide the local utility grid during peak hours or emergency situations while in periods of overproduction and low consumption, the vessels can charge their batteries again (<em>Bidirectional charging</em>). This could benefit the grid with more flexibility and stability and for fishers, it is an extra income during off-season. This was already proven with electric vehicles (<em>Vehicle-to-grid</em>). Prousalidis et Al, 2014, refer the principle as “<em>cold ironing</em>” (8) while “ironing” refers to <em>shorepower</em>, where ships can connect to port grids and switch off their diesel engines while the ships equipment is in function.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Challenging technology</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4965,\"width\":\"594px\",\"height\":\"auto\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"https://www.yera.be/wp-content/uploads/2024/09/fig3.jpg\" alt=\"\" class=\"wp-image-4965\" style=\"width:594px;height:auto\"/><figcaption class=\"wp-element-caption\"><em>Figure 3: Prototype of the MCS plug (13)</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>However, the technology is not fully integrated and there is still more development underway. For example, regulatory barriers, economic barriers, lack of knowledge or lack of existing technology as of the required power needed to charge one vessel: things are challenging. Luckily, a promising charging system standard called the “Megawatt Charging Standard,” presented in Oslo, in 2022 (9)(10) (see figure 3) could force a breakthrough in heavy machinery power supply, especially because of the ISO 15118-20 protocol integration of MCS. Companies as ABB and Cavotec developed a market-ready product version of the MCS plug. (11)(12) However, the MCS will currently remain for short and medium distances, depending on the battery capacity of the used vehicle/vessel/aircraft…</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Conclusion</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The concept of Vessel-to-grid has been proven with a prototype. Yet, it is a matter of time, money, regulations, and well skilled engineers to scale this solution up so that a global fleet of zero emissions vessels (in hydrogen, bio-LNG, electricity, methanol…) will exist.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+        "post_title": "Electric vessels: the next tech of energy storage?",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "electric-vessels-the-next-tech-of-energy-storage",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2024-10-14 19:24:30",
+        "post_modified_gmt": "2024-10-14 17:24:30",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article&#038;p=4970",
+        "menu_order": 0,
+        "post_type": "article",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Electric vessels: the next tech of energy storage? -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Electric vessels: the next tech of energy storage? -\" />\n<meta property=\"og:description\" content=\"Introduction Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (Oil, Coal and natural gas) was respectively 56 years, 139 years and 49 years left. [&hellip;]\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2025-11-28T10:23:15+00:00\" />\n<meta property=\"og:image\" content=\"https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"5 minuten\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/\",\"name\":\"Electric vessels: the next tech of energy storage? -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2024\\/09\\/fig1.jpg\",\"datePublished\":\"2024-09-28T12:07:14+00:00\",\"dateModified\":\"2025-11-28T10:23:15+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/#primaryimage\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2024\\/09\\/fig1.jpg\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2024\\/09\\/fig1.jpg\",\"width\":638,\"height\":145},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item\\/electric-vessels-the-next-tech-of-energy-storage\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Electric vessels: the next tech of energy storage?\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Electric vessels: the next tech of energy storage? -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Electric vessels: the next tech of energy storage? -",
+      "og_description": "Introduction Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (Oil, Coal and natural gas) was respectively 56 years, 139 years and 49 years left. [&hellip;]",
+      "og_url": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2025-11-28T10:23:15+00:00",
+      "og_image": [
+        {
+          "url": "https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg",
+          "type": "",
+          "width": "",
+          "height": ""
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "5 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/",
+            "url": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/",
+            "name": "Electric vessels: the next tech of energy storage? -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg",
+            "datePublished": "2024-09-28T12:07:14+00:00",
+            "dateModified": "2025-11-28T10:23:15+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/#primaryimage",
+            "url": "https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg",
+            "contentUrl": "https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg",
+            "width": 638,
+            "height": 145
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item/electric-vessels-the-next-tech-of-energy-storage/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Electric vessels: the next tech of energy storage?"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item/4969",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4969"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

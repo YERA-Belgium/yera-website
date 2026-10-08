@@ -1,0 +1,13 @@
+---
+import {url} from '@/lib/utils';
+import {topicLabel,formatDate} from '@/lib/topics';
+import type {Article} from '@/data/articles';
+interface Props {article:Article;locale?:'en'|'nl';}
+const {article,locale='en'}=Astro.props;
+---
+<article class="article-card">
+{article.image&&<a class="cover-link" href={url(article.path)} tabindex="-1" aria-hidden="true"><img class="article-cover" src={url(article.image)} alt={article.imageAlt} loading="lazy" width="600" height="360"/></a>}
+<div class="article-meta"><span class="category">{topicLabel(article.title,locale)}</span><time datetime={article.date}>{formatDate(article.date,locale)}</time></div>
+<h3><a href={url(article.path)}>{article.title}</a></h3>
+{article.subtitle&&<p>{article.subtitle}</p>}<div class="byline">{article.author}</div>
+</article>

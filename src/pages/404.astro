@@ -1,0 +1,6 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/utils';
+import { buttonVariants } from '@/components/ui/button';
+---
+<Layout title="Page not found" noindex><section class="section container"><span class="eyebrow">404 / Page not found</span><h1>A missing connection.</h1><p style="margin-block:24px">This page may have moved. Explore our articles or return to the homepage.</p><a class={buttonVariants()} href={url()}>Back to YERA</a></section></Layout>

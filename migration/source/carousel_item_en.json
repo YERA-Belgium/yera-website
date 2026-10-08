@@ -1,0 +1,1586 @@
+[
+  {
+    "id": 4967,
+    "date": "2024-09-27T23:06:22",
+    "date_gmt": "2024-09-27T21:06:22",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item_en&#038;p=4967"
+    },
+    "modified": "2024-09-27T23:06:23",
+    "modified_gmt": "2024-09-27T21:06:23",
+    "slug": "electric-vessels-the-next-tech-of-energy-storage",
+    "status": "publish",
+    "type": "carousel_item_en",
+    "link": "https://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/",
+    "title": {
+      "rendered": "Electric vessels: the next tech of energy storage?"
+    },
+    "content": {
+      "rendered": "\n<h5 class=\"wp-block-heading\">What is Vessel-to-grid, and can it become a new form of electricity storage?</h5>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Introduction</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (Oil, Coal and natural gas) was respectively 56 years, 139 years and 49 years left. (2) And its consumption is still increasing. One of the sectors where there is large fossil fuel energy demand is the marine sector. Cargo ships, ferries, fishing vessels, patrol boats… These vessels are powered by diesel engines. And the number of vessels are growing. According to UNCTAD (3), there are more than 105,000 ships globally with at least one hundred gross tonnage, consisting of oil tankers, bulk carriers, ferries, and cargo ships. Most ships transport goods like livestock, toys, clothing and heating fuel (LNG). This made the world commodities accessible to its consumers. However, it also has driven emissions with it. Our World in Data estimated that Global emissions from transportation accounted around one-fifth of the world’s total emissions where shipping alone is responsible for almost 11 percent of total transport emissions (4).</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4967",
+      "carousel_item_en",
+      "type-carousel_item_en",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "image": {
+        "ID": 4968,
+        "id": 4968,
+        "title": "Karoline_banner",
+        "filename": "Karoline_banner.jpg",
+        "filesize": 139899,
+        "url": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner.jpg",
+        "link": "https://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/karoline_banner/",
+        "alt": "",
+        "author": "44",
+        "description": "",
+        "caption": "",
+        "name": "karoline_banner",
+        "status": "inherit",
+        "uploaded_to": 4967,
+        "date": "2024-09-27 21:04:45",
+        "modified": "2024-09-27 21:04:45",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1801,
+        "height": 600,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-256x256.jpg",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-300x100.jpg",
+          "medium-width": 300,
+          "medium-height": 100,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-768x256.jpg",
+          "medium_large-width": 768,
+          "medium_large-height": 256,
+          "large": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-1024x341.jpg",
+          "large-width": 1024,
+          "large-height": 341,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner-1536x512.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 512,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2024/09/Karoline_banner.jpg",
+          "2048x2048-width": 1801,
+          "2048x2048-height": 600
+        }
+      },
+      "caption": "New Article",
+      "verwijst_naar": {
+        "ID": 4961,
+        "post_author": "44",
+        "post_date": "2024-09-27 22:54:34",
+        "post_date_gmt": "2024-09-27 20:54:34",
+        "post_content": "<!-- wp:paragraph -->\n<p><strong>Introduction</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (oil, coal and natural gas) was respectively 56 years, 139 years and 49 years left. (2) And its consumption is still increasing.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4963,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://www.yera.be/wp-content/uploads/2024/09/fig1.jpg\" alt=\"\" class=\"wp-image-4963\"/><figcaption class=\"wp-element-caption\"><em>Figure 1: Vessel - to-grid concept (source: Bluegrid.energy (1))</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>One of the sectors where there is large fossil fuel energy demand is the marine sector. Cargo ships, ferries, fishing vessels, patrol boats… These vessels are powered by diesel engines. And the number of vessels are growing. According to UNCTAD (3), there are more than 105,000 ships globally with at least one hundred gross tonnage, consisting of oil tankers, bulk carriers, ferries, and cargo ships. Most ships transport goods like livestock, toys, clothing and heating fuel (LNG). This made the world commodities accessible to its consumers. However, it also has driven emissions with it. Our World in Data estimated that global emissions from transportation accounted around one-fifth of the world’s total emissions where shipping alone is responsible for almost 11 percent of total transport emissions (4).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Future of marine transport</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Under the Paris agreement, world leaders agreed to stay below 2°C rise in global temperature, ideally 1,5°C according to historical global temperatures. With that framework in mind, the International Maritime Organization developed a strategy to decarbonize and reduce the marine sector’s emissions to net zero by 2050. (5)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>One of the workable solutions is to electrify the marine sector where technically and economically possible. For example, the first hybrid-electric fishing boat was built by a Norwegian company Selfa Article in collaboration with Siemens in 2015. The fishing boat, named “<em>Karoline</em>” functions with a 500-litre diesel engine and two battery packs with a total capacity of 195 kWh. This hybrid-electric boat saves 70% of diesel fuel compared to a traditional fully diesel-powered boat. (6) (see figure 2)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4964,\"width\":\"650px\",\"height\":\"auto\",\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large is-resized\"><img src=\"https://www.yera.be/wp-content/uploads/2024/09/Karoline-1-1024x576.jpg\" alt=\"\" class=\"wp-image-4964\" style=\"width:650px;height:auto\"/><figcaption class=\"wp-element-caption\"><em>Figure 2: World first hybrid electric fishing boat \"Karoline”</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>“Having a fishing boat, equipped with an electric engine and at least 100 kWh of total battery capacity, could be a new asset for both fishers and utilities”, must have thought the Canadian software company Bluegrid (former ‘Rimot’). Their headquarters is located in the province of Nova Scotia, which has a fishing large domestic fishing industry. (7)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>They came with a concept and the world first vessel prototype in collaboration with ABCO (1) where electric (fishing) vessels, equipped with battery packs and a charging system similar of electric vehicles, could provide the local utility grid during peak hours or emergency situations while in periods of overproduction and low consumption, the vessels can charge their batteries again (<em>Bidirectional charging</em>). This could benefit the grid with more flexibility and stability and for fishers, it is an extra income during off-season. This was already proven with electric vehicles (<em>Vehicle-to-grid</em>). Prousalidis et Al, 2014, refer the principle as “<em>cold ironing</em>” (8) while “ironing” refers to <em>shorepower</em>, where ships can connect to port grids and switch off their diesel engines while the ships equipment is in function.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Challenging technology</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4965,\"width\":\"594px\",\"height\":\"auto\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"https://www.yera.be/wp-content/uploads/2024/09/fig3.jpg\" alt=\"\" class=\"wp-image-4965\" style=\"width:594px;height:auto\"/><figcaption class=\"wp-element-caption\"><em>Figure 3: Prototype of the MCS plug (13)</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>However, the technology is not fully integrated and there is still more development underway. For example, regulatory barriers, economic barriers, lack of knowledge or lack of existing technology as of the required power needed to charge one vessel: things are challenging. Luckily, a promising charging system standard called the “Megawatt Charging Standard,” presented in Oslo, in 2022 (9)(10) (see figure 3) could force a breakthrough in heavy machinery power supply, especially because of the ISO 15118-20 protocol integration of MCS. Companies as ABB and Cavotec developed a market-ready product version of the MCS plug. (11)(12) However, the MCS will currently remain for short and medium distances, depending on the battery capacity of the used vehicle/vessel/aircraft…</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Conclusion</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The concept of Vessel-to-grid has been proven with a prototype. Yet, it is a matter of time, money, regulations, and well skilled engineers to scale this solution up so that a global fleet of zero emissions vessels (in hydrogen, bio-LNG, electricity, methanol…) will exist.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+        "post_title": "Electric vessels: the next tech of energy storage?",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "electric-vessels-the-next-tech-of-energy-storage",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2024-10-14 19:26:34",
+        "post_modified_gmt": "2024-10-14 17:26:34",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article-english&#038;p=4961",
+        "menu_order": 0,
+        "post_type": "article-english",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Electric vessels: the next tech of energy storage? -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Electric vessels: the next tech of energy storage? -\" />\n<meta property=\"og:description\" content=\"What is Vessel-to-grid, and can it become a new form of electricity storage? Introduction Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (Oil, Coal [&hellip;]\" />\n<meta property=\"og:url\" content=\"http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2024-09-27T21:06:23+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"1 minuut\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/www.yera.be\\/carousel_item_en\\/electric-vessels-the-next-tech-of-energy-storage\\/\",\"url\":\"http:\\/\\/www.yera.be\\/carousel_item_en\\/electric-vessels-the-next-tech-of-energy-storage\\/\",\"name\":\"Electric vessels: the next tech of energy storage? -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2024-09-27T21:06:22+00:00\",\"dateModified\":\"2024-09-27T21:06:23+00:00\",\"breadcrumb\":{\"@id\":\"http:\\/\\/www.yera.be\\/carousel_item_en\\/electric-vessels-the-next-tech-of-energy-storage\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\\/\\/www.yera.be\\/carousel_item_en\\/electric-vessels-the-next-tech-of-energy-storage\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/www.yera.be\\/carousel_item_en\\/electric-vessels-the-next-tech-of-energy-storage\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Electric vessels: the next tech of energy storage?\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Electric vessels: the next tech of energy storage? -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Electric vessels: the next tech of energy storage? -",
+      "og_description": "What is Vessel-to-grid, and can it become a new form of electricity storage? Introduction Heating, transportation, concrete production, fertilizers, clothing, toys—everything we produce and consume depends on (fossil) energy. However those sources are running out. According to Our World in Data, the world reserves (in 2020) for the three major fossil fuel types (Oil, Coal [&hellip;]",
+      "og_url": "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2024-09-27T21:06:23+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "1 minuut"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/",
+            "url": "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/",
+            "name": "Electric vessels: the next tech of energy storage? -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2024-09-27T21:06:22+00:00",
+            "dateModified": "2024-09-27T21:06:23+00:00",
+            "breadcrumb": {
+              "@id": "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "http://www.yera.be/carousel_item_en/electric-vessels-the-next-tech-of-energy-storage/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Electric vessels: the next tech of energy storage?"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en/4967",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item_en"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4967"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4947,
+    "date": "2024-09-15T21:15:44",
+    "date_gmt": "2024-09-15T19:15:44",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item_en&#038;p=4947"
+    },
+    "modified": "2024-09-18T08:35:47",
+    "modified_gmt": "2024-09-18T06:35:47",
+    "slug": "the-eu-emission-trading-system",
+    "status": "publish",
+    "type": "carousel_item_en",
+    "link": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/",
+    "title": {
+      "rendered": "The EU-emission trading system"
+    },
+    "content": {
+      "rendered": "\n<h5 class=\"wp-block-heading\">Introduction</h5>\n\n\n\n<p class=\"wp-block-paragraph\">At a time when the effects of climate change are becoming increasingly apparent, the world faces the challenge of drastically reducing greenhouse gas emissions. A crucial aspect of this challenge is the regulations governments adopt to make this happen. This article describes how the price of emissions works at the European level, what an emission trading system (ETS) is, and what it all means for the future. Finally, a critical view will be taken and any shortcomings of this system will be formulated.</p>\n\n\n\n<h5 class=\"wp-block-heading\">Pollution problem</h5>\n\n\n\n<p class=\"wp-block-paragraph\">We know that the emission of greenhouse gases has detrimental effects on the climate and consequently on fellow human beings. In the past, emitters of greenhouse gases could emit indefinitely without experiencing consequences for the damage they caused to the climate by doing so. To efficiently solve a pollution problem, a government can generally adopt two possible solution strategies: a first option is to introduce a tax on the polluter&#8217;s emissions that, in the optimal case, is equal to the damage those emissions would cause. In this way, you make the polluter pay for its damage. A second possibility is to impose a maximum amount of emissions on companies. You can let companies trade among themselves in these emissions, so this second choice also puts a price on emissions. Due to a combination of political and economic reasons, Europe has gone for this second option for the pollution problem of greenhouse gasses [1] [2]</p>\n\n\n\n<h5 class=\"wp-block-heading\">The ETS</h5>\n\n\n\n<p class=\"wp-block-paragraph\">The EU has set a cap on the combined emissions of all companies in the EU&#8217;s most carbon-intensive sectors. Since the EU does not know which companies can most easily reduce their greenhouse gas emissions and which can do so at a lower cost, they have created an emissions allowance market. Each year, companies must surrender allowances equal to the amount of greenhouse gases they emitted during that year. This means that although the overall EU emissions are capped, the specific companies responsible for these emissions are determined by the market. The market mechanism ensures that companies having difficulty with decarbonization are required to buy allowances, while those capable of reducing CO2 emissions more easily can do so and sell the excess allowances to others. This gives companies a financial incentive to reduce their emissions but at the same time ensures the reductions are achieved by those who can do it with the least effort and cost.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This cap decreases annually to eventually reach zero net greenhouse gas emissions by 2040 [3]. Here we immediately see a reason why the EU has chosen a quantity cap instead of a direct tax: Namely, that the mission of “together towards net zero emissions” likely garners more support than abstract concepts like the economic cost of a ton of CO2 [4]. There are four sectors subject to this ETS system: namely, electricity generation, heavy industry, intra-European aviation and, since 2024, the maritime transport sector [5].</p>\n\n\n\n<h5 class=\"wp-block-heading\">Allocation of emission allowances</h5>\n\n\n\n<p class=\"wp-block-paragraph\">Emission allowances from 2005 until about 2013 were allocated mainly for free by “grandfathering”: companies that emitted a lot of CO2 before the start of the system received many emission allowances [6]. Also, industries with higher CO2 intensity received more allowances than their counterparts with lower emissions. This approach should help ensure that this type of tax does not place an excessive burden on companies affected by the measure from now on. The rest of the certificates were then auctioned off with the proceeds going to national governments. Since 2013, a larger portion of the certificates have been auctioned instead of being granted for free. This, along with the price increase of these certificates is a major reason for the huge increase in revenue from this tax.</p>\n\n\n\n<h5 class=\"wp-block-heading\">The waterbed effect</h5>\n\n\n\n<p class=\"wp-block-paragraph\">A direct consequence of the mechanism of this system, is the waterbed effect. This means that if one part of the European market makes more effort to reduce their CO2 emissions, emissions are shifted to other companies. You can think of this as water in a waterbed: If you press on one part of the bed, the water will move, but this water does not disappear: it just moves to another part of the bed. So to illustrate, if more people take the train instead of the plane for intra-European transport, this implies no reduction in the total CO2 emissions of the European union. The emission rights that would have been purchased by the airline will now be purchased by another polluter.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, this reasoning is not entirely correct. To counteract a surplus of allowances, the EU introduced a market stability reserve (MSR) and allowance invalidation rule in 2018 [7] [8] [9] [10]. A detailed description of this legislation would lead us too far, so in summary, it can ensure that emission reductions in one country still lead to EU-wide emission reductions [11]. If we use again the analogy of the waterbed, the EU is puncturing the waterbed with these regulations. So that when you press on the bed, that the water does not just move but escapes.</p>\n\n\n\n<h5 class=\"wp-block-heading\">Critique of the EU ETS</h5>\n\n\n\n<p class=\"wp-block-paragraph\">A first criticism of the ETS system is that it would be an additional tax that makes CO2-intensive products more expensive without making life better for the average European citizen. But this certainly need not be the case. The spending of the proceeds obtained from the EU ETS is left to the member states. In Switzerland, for example, revenues from their ETS are distributed back to each citizen in the form of a lump sum of money. Most economists do agree that this is probably suboptimal [12], and that this money is best used to reduce the distortionary effect of taxes such as personal income taxes by lowering them. Also, some of the revenue can be used to compensate the most vulnerable segment of the population for the price increase that will be caused by the ETS.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A second criticism is that the EU ETS is suboptimal in that it applies to some industries and not to others. For example, transport by cars and trucks and CO2 emissions from domestic heating are not covered by ETS. As a result, the property of cost-optimality is lost: more CO2 is not necessarily going to be saved where it is cheapest, thus making CO2 reductions more expensive than necessary. ETS 2 ameliorates this problem by introducing a new ETS that will exist separately from the current EU ETS for these sectors. However, to fix the problem completely, these sectors would also have to be included in the existing EU ETS. When you have two separate systems, you tax one ton of CO2 harder than the other, this means that there will be more than optimal CO2 savings under the system with the high CO2 price and less than optimal savings under the system with the low CO2 price [13].</p>\n\n\n\n<p class=\"wp-block-paragraph\">The last major criticism made of the EU ETS is that it would lead to “carbon leakage”: This means that if a country or region decides to adopt very strict climate regulations that companies will move away from that region to then produce their goods somewhere else. Then they can export these goods from the region with lax regulations back to the region with strict regulations. This is clearly something that should be avoided. In the past this was countered by the free allocation of emission allowances but this measure is being phased out. In the future, the EU will partially counter this by introducing a CBAM (carbon border adjustment mechanism) in 2026 [14] [15]. This means that for countries that are not members of the EU and do not have equivalent regulations, an import tax equal to the carbon tax will be introduced as if the company was located inside the EU. This ensures that companies outside the EU also have to pay CO2 tax if they want to export to the EU, and thus cannot undercut those based in Europe. Furthermore, the revenue from this can be used to promote the competitiveness of European companies or reduce other distorting taxes.</p>\n\n\n\n<h5 class=\"wp-block-heading\">Conclusion</h5>\n\n\n\n<p class=\"wp-block-paragraph\">The European ETS is the first major CO2 emissions trading scheme and is at the heart of European climate policy. Never before, nor since, has there been a decision to work together against global warming on such a large scale AND with such ambition. Although the system has not been without shortcomings and is constantly evolving, it has played a central role in the EU&#8217;s efforts to reduce emissions. It has done so efficiently, serving as an example to the rest of the world. In conclusion, the EU ETS is the most important climate legislation in the EU and may have been one of the most influential decisions in the world&#8217;s fight against climate change.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"461\" src=\"http://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-1024x461.png\" alt=\"\" class=\"wp-image-4932\" srcset=\"https://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-1024x461.png 1024w, https://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-300x135.png 300w, https://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-768x346.png 768w, https://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU.png 1536w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Figure 1: the evolution of verified emissions in the EU obtained from <a href=\"https://www.eea.europa.eu/data-and-maps/dashboards/emissions-trading-viewer-1\">https://www.eea.europa.eu/data-and-maps/dashboards/emissions-trading-viewer-1</a></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4947",
+      "carousel_item_en",
+      "type-carousel_item_en",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "image": {
+        "ID": 4948,
+        "id": 4948,
+        "title": "EU ETS English Carousel",
+        "filename": "EU-ETS-English-Carousel.png",
+        "filesize": 426952,
+        "url": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel.png",
+        "link": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/eu-ets-english-carousel/",
+        "alt": "",
+        "author": "44",
+        "description": "",
+        "caption": "",
+        "name": "eu-ets-english-carousel",
+        "status": "inherit",
+        "uploaded_to": 4947,
+        "date": "2024-09-18 06:35:39",
+        "modified": "2024-09-18 06:35:39",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 400,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel-256x256.png",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel-300x100.png",
+          "medium-width": 300,
+          "medium-height": 100,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel-768x256.png",
+          "medium_large-width": 768,
+          "medium_large-height": 256,
+          "large": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel-1024x341.png",
+          "large-width": 1024,
+          "large-height": 341,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel.png",
+          "1536x1536-width": 1200,
+          "1536x1536-height": 400,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2024/09/EU-ETS-English-Carousel.png",
+          "2048x2048-width": 1200,
+          "2048x2048-height": 400
+        }
+      },
+      "caption": "Article",
+      "verwijst_naar": {
+        "ID": 4946,
+        "post_author": "44",
+        "post_date": "2024-09-15 21:14:30",
+        "post_date_gmt": "2024-09-15 19:14:30",
+        "post_content": "<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">Introduction</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>At a time when the effects of climate change are becoming increasingly apparent, the world faces the challenge of drastically reducing greenhouse gas emissions. A crucial aspect of this challenge is the regulations governments adopt to make this happen. This article describes how the price of emissions works at the European level, what an emission trading system (ETS) is, and what it all means for the future. Finally, a critical view will be taken and any shortcomings of this system will be formulated.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">Pollution problem</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>We know that the emission of greenhouse gases has detrimental effects on the climate and consequently on fellow human beings. In the past, emitters of greenhouse gases could emit indefinitely without experiencing consequences for the damage they caused to the climate by doing so. To efficiently solve a pollution problem, a government can generally adopt two possible solution strategies: a first option is to introduce a tax on the polluter's emissions that, in the optimal case, is equal to the damage those emissions would cause. In this way, you make the polluter pay for its damage. A second possibility is to impose a maximum amount of emissions on companies. You can let companies trade among themselves in these emissions, so this second choice also puts a price on emissions. Due to a combination of political and economic reasons, Europe has gone for this second option for the pollution problem of greenhouse gasses [1] [2]</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">The ETS</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>The EU has set a cap on the combined emissions of all companies in the EU's most carbon-intensive sectors. Since the EU does not know which companies can most easily reduce their greenhouse gas emissions and which can do so at a lower cost, they have created an emissions allowance market. Each year, companies must surrender allowances equal to the amount of greenhouse gases they emitted during that year. This means that although the overall EU emissions are capped, the specific companies responsible for these emissions are determined by the market. The market mechanism ensures that companies having difficulty with decarbonization are required to buy allowances, while those capable of reducing CO2 emissions more easily can do so and sell the excess allowances to others. This gives companies a financial incentive to reduce their emissions but at the same time ensures the reductions are achieved by those who can do it with the least effort and cost.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This cap decreases annually to eventually reach zero net greenhouse gas emissions by 2040 [3]. Here we immediately see a reason why the EU has chosen a quantity cap instead of a direct tax: Namely, that the mission of “together towards net zero emissions” likely garners more support than abstract concepts like the economic cost of a ton of CO2 [4]. There are four sectors subject to this ETS system: namely, electricity generation, heavy industry, intra-European aviation and, since 2024, the maritime transport sector [5].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">Allocation of emission allowances</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Emission allowances from 2005 until about 2013 were allocated mainly for free by “grandfathering”: companies that emitted a lot of CO2 before the start of the system received many emission allowances [6]. Also, industries with higher CO2 intensity received more allowances than their counterparts with lower emissions. This approach should help ensure that this type of tax does not place an excessive burden on companies affected by the measure from now on. The rest of the certificates were then auctioned off with the proceeds going to national governments. Since 2013, a larger portion of the certificates have been auctioned instead of being granted for free. This, along with the price increase of these certificates is a major reason for the huge increase in revenue from this tax.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">The waterbed effect</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>A direct consequence of the mechanism of this system, is the waterbed effect. This means that if one part of the European market makes more effort to reduce their CO2 emissions, emissions are shifted to other companies. You can think of this as water in a waterbed: If you press on one part of the bed, the water will move, but this water does not disappear: it just moves to another part of the bed. So to illustrate, if more people take the train instead of the plane for intra-European transport, this implies no reduction in the total CO2 emissions of the European union. The emission rights that would have been purchased by the airline will now be purchased by another polluter.&nbsp;</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>However, this reasoning is not entirely correct. To counteract a surplus of allowances, the EU introduced a market stability reserve (MSR) and allowance invalidation rule in 2018 [7] [8] [9] [10]. A detailed description of this legislation would lead us too far, so in summary, it can ensure that emission reductions in one country still lead to EU-wide emission reductions [11]. If we use again the analogy of the waterbed, the EU is puncturing the waterbed with these regulations. So that when you press on the bed, that the water does not just move but escapes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">Critique of the EU ETS</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>A first criticism of the ETS system is that it would be an additional tax that makes CO2-intensive products more expensive without making life better for the average European citizen. But this certainly need not be the case. The spending of the proceeds obtained from the EU ETS is left to the member states. In Switzerland, for example, revenues from their ETS are distributed back to each citizen in the form of a lump sum of money. Most economists do agree that this is probably suboptimal [12], and that this money is best used to reduce the distortionary effect of taxes such as personal income taxes by lowering them. Also, some of the revenue can be used to compensate the most vulnerable segment of the population for the price increase that will be caused by the ETS.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A second criticism is that the EU ETS is suboptimal in that it applies to some industries and not to others. For example, transport by cars and trucks and CO2 emissions from domestic heating are not covered by ETS. As a result, the property of cost-optimality is lost: more CO2 is not necessarily going to be saved where it is cheapest, thus making CO2 reductions more expensive than necessary. ETS 2 ameliorates this problem by introducing a new ETS that will exist separately from the current EU ETS for these sectors. However, to fix the problem completely, these sectors would also have to be included in the existing EU ETS. When you have two separate systems, you tax one ton of CO2 harder than the other, this means that there will be more than optimal CO2 savings under the system with the high CO2 price and less than optimal savings under the system with the low CO2 price [13].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The last major criticism made of the EU ETS is that it would lead to “carbon leakage”: This means that if a country or region decides to adopt very strict climate regulations that companies will move away from that region to then produce their goods somewhere else. Then they can export these goods from the region with lax regulations back to the region with strict regulations. This is clearly something that should be avoided. In the past this was countered by the free allocation of emission allowances but this measure is being phased out. In the future, the EU will partially counter this by introducing a CBAM (carbon border adjustment mechanism) in 2026 [14] [15]. This means that for countries that are not members of the EU and do not have equivalent regulations, an import tax equal to the carbon tax will be introduced as if the company was located inside the EU. This ensures that companies outside the EU also have to pay CO2 tax if they want to export to the EU, and thus cannot undercut those based in Europe. Furthermore, the revenue from this can be used to promote the competitiveness of European companies or reduce other distorting taxes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">Conclusion</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>The European ETS is the first major CO2 emissions trading scheme and is at the heart of European climate policy. Never before, nor since, has there been a decision to work together against global warming on such a large scale AND with such ambition. Although the system has not been without shortcomings and is constantly evolving, it has played a central role in the EU's efforts to reduce emissions. It has done so efficiently, serving as an example to the rest of the world. In conclusion, the EU ETS is the most important climate legislation in the EU and may have been one of the most influential decisions in the world's fight against climate change.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4932,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-1024x461.png\" alt=\"\" class=\"wp-image-4932\"/><figcaption class=\"wp-element-caption\">Figure 1: the evolution of verified emissions in the EU obtained from <a href=\"https://www.eea.europa.eu/data-and-maps/dashboards/emissions-trading-viewer-1\">https://www.eea.europa.eu/data-and-maps/dashboards/emissions-trading-viewer-1</a></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+        "post_title": "The EU-emission trading system",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "the-eu-emission-trading-system",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2024-11-22 18:01:58",
+        "post_modified_gmt": "2024-11-22 17:01:58",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article-english&#038;p=4946",
+        "menu_order": 0,
+        "post_type": "article-english",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>The EU-emission trading system -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"The EU-emission trading system -\" />\n<meta property=\"og:description\" content=\"Introduction At a time when the effects of climate change are becoming increasingly apparent, the world faces the challenge of drastically reducing greenhouse gas emissions. A crucial aspect of this challenge is the regulations governments adopt to make this happen. This article describes how the price of emissions works at the European level, what an [&hellip;]\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2024-09-18T06:35:47+00:00\" />\n<meta property=\"og:image\" content=\"http://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-1024x461.png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"7 minuten\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/\",\"name\":\"The EU-emission trading system -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/#primaryimage\"},\"thumbnailUrl\":\"http:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2024\\/04\\/evolutie_geverificieerde_emissies_EU-1024x461.png\",\"datePublished\":\"2024-09-15T19:15:44+00:00\",\"dateModified\":\"2024-09-18T06:35:47+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/#primaryimage\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2024\\/04\\/evolutie_geverificieerde_emissies_EU.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2024\\/04\\/evolutie_geverificieerde_emissies_EU.png\",\"width\":1536,\"height\":691},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/the-eu-emission-trading-system\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The EU-emission trading system\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "The EU-emission trading system -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "The EU-emission trading system -",
+      "og_description": "Introduction At a time when the effects of climate change are becoming increasingly apparent, the world faces the challenge of drastically reducing greenhouse gas emissions. A crucial aspect of this challenge is the regulations governments adopt to make this happen. This article describes how the price of emissions works at the European level, what an [&hellip;]",
+      "og_url": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2024-09-18T06:35:47+00:00",
+      "og_image": [
+        {
+          "url": "http://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-1024x461.png",
+          "type": "",
+          "width": "",
+          "height": ""
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "7 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/",
+            "url": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/",
+            "name": "The EU-emission trading system -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/#primaryimage"
+            },
+            "thumbnailUrl": "http://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU-1024x461.png",
+            "datePublished": "2024-09-15T19:15:44+00:00",
+            "dateModified": "2024-09-18T06:35:47+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/#primaryimage",
+            "url": "https://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU.png",
+            "contentUrl": "https://www.yera.be/wp-content/uploads/2024/04/evolutie_geverificieerde_emissies_EU.png",
+            "width": 1536,
+            "height": 691
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item_en/the-eu-emission-trading-system/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "The EU-emission trading system"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en/4947",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item_en"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4947"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4928,
+    "date": "2024-03-23T22:02:46",
+    "date_gmt": "2024-03-23T21:02:46",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item_en&#038;p=4928"
+    },
+    "modified": "2024-03-23T22:05:10",
+    "modified_gmt": "2024-03-23T21:05:10",
+    "slug": "global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities",
+    "status": "publish",
+    "type": "carousel_item_en",
+    "link": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/",
+    "title": {
+      "rendered": "Global cybersecurity in the energy sector: awareness and vulnerabilities"
+    },
+    "content": {
+      "rendered": "\n<h5 class=\"wp-block-heading\"><strong>Russian cyber-attacks within the energy sector as an example of awareness raising</strong> </h5>\n\n\n\n<p class=\"wp-block-paragraph\">The increasing digitalisation of our energy systems, from power plants to end users, has significantly improved efficiency and flexibility, but at the same time increased vulnerability to cyber-attacks [2]. In the most severe cases, hackers can take down vital infrastructure, leading to loss of control over systems, physical damage, and large-scale service interruptions. The financial and operational consequences of such cyber-attacks are significant, with millions to billions of dollars of damage to power companies and society as a whole [3]. This article examines the emerging threat of cyber-attacks in the power sector and explores the reasons behind them. The explanation includes the economic importance, extensive infrastructure, digitalisation, and complexity of the decentralised sector. It also highlights the global shortage of cybersecurity expertise and the need for a holistic approach to strengthen cyber resilience.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A series of recent incidents have highlighted the vulnerability of the sector [2]. In 2015, a year after Russia&#8217;s annexation of Crimea, a successful cyber-attack was carried out on Ukraine&#8217;s power grid [3] [4]. The hacker group Sandworm took out 30 electrical substations, leaving more than two hundred thousand people without electricity for up to 6 hours [3] [4]. Beyond that, just before the start of the ground invasion in 2022, Russia had deployed malicious software that disrupted the Viasat satellite system, resulting in the temporary failure of more than thirty thousand internet connections across Europe and affecting five thousand wind turbines [5]. To this day, Ukraine&#8217;s defence is under siege from Sandworm [6]. Beyond that, not only Europe but also the United States has suffered from recent cyber-attacks. In 2021, Russian hacker group DarkSide launched a ransomware cyber-attack on the Colonial Pipeline in the US [1]. The oil and gas pipeline system plays a role in transporting refined petroleum products from Gulf Coast refineries to markets in the southern and eastern US. Within hours, they shut down the infrastructure, which is responsible for about half of the motor fuel consumed on the east coast of the US. The consequences were far-reaching, ranging from rising prices to panic buying at fuel stations and ultimately the payment of millions of dollars in Bitcoin as ransom [1].</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"598\" height=\"412\" src=\"http://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg\" alt=\"\" class=\"wp-image-4841\" style=\"width:650px;height:auto\" srcset=\"https://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg 598w, https://www.yera.be/wp-content/uploads/2023/09/figuur1-1-300x207.jpg 300w\" sizes=\"auto, (max-width: 598px) 100vw, 598px\" /><figcaption class=\"wp-element-caption\"><em>Figure 1: Significant cyber incidents worldwide, 2006-2019 [3]</em></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">These incidents highlight the growing threat of cyber-attacks and their profound economic impact on the energy industry and society as a whole [1]. According to the World Economic Forum&#8217;s 2020 Global Risk Report, cyber-attacks are among the top 10 global risks in terms of likelihood and impact [3]. For electricity systems, the threat from cyber-attacks is significant and growing. Figure 1 shows this growth, based on research by the International Energy Agency (IEA) [3].</p>\n\n\n\n<h5 class=\"wp-block-heading\"><strong>Research on cyber security in the power sector</strong></h5>\n\n\n\n<p class=\"wp-block-paragraph\">Det Norske Veritas (DNV) is a classification society and technical consultancy within the energy sector [1] [9]. The Norwegian organisation provides practical advice in more than 100 countries to various industries, such as maritime, oil and gas, renewable energy, and electrification. DNV identifies cyber risks, builds defences, recovers after attacks, and unites stakeholders in security programmes [1] [9].</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although DNV&#8217;s ambitions ensure safety and security, the Colonial Pipeline incident shows that their protocols are not foolproof [1]. With the aim of examining the strengths and weaknesses of their security technology and procedures, DNV releases their Cyber Priority report annually. Their report published in 2022 examined the global state of cybersecurity in the energy sector through interviews and surveys completed by 948 energy professionals, including leaders and security experts within the energy industry. The survey focuses on executives&#8217; perceptions of the cyber threats facing their companies, and their strategies for managing this evolving threat. The results of this report are discussed below [1]. In addition, the International Energy Forum (IEF) and the International Energy Agency (IEA) provide additional explanations of energy sector vulnerabilities [7]. The IEF represents an international group of energy ministers from 72 countries. They act as impartial mediators and honest negotiators with the authority to address various energy-related issues [7]. The IEA and the IEF join forces by working together [8].</p>\n\n\n\n<h5 class=\"wp-block-heading\"><strong>Why the energy sector is facing cyber attacks</strong></h5>\n\n\n\n<p class=\"wp-block-paragraph\">First, vulnerability can be explained in the connectedness and widespread distribution of the energy sector [2]. The Colonial Pipeline incident showed that the energy sector is the backbone of economic activity: a single failure in energy infrastructure can lead to a cascade of economic disruptions [2]. Second, increasing digitalisation is pervasive [3]. An increasing number of connected devices and distributed energy resources increases the potential for cyberattacks on power systems. A successful attack on a well-defined part of a network will already relatively quickly translate into a cascade of damage to connected devices [3] [4]. In addition to this complex infrastructure, the industry is highly decentralised [2]. In other words, the industry is highly geographically spread out, which increases the affected area for cyberattacks [2]. Furthermore, logistics chains exhibit a higher degree of complexity, often involving third and fourth parties. The cyber security systems and processes of these actors are more difficult to assess, creating potential vulnerabilities [1].</p>\n\n\n\n<p class=\"wp-block-paragraph\">In addition, there is a global shortage of implemented cyber security expertise [1].&nbsp; With the advent of increasing digitalisation of industrial processes, companies began to see the benefits of integrating OT (operational technologies) and IT (information technologies). By connecting OT and IT, real-time data can be collected with the aim of managing and optimising industrial processes more efficiently at lower costs. The report shows that there is a shortage of experts who understand both the technical aspects of operational systems and information systems, which further complicates industry security. If specialists are on site, it usually proves no easy task to effectively convey awareness to decision-makers within the organisation. This can lead to a lack of proactive approach to cybersecurity by business leaders [1]. Finally, a holistic approach is required [3]. Policymakers, regulators, system operators and all external stakeholders across the electricity value chain all have important roles to play in alerting blind spots and strengthening cyber resilience. It is essential to integrate resilience technologies and protocols into the organisational culture rather than treating them as a separate, technical issue [3].</p>\n\n\n\n<h5 class=\"wp-block-heading\">Conclusion</h5>\n\n\n\n<p class=\"wp-block-paragraph\">Cyberattacks are among the top 10 global risks in terms of both likelihood and impact, according to the World Economic Forum&#8217;s Global Risk Report 2020. The Sandworm cyberattacks, the Viasat satellite system incident and the Colonial Pipeline incident highlight the need for better cyber security. DNV, as a classification society and technical consultancy, plays a role in ensuring the security of the industry. DNV&#8217;s Cyber Priority report and research by the IEF and IEA identify weaknesses in security technologies and protocols. The energy sector is vulnerable because of its economic importance, digital connectivity, high degree of decentralisation, and the complexity of logistics chains. Furthermore, there is a global shortage of cybersecurity expertise, including specialists within IT as well as OT. A holistic approach appears necessary for a secure and sustainable energy supply. Indeed, awareness among all stakeholders throughout the chain is essential to create a secure and resilient energy infrastructure.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4928",
+      "carousel_item_en",
+      "type-carousel_item_en",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "image": {
+        "ID": 4847,
+        "id": 4847,
+        "title": "cyberbeveiliging",
+        "filename": "cyberbeveiliging-1.png",
+        "filesize": 502701,
+        "url": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1.png",
+        "link": "https://www.yera.be/article/wereldwijde-cyberbeveiliging-in-de-energiesector-bewustwording-en-kwetsbaarheden/cyberbeveiliging-2/",
+        "alt": "",
+        "author": "44",
+        "description": "",
+        "caption": "",
+        "name": "cyberbeveiliging-2",
+        "status": "inherit",
+        "uploaded_to": 4838,
+        "date": "2023-09-24 20:02:35",
+        "modified": "2023-09-24 20:02:35",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1920,
+        "height": 1080,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1-256x256.png",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1-300x169.png",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1-768x432.png",
+          "medium_large-width": 768,
+          "medium_large-height": 432,
+          "large": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1-1024x576.png",
+          "large-width": 1024,
+          "large-height": 576,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1-1536x864.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2023/09/cyberbeveiliging-1.png",
+          "2048x2048-width": 1920,
+          "2048x2048-height": 1080
+        }
+      },
+      "caption": "Article",
+      "verwijst_naar": {
+        "ID": 4927,
+        "post_author": "44",
+        "post_date": "2024-03-23 21:51:23",
+        "post_date_gmt": "2024-03-23 20:51:23",
+        "post_content": "<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\"><strong>Russian cyber-attacks within the energy sector as an example of awareness raising</strong> </h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>The increasing digitalisation of our energy systems, from power plants to end users, has significantly improved efficiency and flexibility, but at the same time increased vulnerability to cyber-attacks [2]. In the most severe cases, hackers can take down vital infrastructure, leading to loss of control over systems, physical damage, and large-scale service interruptions. The financial and operational consequences of such cyber-attacks are significant, with millions to billions of dollars of damage to power companies and society as a whole [3]. This article examines the emerging threat of cyber-attacks in the power sector and explores the reasons behind them. The explanation includes the economic importance, extensive infrastructure, digitalisation, and complexity of the decentralised sector. It also highlights the global shortage of cybersecurity expertise and the need for a holistic approach to strengthen cyber resilience.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A series of recent incidents have highlighted the vulnerability of the sector [2]. In 2015, a year after Russia's annexation of Crimea, a successful cyber-attack was carried out on Ukraine's power grid [3] [4]. The hacker group Sandworm took out 30 electrical substations, leaving more than two hundred thousand people without electricity for up to 6 hours [3] [4]. Beyond that, just before the start of the ground invasion in 2022, Russia had deployed malicious software that disrupted the Viasat satellite system, resulting in the temporary failure of more than thirty thousand internet connections across Europe and affecting five thousand wind turbines [5]. To this day, Ukraine's defence is under siege from Sandworm [6]. Beyond that, not only Europe but also the United States has suffered from recent cyber-attacks. In 2021, Russian hacker group DarkSide launched a ransomware cyber-attack on the Colonial Pipeline in the US [1]. The oil and gas pipeline system plays a role in transporting refined petroleum products from Gulf Coast refineries to markets in the southern and eastern US. Within hours, they shut down the infrastructure, which is responsible for about half of the motor fuel consumed on the east coast of the US. The consequences were far-reaching, ranging from rising prices to panic buying at fuel stations and ultimately the payment of millions of dollars in Bitcoin as ransom [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4841,\"width\":\"650px\",\"height\":\"auto\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"http://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg\" alt=\"\" class=\"wp-image-4841\" style=\"width:650px;height:auto\"/><figcaption class=\"wp-element-caption\"><em>Figure 1: Significant cyber incidents worldwide, 2006-2019 [3]</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>These incidents highlight the growing threat of cyber-attacks and their profound economic impact on the energy industry and society as a whole [1]. According to the World Economic Forum's 2020 Global Risk Report, cyber-attacks are among the top 10 global risks in terms of likelihood and impact [3]. For electricity systems, the threat from cyber-attacks is significant and growing. Figure 1 shows this growth, based on research by the International Energy Agency (IEA) [3].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\"><strong>Research on cyber security in the power sector</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Det Norske Veritas (DNV) is a classification society and technical consultancy within the energy sector [1] [9]. The Norwegian organisation provides practical advice in more than 100 countries to various industries, such as maritime, oil and gas, renewable energy, and electrification. DNV identifies cyber risks, builds defences, recovers after attacks, and unites stakeholders in security programmes [1] [9].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Although DNV's ambitions ensure safety and security, the Colonial Pipeline incident shows that their protocols are not foolproof [1]. With the aim of examining the strengths and weaknesses of their security technology and procedures, DNV releases their Cyber Priority report annually. Their report published in 2022 examined the global state of cybersecurity in the energy sector through interviews and surveys completed by 948 energy professionals, including leaders and security experts within the energy industry. The survey focuses on executives' perceptions of the cyber threats facing their companies, and their strategies for managing this evolving threat. The results of this report are discussed below [1]. In addition, the International Energy Forum (IEF) and the International Energy Agency (IEA) provide additional explanations of energy sector vulnerabilities [7]. The IEF represents an international group of energy ministers from 72 countries. They act as impartial mediators and honest negotiators with the authority to address various energy-related issues [7]. The IEA and the IEF join forces by working together [8].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\"><strong>Why the energy sector is facing cyber attacks</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>First, vulnerability can be explained in the connectedness and widespread distribution of the energy sector [2]. The Colonial Pipeline incident showed that the energy sector is the backbone of economic activity: a single failure in energy infrastructure can lead to a cascade of economic disruptions [2]. Second, increasing digitalisation is pervasive [3]. An increasing number of connected devices and distributed energy resources increases the potential for cyberattacks on power systems. A successful attack on a well-defined part of a network will already relatively quickly translate into a cascade of damage to connected devices [3] [4]. In addition to this complex infrastructure, the industry is highly decentralised [2]. In other words, the industry is highly geographically spread out, which increases the affected area for cyberattacks [2]. Furthermore, logistics chains exhibit a higher degree of complexity, often involving third and fourth parties. The cyber security systems and processes of these actors are more difficult to assess, creating potential vulnerabilities [1].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In addition, there is a global shortage of implemented cyber security expertise [1].  With the advent of increasing digitalisation of industrial processes, companies began to see the benefits of integrating OT (operational technologies) and IT (information technologies). By connecting OT and IT, real-time data can be collected with the aim of managing and optimising industrial processes more efficiently at lower costs. The report shows that there is a shortage of experts who understand both the technical aspects of operational systems and information systems, which further complicates industry security. If specialists are on site, it usually proves no easy task to effectively convey awareness to decision-makers within the organisation. This can lead to a lack of proactive approach to cybersecurity by business leaders [1]. Finally, a holistic approach is required [3]. Policymakers, regulators, system operators and all external stakeholders across the electricity value chain all have important roles to play in alerting blind spots and strengthening cyber resilience. It is essential to integrate resilience technologies and protocols into the organisational culture rather than treating them as a separate, technical issue [3].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 class=\"wp-block-heading\">Conclusion</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Cyberattacks are among the top 10 global risks in terms of both likelihood and impact, according to the World Economic Forum's Global Risk Report 2020. The Sandworm cyberattacks, the Viasat satellite system incident and the Colonial Pipeline incident highlight the need for better cyber security. DNV, as a classification society and technical consultancy, plays a role in ensuring the security of the industry. DNV's Cyber Priority report and research by the IEF and IEA identify weaknesses in security technologies and protocols. The energy sector is vulnerable because of its economic importance, digital connectivity, high degree of decentralisation, and the complexity of logistics chains. Furthermore, there is a global shortage of cybersecurity expertise, including specialists within IT as well as OT. A holistic approach appears necessary for a secure and sustainable energy supply. Indeed, awareness among all stakeholders throughout the chain is essential to create a secure and resilient energy infrastructure.</p>\n<!-- /wp:paragraph -->",
+        "post_title": "Global cybersecurity in the energy sector: awareness and vulnerabilities",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2024-03-23 21:51:25",
+        "post_modified_gmt": "2024-03-23 20:51:25",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article-english&#038;p=4927",
+        "menu_order": 0,
+        "post_type": "article-english",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Global cybersecurity in the energy sector: awareness and vulnerabilities -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Global cybersecurity in the energy sector: awareness and vulnerabilities -\" />\n<meta property=\"og:description\" content=\"Russian cyber-attacks within the energy sector as an example of awareness raising The increasing digitalisation of our energy systems, from power plants to end users, has significantly improved efficiency and flexibility, but at the same time increased vulnerability to cyber-attacks [2]. In the most severe cases, hackers can take down vital infrastructure, leading to loss [&hellip;]\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2024-03-23T21:05:10+00:00\" />\n<meta property=\"og:image\" content=\"http://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"6 minuten\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/\",\"name\":\"Global cybersecurity in the energy sector: awareness and vulnerabilities -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/#primaryimage\"},\"thumbnailUrl\":\"http:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2023\\/09\\/figuur1-1.jpg\",\"datePublished\":\"2024-03-23T21:02:46+00:00\",\"dateModified\":\"2024-03-23T21:05:10+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/#primaryimage\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2023\\/09\\/figuur1-1.jpg\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2023\\/09\\/figuur1-1.jpg\",\"width\":598,\"height\":412},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Global cybersecurity in the energy sector: awareness and vulnerabilities\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Global cybersecurity in the energy sector: awareness and vulnerabilities -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Global cybersecurity in the energy sector: awareness and vulnerabilities -",
+      "og_description": "Russian cyber-attacks within the energy sector as an example of awareness raising The increasing digitalisation of our energy systems, from power plants to end users, has significantly improved efficiency and flexibility, but at the same time increased vulnerability to cyber-attacks [2]. In the most severe cases, hackers can take down vital infrastructure, leading to loss [&hellip;]",
+      "og_url": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2024-03-23T21:05:10+00:00",
+      "og_image": [
+        {
+          "url": "http://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg",
+          "type": "",
+          "width": "",
+          "height": ""
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "6 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/",
+            "url": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/",
+            "name": "Global cybersecurity in the energy sector: awareness and vulnerabilities -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/#primaryimage"
+            },
+            "thumbnailUrl": "http://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg",
+            "datePublished": "2024-03-23T21:02:46+00:00",
+            "dateModified": "2024-03-23T21:05:10+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/#primaryimage",
+            "url": "https://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg",
+            "contentUrl": "https://www.yera.be/wp-content/uploads/2023/09/figuur1-1.jpg",
+            "width": 598,
+            "height": 412
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item_en/global-cybersecurity-in-the-energy-sector-awareness-and-vulnerabilities/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Global cybersecurity in the energy sector: awareness and vulnerabilities"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en/4928",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item_en"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4928"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4831,
+    "date": "2023-08-23T19:17:58",
+    "date_gmt": "2023-08-23T17:17:58",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item_en&#038;p=4831"
+    },
+    "modified": "2024-03-23T22:03:16",
+    "modified_gmt": "2024-03-23T21:03:16",
+    "slug": "unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies",
+    "status": "publish",
+    "type": "carousel_item_en",
+    "link": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/",
+    "title": {
+      "rendered": "Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">In recent years, one of the central topics within society has been the energy crisis. Its consequences are felt and seen the most when paying the monthly electricity and gas bills, even though the impact is also significant in other sectors than the residential sector, such as the food or transportation industry. When analysing the complete crisis, including causes, consequences and measures taken, it is visible that it remains one of the most complex phenomena of the last decades, as was also stated by Clark Williams-Derry, an energy analyst at the Institute for Energy Economics and Financial Analysis [2]. However, it is crucial to know which events had a pivotal impact, to gain a broader understanding of how economies of different sectors are interconnected. Some of these key contributors will be discussed here, together with the overall impact of the crisis. Finally, some measures taken and consequences are discussed.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4831",
+      "carousel_item_en",
+      "type-carousel_item_en",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "image": {
+        "ID": 4832,
+        "id": 4832,
+        "title": "verhoduing 3-1",
+        "filename": "verhoduing-3-1.png",
+        "filesize": 660998,
+        "url": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1.png",
+        "link": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/verhoduing-3-1/",
+        "alt": "",
+        "author": "44",
+        "description": "",
+        "caption": "",
+        "name": "verhoduing-3-1",
+        "status": "inherit",
+        "uploaded_to": 4831,
+        "date": "2023-08-23 17:16:20",
+        "modified": "2023-08-23 17:16:20",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1242,
+        "height": 414,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1-256x256.png",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1-300x100.png",
+          "medium-width": 300,
+          "medium-height": 100,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1-768x256.png",
+          "medium_large-width": 768,
+          "medium_large-height": 256,
+          "large": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1-1024x341.png",
+          "large-width": 1024,
+          "large-height": 341,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1.png",
+          "1536x1536-width": 1242,
+          "1536x1536-height": 414,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2023/08/verhoduing-3-1.png",
+          "2048x2048-width": 1242,
+          "2048x2048-height": 414
+        }
+      },
+      "caption": "Article",
+      "verwijst_naar": {
+        "ID": 4828,
+        "post_author": "44",
+        "post_date": "2023-08-23 19:09:38",
+        "post_date_gmt": "2023-08-23 17:09:38",
+        "post_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>Introduction</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>In recent years, one of the central topics within society has been the energy crisis. Its consequences are felt and seen the most when paying the monthly electricity and gas bills, even though the impact is also significant in other sectors than the residential sector, such as the food or transportation industry. When analysing the complete crisis, including causes, consequences and measures taken, it is visible that it remains one of the most complex phenomena of the last decades, as was also stated by Clark Williams-Derry, an energy analyst at the Institute for Energy Economics and Financial Analysis [2]. However, it is crucial to know which events had a pivotal impact, to gain a broader understanding of how economies of different sectors are interconnected. Some of these key contributors will be discussed here, together with the overall impact of the crisis. Finally, some measures taken and consequences are discussed.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>Key contributors to the energy crisis</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p><strong>Covid 19 and reduced oil production consequences</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The general concept of supply and demand plays an important role in deciding the market equilibrium price. Initially, the OPEC countries, which are responsible for the largest amount of oil exportation, decided to reduce their exports. This decision originated from the covid-19 crisis and the implementation of the lockdown regulations, which caused a&nbsp; significant decrease in oil demand in the transportation sector. Therefore, OPEC countries, such as Saudi Arabia, decided to reduce their exports [2]. However, when the effects of the pandemic decreased, travel started increasing once again combined with the flexibility of working from home, which in total caused a growth in the domestic energy consumption. This combination of decreased supply with an increase in demand contributes to a price rise. [1]</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A consequence of the rising oil prices is the increase in popularity of coal consumption. Many European countries have been looking for cheaper alternatives to match supply to demand and coal has proved to be a popular substitute. Economically, this substitution might be beneficial and the pandemic has kept CO² emissions relatively low in the corresponding years. However, the reintroduction of the intensive use of coal has now pushed the amount of emissions over pre-pandemic levels [3]. Thus, the energy crisis is not solely an economic crisis, it also certainly has a significant environmental importance.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>The war in Ukraine and the natural gas supply</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A popular misconception is that the war in Ukraine is the sole cause of the energy crisis. Needless to say that the conflict in Eastern Europe certainly has its impact on energy prices, nonetheless there were irregularities in the energy market even before the conflict took place. When Russia threatened to invade Ukraine, many economic allies made their position clear by imposing quotas on Russian products. Conversely, sanctions were also implemented by Moscow. Russia, which holds 12% of the global market share in natural gas, turned off their supply to continental Europe [1]. This sanction has had significant consequences in the European natural gas market, since they depend on natural gas for 25% of their total energy supply [2].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Climate change contribution</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The crisis was also affected by the extreme weather conditions present in recent years. A multitude of droughts and the occurrence of heat waves meant that there was a lack of hydropower available and an increased need for air-conditioning, which caused a rise in energy demand. This contributed further to an increased energy demand and a further mismatch between supply and demand. This caused some countries to further switch and implement the cheaper coal combustion as cited previously [2].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>Impact of the energy crisis</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p><strong>Impact on the gas prices</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>As previously mentioned, Russia was one of the main natural gas suppliers for Europe. Following the war and European quotas enforced on the import from Russia, the natural gas prices took an unprecedented rise, as is visible in figure 1. When comparing the peaked values found for the prices in September 2022 to the pre-crisis values from 2020, an increase of as big as 25 times the original value is visible in Europe &nbsp;[4]. Fortunately, this value is decreasing now, due to the measures taken by Europe and the shift to other suppliers of natural gas and other types of energy resources. However, the increase to this day is significant and further measures were still necessary.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4822,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://www.yera.be/wp-content/uploads/2023/08/Figure1.jpg\" alt=\"\" class=\"wp-image-4822\"/><figcaption class=\"wp-element-caption\"><em>Figure 1: The prices of fossil fuels from September 2020 until September 2022 [4].</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p><strong>Impact on the electricity prices</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Due to the increasing gas prices, many European countries resorted to coal as a cheap alternative. However, the increase in demand caused these prices to rise. Since both natural gas and coal are amongst the leading electricity generation sources within Europe, contributing for around one-third of the total generation, these significantly impact the electricity prices. As a consequence of their linear relation, the electricity prices in Europe skyrocketed in 2021 and the first part of 2022, which is shown in figure 2. This also demonstrates that different countries experienced different magnitudes of price increases, which can mainly be attributed to the countries dependence on natural gas and coal. For example, Sweden had a less significant price increase, since it is mainly dependant on nuclear energy and hydropower [5].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4823,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://www.yera.be/wp-content/uploads/2023/08/Figure2.jpg\" alt=\"\" class=\"wp-image-4823\"/><figcaption class=\"wp-element-caption\"><em>Figure 2: The electricity prices between January 2020 and March 2023 for a variety of EU countries [5].</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>It is visible that figures 1 and 2 take similar form and demonstrate the correlation between the electricity and natural gas prices. However, figure 2 presents the prices up until march 2023, which further shows the decrease. This is due to the emergency regulations taken in Europe and the use of alternative sources of energy, which will both be explained in the next section [5].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>Consequences and measures taken</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p><strong>Shift to renewables</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Europe’s climate goals for both 2030 and 2050 emphasise the objective to reduce greenhouse gas emissions and achieve climate neutrality in the EU by 2050. Amongst others, a shift in the energy generation portfolio is necessary and renewables, such as wind and solar energy, will become increasingly important. The energy crisis accelerated this transition, since the increased prices of coal and natural gas created a strong incentive to switch to other sources for electricity generation. Figure 3 demonstrates the growth of the share in the total power capacity of both wind energy and solar PV and the decrease of coal and natural gas. [6]. However, for the further implementation of these renewables, some challenges are still present. There is some uncertainty in the generation of these energy sources due to the stochasticity of both the sunshine on the panel and the wind power respectively. Therefore, further development of storage technologies for these types of energy generation is necessary or other alternatives are needed next to this to match generation to demand. Aside from this, further improvements in demand side management is necessary to guarantee a successful integration of the renewable energy sources in the generation portfolio.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":4824,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://www.yera.be/wp-content/uploads/2023/08/Figure3-1024x597.jpg\" alt=\"\" class=\"wp-image-4824\"/><figcaption class=\"wp-element-caption\"><em>Figure 3: The evolution of the different energy generation sources as a fraction of the total energy generation portfolio.</em></figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p><strong>Emergency regulations</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The energy prices peaked in September 2022, which caused the EU countries to enforce emergency regulations from the first of December 2022 until the first of&nbsp; March 2023. These include three different measures to reduce the energy bills and aide citizens and businesses. Firstly, a decrease in the total electricity consumption on a daily basis is enforced to decrease demand and thus decrease prices. Secondly, a price limit is put on the electricity prices. More specifically, an upper limit of €180 per MWh is implemented for all electricity generators. Third and finally, a structure is implemented to ensure that fossil fuel business provide financial solidarity to people and businesses in compensation for the increased prices [7].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>Conclusion</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>This article demonstrate that in the coming years, a greater energy independence will be one of Europe’s key priorities. The current energy crisis can be contributed to several factors that have a direct impact on society. Reduced oil production due to the Covid-19 pandemic and disruptions in gas supply caused by the war in Ukraine have led to rising energy prices and an increased financial pressure on citizens and businesses. To address this crisis on the long term and ensure a sustainable future, a shift to renewable energy sources combined with increases in energy efficiency and innovation will be essential. This offers an opportunity to reduce dependence on fossil fuels and build resilient energy systems. Investments in wind and solar energy, as well as the development of advanced energy storage technologies, will be key for this implementation. However, on the short term horizon, it will still be important to take measures to limit the current price increases and ensure access to affordable energy for all. To conclude, the energy crisis requires continued attention and commitment to address the complex issues and strive for a resilient and sustainable energy system for the future.</p>\n<!-- /wp:paragraph -->",
+        "post_title": "Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2023-09-14 18:30:15",
+        "post_modified_gmt": "2023-09-14 16:30:15",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article-english&#038;p=4828",
+        "menu_order": 0,
+        "post_type": "article-english",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies -\" />\n<meta property=\"og:description\" content=\"In recent years, one of the central topics within society has been the energy crisis. Its consequences are felt and seen the most when paying the monthly electricity and gas bills, even though the impact is also significant in other sectors than the residential sector, such as the food or transportation industry. When analysing the [&hellip;]\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2024-03-23T21:03:16+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"1 minuut\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies\\/\",\"name\":\"Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2023-08-23T17:17:58+00:00\",\"dateModified\":\"2024-03-23T21:03:16+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item_en\\/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies -",
+      "og_description": "In recent years, one of the central topics within society has been the energy crisis. Its consequences are felt and seen the most when paying the monthly electricity and gas bills, even though the impact is also significant in other sectors than the residential sector, such as the food or transportation industry. When analysing the [&hellip;]",
+      "og_url": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2024-03-23T21:03:16+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "1 minuut"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/",
+            "url": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/",
+            "name": "Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2023-08-23T17:17:58+00:00",
+            "dateModified": "2024-03-23T21:03:16+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item_en/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Unravelling the Energy Crisis: Key Contributors, Impact and Mitigation Strategies"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en/4831",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item_en"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4831"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4469,
+    "date": "2021-05-20T21:18:00",
+    "date_gmt": "2021-05-20T19:18:00",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item_en&#038;p=4469"
+    },
+    "modified": "2021-05-20T21:18:15",
+    "modified_gmt": "2021-05-20T19:18:15",
+    "slug": "european-green-deal",
+    "status": "publish",
+    "type": "carousel_item_en",
+    "link": "https://www.yera.be/carousel_item_en/european-green-deal/",
+    "title": {
+      "rendered": "European Green Deal"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">Europe strengthened its ambitions in the battle against climate change in 2019 with the European Green Deal. The goal is to make the European Union the first climate-neutral entity by 2050. But how is Europe planning on achieving this?</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What is the European Green Deal?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Ursula Von der Leyen, the president of the European Commission, introduced the Green Deal on the 11th of December 2019 as a response to the 2016 Paris Agreement. The intention is to reach “net-zero” greenhouse gas emissions by 2050, while maintaining economic growth and this in a way that is fair to every member state and every sector. If successful, Europe would be the first climate-neutral continent and an example to the rest of the world. To this end, the Green Deal contains a set of policy initiatives (to be implemented by the member states themselves) on various topics. For the energy sector, the EU emphasizes the importance of the Energy Transition, which is the transition of our current mainly fuel-driven energy supply towards a power sector (fully) based on renewable resources. The goals in the energy sector also include overall high energy efficiency, high interconnectivity, further digitalisation and electrification, and maintaining affordable prices for energy resources.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4469",
+      "carousel_item_en",
+      "type-carousel_item_en",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "image": {
+        "ID": 4441,
+        "id": 4441,
+        "title": "Handshakes",
+        "filename": "europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2.jpg",
+        "filesize": 193638,
+        "url": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2.jpg",
+        "link": "https://www.yera.be/handshakes-2/",
+        "alt": "",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "handshakes-2",
+        "status": "inherit",
+        "uploaded_to": 0,
+        "date": "2021-04-07 18:51:15",
+        "modified": "2021-04-07 18:51:15",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 1484,
+        "height": 673,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2-256x256.jpg",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2-300x136.jpg",
+          "medium-width": 300,
+          "medium-height": 136,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2-768x348.jpg",
+          "medium_large-width": 768,
+          "medium_large-height": 348,
+          "large": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2-1024x464.jpg",
+          "large-width": 1024,
+          "large-height": 464,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2.jpg",
+          "1536x1536-width": 1484,
+          "1536x1536-height": 673,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2021/04/europeangreendeal2020-gettyimages-holloway-e1591169178899-1488x900-2.jpg",
+          "2048x2048-width": 1484,
+          "2048x2048-height": 673
+        }
+      },
+      "caption": "Remarkable article",
+      "verwijst_naar": {
+        "ID": 4463,
+        "post_author": "40",
+        "post_date": "2021-04-27 09:46:40",
+        "post_date_gmt": "2021-04-27 07:46:40",
+        "post_content": "<!-- wp:paragraph -->\n<p>On 11 December 2019, the European Green Deal was introduced. This initiative of the European Commission aims to make Europe the first climate neutral continent by 2050. One aspect of this goal is the ambition to reach “net-zero” greenhouse gas emissions. To achieve this target by 2050, a drastic transformation of the European energy sector is necessary. This ambitious strategy of the European Commission is met by some with skepticism and despite the vast scale of this project, the public is still quite unfamiliar with it one year after its kick-off. In order to raise awareness on this important topic and to get answers to some of the questions of the skeptics, YERA spoke to a representative of the European cabinet of energy.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Net-zero emissions?</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Probably the most ambitious goal of the European Green Deal is to reduce the emissions of greenhouse gasses to net-zero by 2050. But what does this mean exactly and how can it be achieved? The emission of greenhouse gasses is inevitable in any sector of the economy. However, the European Commission expects that with the current set of policies, the emissions of the polluting sectors will be offset by sectors that are net-absorbers of greenhouse gasses, such as forestry and horticulture. As such, the European economy will not exceed the capacity of nature to absorb the emitted greenhouse gasses.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>For some, this scenario seems too good to be true. Is the European Commission not too optimistic in its outlook? And doesn’t this ambition rely on an unrealistically fast development of new technologies to support a green economy? In fact, the projections of the European Commission are based only on technologies that have been proven feasible. Carbon capture and Storage (CCS) for example, despite being an interesting technology, is not considered as a significant contributor to the goals of the European Commission. Advancements in battery technology are expected by 2050, but not in an unrealistic way. The performance of batteries is actually increasing at a faster pace than earlier assumed.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>What will it cost us?</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Apart from the feasibility of the European Green Deal, some are worried about the cost of the strategy. In particular the influence of the transition towards solar and wind energy on electricity prices has people worrying. An increase of the cost of European electricity in the coming years is indeed very likely. The main reason for this increase is the fact that a generation of power plants is reaching the end of its lifetime. In Belgium, this is clearly illustrated by the closure of the nuclear power plants. The necessary investment in new power plants will inevitably lead to a higher cost of electricity. So, independently of the green ambitions of the EU, the price of electricity is poised to increase. Investing in renewables instead of building new coal or gas power plants, will barely push the electricity prices since the cost of solar and wind installations have decreased to competitive prices.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Moreover, the price that the consumers pay for electricity depends only to a limited extent on the actual cost of producing the energy. In Belgium, the Value Added Tax (VAT) on electricity makes up 17% of the electricity bill for consumers, levies make up 32% of the bill, transmission and distribution costs another 28% and only 23% of the electricity price relates to the actual cost of energy production. Therefore, changes in the cost of energy production have a relatively small effect on the total electricity prices.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>But aren’t renewables too unpredictable?</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The fact that solar and wind energy is unpredictable compared to energy from fossil fueled or nuclear power plants is often used as an argument by skeptics of the green transition. In the past, electricity was sold 24 to 48 hours in advance. If an energy producer fell short of the promised amount of electricity, a significant fine had to be paid. This made the predictability of electricity production very important. Nowadays however, electricity is sold just 15 minutes before it is used. The capacity of solar and wind installations in the next 15 minutes can be predicted excellently. Therefore, the variation in the capacity of these installations doesn’t impede a continuous balance of supply and demand of electricity.&nbsp;</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>With the advance of battery technologies, it will also become possible to cheaply store energy from renewables for times when the demand for electricity is higher than what can be produced. Companies are starting to sign long-term contracts (for 5 years, 10 years, or even longer) to get their electricity directly from large renewable installations. Becoming independent from the grid is not just a publicity stunt for these companies. It is the cheapest way for them to get their electricity. Even for individual consumers, having a personal set of solar panels and batteries will become cheaper than staying connected to the grid, according to the European Commission. So, the worries about the cost and the unpredictability of renewables are often quite exaggerated.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>What will be the role of hydrogen gas?</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The decarbonisation of the gas sector is one of the key aspects of the European Green Deal. With the current policies and technologies, it is expected that 50% of all energy use in Europe in 2050 will be electrified. So, a large part of the energy use will still depend directly on gas. Nowadays, residential heating is the largest category in European energy consumption, and it relies mostly on the combustion of natural gas. Very energy-intensive industrial processes such as aluminium melting will probably also remain mostly powered by gas. If the natural gas in these applications could be replaced by hydrogen gas, huge amounts of carbon emissions could be saved, since the combustion of hydrogen is carbon free. However, this method only makes sense when the hydrogen is produced with clean energy. Therefore, the EU must keep working to create a green hydrogen economy.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>How will the EU make sure that no one is left behind in this transition?</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It is pivotal for the European Commission that every person and region is involved in this transition and profits from it. Coal regions in Europe, which can already not compete anymore with for example Russia or Australia, are being supported in the so-called “coal region in transition” programmes. The European Commission has established country teams dedicated to increase the knowhow in these regions to build new sustainable industries. As such, the EU is helping local communities to figure out economic growth strategies for the future. This type of projects is not limited to coal regions, but extends to all regions in Europe that are at risk of falling behind in the transition.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Moreover, the EU will invest in buildings and renovations for European citizens whose housing situation is dire. More than 30 million Europeans have no healthy home. Better insulation, among other measures, will improve the health of the inhabitants and their energy efficiency. As such, the European investments will help the very poorest. The Just Transition Fund (JTF) will be the agreed upon framework that divides the necessary funds over the countries and regions of the EU.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In conclusion, the European Green Deal is a broad social and economic strategy that will make Europe climate neutral. The wellbeing of the European citizens is at the heart of all policies. The period since the implementation of the European Green Deal on 11 December 2019 has been dominated by the ravaging impact of COVID-19. However, Europe now has the chance to reboot its economy in a sustainable and lasting way to the benefit of all its current and future citizens.</p>\n<!-- /wp:paragraph -->",
+        "post_title": "European Green Deal",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "european-green-deal-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2021-04-27 09:51:38",
+        "post_modified_gmt": "2021-04-27 07:51:38",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article-english&#038;p=4463",
+        "menu_order": 0,
+        "post_type": "article-english",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>European Green Deal -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item_en/european-green-deal/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"European Green Deal -\" />\n<meta property=\"og:description\" content=\"Europe strengthened its ambitions in the battle against climate change in 2019 with the European Green Deal. The goal is to make the European Union the first climate-neutral entity by 2050. But how is Europe planning on achieving this? What is the European Green Deal? Ursula Von der Leyen, the president of the European Commission, [&hellip;]\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item_en/european-green-deal/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2021-05-20T19:18:15+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"1 minuut\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/european-green-deal\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/european-green-deal\\/\",\"name\":\"European Green Deal -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2021-05-20T19:18:00+00:00\",\"dateModified\":\"2021-05-20T19:18:15+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/european-green-deal\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item_en\\/european-green-deal\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/european-green-deal\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"European Green Deal\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "European Green Deal -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item_en/european-green-deal/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "European Green Deal -",
+      "og_description": "Europe strengthened its ambitions in the battle against climate change in 2019 with the European Green Deal. The goal is to make the European Union the first climate-neutral entity by 2050. But how is Europe planning on achieving this? What is the European Green Deal? Ursula Von der Leyen, the president of the European Commission, [&hellip;]",
+      "og_url": "https://www.yera.be/carousel_item_en/european-green-deal/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2021-05-20T19:18:15+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "1 minuut"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item_en/european-green-deal/",
+            "url": "https://www.yera.be/carousel_item_en/european-green-deal/",
+            "name": "European Green Deal -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2021-05-20T19:18:00+00:00",
+            "dateModified": "2021-05-20T19:18:15+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item_en/european-green-deal/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item_en/european-green-deal/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item_en/european-green-deal/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "European Green Deal"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en/4469",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item_en"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4469"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4480,
+    "date": "2021-05-20T21:17:32",
+    "date_gmt": "2021-05-20T19:17:32",
+    "guid": {
+      "rendered": "https://www.yera.be/?post_type=carousel_item_en&#038;p=4480"
+    },
+    "modified": "2023-08-23T19:22:10",
+    "modified_gmt": "2023-08-23T17:22:10",
+    "slug": "ammoniak-het-nieuwe-waterstof",
+    "status": "publish",
+    "type": "carousel_item_en",
+    "link": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/",
+    "title": {
+      "rendered": "Ammoniak: het nieuwe waterstof?"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">&#8212; Article only available in Dutch &#8212;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Transport op waterstof, het lijkt maar niet door te breken. Reeds enkele decennia wordt waterstof uitgeroepen als de brandstof van de toekomst, maar telkens opnieuw moeten enthousiaste pionierende bedrijven de economische realiteit onder ogen komen. Het resultaat is er ook naar: in 2019 werden er slechts 31 nieuwe waterstofauto&#8217;s geregistreerd in Vlaanderen [1]. Nochtans zijn waterstofauto’s zeer aantrekkelijk: ze stoten enkel water uit en hebben een grotere actieradius dan de huidige generatie elektrische wagens (ong. 650 km en 300 km resp. [2]). Is er iets fundamenteel verkeerd aan de huidige waterstoftechnologie die commercialisering in de weg staat? Zijn er alternatieven die waterstofmotoren toch nog economisch interessant maken? Of moeten we onze conclusies trekken en het met een andere molecule proberen? Zoals de titel van dit artikel aangeeft, zijn er enkele significante hinderpalen voor waterstof waardoor onderzoek naar nieuwe energiedragers een hoge vlucht aan het nemen is. Ammoniak heeft daarbij veel potentieel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Waterstof voertuigen worden geplaagd door nadelen waar elke nieuwe groene energievorm initieel mee te maken heeft: de afwezigheid van (tank)infrastructuur en een hoge kostprijs. In België bijvoorbeeld zijn in 2021 de Hyundai Nexo en de Toyota Mirai de enige verkrijgbare waterstofauto&#8217;s met een prijskaartje van resp. €75000 en €64470 [2]. Bovendien zijn er momenteel slechts twee waterstoftankstations in België, nl. in Zaventem en in Halle [3]. Wie al eens in zo&#8217;n waterstoftankstation geweest is, merkt toch wel dat het vrij grote en logge installaties zijn. Deze huisvesten namelijk heel wat machinerie om het waterstofgas veilig te kunnen opslaan, en net deze opslagmethodes maken waterstofdistributie een kostelijke onderneming met een prijskaartje van $35/GJ. Ter vergelijking, om benzine op te slaan betaal je $29/GJ en voor LPG $28.5/GJ [4].</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "class_list": [
+      "post-4480",
+      "carousel_item_en",
+      "type-carousel_item_en",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": {
+      "image": {
+        "ID": 4484,
+        "id": 4484,
+        "title": "yera ad blue",
+        "filename": "yera-ad-blue.jpg",
+        "filesize": 134303,
+        "url": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue.jpg",
+        "link": "https://www.yera.be/article/ammoniak-het-nieuwe-waterstof/yera-ad-blue/",
+        "alt": "",
+        "author": "40",
+        "description": "",
+        "caption": "",
+        "name": "yera-ad-blue",
+        "status": "inherit",
+        "uploaded_to": 4474,
+        "date": "2021-05-25 17:48:50",
+        "modified": "2021-05-25 17:48:50",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "https://www.yera.be/wp-includes/images/media/default.png",
+        "width": 903,
+        "height": 400,
+        "sizes": {
+          "thumbnail": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue-256x256.jpg",
+          "thumbnail-width": 256,
+          "thumbnail-height": 256,
+          "medium": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue-300x133.jpg",
+          "medium-width": 300,
+          "medium-height": 133,
+          "medium_large": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue-768x340.jpg",
+          "medium_large-width": 768,
+          "medium_large-height": 340,
+          "large": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue.jpg",
+          "large-width": 903,
+          "large-height": 400,
+          "1536x1536": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue.jpg",
+          "1536x1536-width": 903,
+          "1536x1536-height": 400,
+          "2048x2048": "https://www.yera.be/wp-content/uploads/2021/05/yera-ad-blue.jpg",
+          "2048x2048-width": 903,
+          "2048x2048-height": 400
+        }
+      },
+      "caption": "Dutch article",
+      "verwijst_naar": {
+        "ID": 4474,
+        "post_author": "40",
+        "post_date": "2021-05-20 21:05:03",
+        "post_date_gmt": "2021-05-20 19:05:03",
+        "post_content": "<!-- wp:paragraph -->\n<p><em>Transport op waterstof, het lijkt maar niet door te breken. Reeds enkele decennia wordt waterstof uitgeroepen als de brandstof van de toekomst, maar telkens opnieuw moeten enthousiaste pionierende bedrijven de economische realiteit onder ogen komen. Het resultaat is er ook naar: in 2019 werden er slechts 31 nieuwe waterstofauto's geregistreerd in Vlaanderen [1]. Nochtans zijn waterstofauto’s zeer aantrekkelijk: ze stoten enkel water uit en hebben een grotere actieradius dan de huidige generatie elektrische wagens (ong. 650 km en 300 km resp. [2]). Is er iets fundamenteel verkeerd aan de huidige waterstoftechnologie die commercialisering in de weg staat? Zijn er alternatieven die waterstofmotoren toch nog economisch interessant maken? Of moeten we onze conclusies trekken en het met een andere molecule proberen? Zoals de titel van dit artikel aangeeft, zijn er enkele significante hinderpalen voor waterstof waardoor onderzoek naar nieuwe energiedragers een hoge vlucht aan het nemen is. Ammoniak heeft daarbij veel potentieel.</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Waterstof voertuigen worden geplaagd door nadelen waar elke nieuwe groene energievorm initieel mee te maken heeft: de afwezigheid van (tank)infrastructuur en een hoge kostprijs. In België bijvoorbeeld zijn in 2021 de Hyundai Nexo en de Toyota Mirai de enige verkrijgbare waterstofauto's met een prijskaartje van resp. €75000 en €64470 [2]. Bovendien zijn er momenteel slechts twee waterstoftankstations in België, nl. in Zaventem en in Halle [3]. Wie al eens in zo'n waterstoftankstation geweest is, merkt toch wel dat het vrij grote en logge installaties zijn. Deze huisvesten namelijk heel wat machinerie om het waterstofgas veilig te kunnen opslaan, en net deze opslagmethodes maken waterstofdistributie een kostelijke onderneming met een prijskaartje van $35/GJ. Ter vergelijking, om benzine op te slaan betaal je $29/GJ en voor LPG $28.5/GJ [4].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Volgens Christensen et al. moet de perfecte energiedrager voldoen aan een aantal criteria [5]. Het is een veilige drager, zowel op vlak van ontvlambaarheid als toxiciteit, en is gemakkelijk te produceren en op te slaan. Het productieproces verbruikt enkel hernieuwbare grondstoffen of op zijn minst grondstoffen die quasi-ongelimiteerd aanwezig zijn, zoals bv. lucht en zeewater. Ten slotte moeten de investeringen om de nodige infrastructuur te bouwen, beperkt blijven en, last but not least, heeft de energiedrager een grote volumetrische energiedichtheid [5].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Toegepast op waterstof ziet deze checklist er maar wat karig uit.&nbsp; Zo heeft het een zeer lage volumetrische energiedichtheid, nl. maar 3 GJ/m³ (onder atmosferische omstandigheden), terwijl benzine al zo'n 34.4 GJ per m³ bevat. Waterstofgas, bij onze oosterburen ook veelbetekenend bekend als <em>Knallgas</em>, is best ontvlambaar in een concentratie met lucht van 71% maar het ontvlambaarheidsgebied gaat maar liefst van 4% tot 75%, wat het een erg brandbaar gas maakt [4]. Daarnaast wordt het op dit moment voornamelijk geproduceerd via stoomreforming van aardgas, maar het aandeel van waterelectrolyse en biologische waterstof is groeiende [6]. Zoals al geïllustreerd, is een distributieketen in België bijna volledig afwezig, wat de nodige investeringen serieus opdrijft. Nochtans heeft België het meest vertakte waterstofpijpennetwerk van de hele wereld met een totale lengte van 613 km, waar een eventueel distributienetwerk gemakkelijk op geënt kan worden. Het concentreert zich echter vooral rond de havens en de Waalse industrieregio's [7].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Het grootste struikelblok voor waterstofdistributie echter, is de opslagmethode. Een eerste manier is om het onder druk op te slaan in tanks, bv. op 200 bar, maar in vergelijking met de energiehoeveelheden die dan opgeslagen worden, vereist zo'n compressie veel energie. Een stapje verder is dan om waterstof nog verder te concentreren door het in vloeibare vorm op te slaan. Daarvoor moet het dan wel gekoeld worden tot maar liefst -253 °C, wat alleen mogelijk is met een krachtige koelinstallatie. Zelfs hierna is de volumetrische energiedichtheid slechts een derde van die van benzine. Bovendien kunnen zelfs de beste isolatiematerialen niet verhinderen dat de vloeibare waterstof opnieuw begint te koken. Elke opslagtank heeft dus een koelinstallatie nodig&nbsp; om de gevormde damp opnieuw te condenseren, een onmisbare constante energie-input waardoor de energieverliezen al snel kunnen oplopen tot 3 % per dag [5]. Indien deze koeling wegvalt, neemt waterstof zijn ruimere gasvorm weer aan en kan de druk in zo'n opslagtank snel oplopen. Het enige materiaal dat op dit moment bestand is tegen zulke hoge drukken, zijn speciale metaallegeringen. Metaal heeft echter enkele zwakke punten: op de lage temperaturen van vloeibare waterstofopslag wordt elk metaal broos en kan het stukspringen zoals glas. Het helpt ook niet echt dat waterstof een zeer kleine molecule is die gemakkelijk tussen de metaalatomen in hun rooster door naar buiten diffundeert en weglekt. Bovendien heeft het binnendringen van waterstofgas in het metaalrooster eenzelfde effect als een lage temperatuur: het staal wordt broos, een effect dat in België ook beter bekend is van de zogenaamde 'scheurtjesreactoren' in de kerncentrales.&nbsp;</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Andere manieren om waterstof op te slaan zijn chemisch van aard, wat een zeker efficiëntieverlies inhoudt. Het gaat dan over binding in metaalhydrides of in kleine organische molecules zoals methanol, hydrazine en tolueen. Deze chemische opslag vereist al snel een geavanceerd opslagmedium en/of katalysator om de waterstof snel genoeg te binden en te ontbinden, wat de kostprijs alleen maar opdrijft. Zulke organische molecules zijn vaak ook niet echt gezond. Bovendien zijn er nog geen voorbeelden gekend die goed scoren als ideale energiedrager [5,8].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Als we deze checklist even doornemen voor ammoniak zoals Christensen et al. als eersten deden, ziet het plaatje er eigenlijk al veel beter uit [5]. Ammoniak staat niet te boek als ontvlambaar en heeft een hogere volumetrische energiedichtheid dan waterstof, nl. 13.6 GJ/m³. Dit is weliswaar niet zo hoog als benzine, maar het is al een mooie verbetering. Ammoniak is bovendien ook goedkoop omdat het geproduceerd wordt via een zeer matuur chemisch proces, nl. het Haber-Bosch proces, dat daarvoor stikstofgas uit de lucht en waterstofgas verbruikt. Dit waterstofgas maakt dat de duurzaamheid eerder een vraagteken is, nl. door de bron ervan, zoals reeds hierboven besproken. Daarom wordt er al aardig wat onderzoek gedaan om ammoniak duurzamer te produceren, o.m. door (bio)katalyse of (her)gebruik uit biomassa en/of afvalstromen. Ammoniak is bovendien ook gemakkelijk op te slaan: het heeft slechts een druk van 8 bar nodig op kamertemperatuur of een koeling tot -33 °C om een vloeibare vorm te bekomen, wat resulteert in een veel lagere opslagkost, nl. 13.3 $/GJ. Een extra pluspunt is dat de bestaande LPG-opslaginfrastructuur daarvoor geschikt is. [4]. Het enige echte minpuntje is dat het toxisch is, zij het wel in mindere mate dan bijvoorbeeld methanol [5].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Andere opslagmethodes proberen deze toxiciteit tegen te gaan door ammoniak chemisch op te slaan in vaste vorm, waardoor het ook zeer compact en makkelijk te transporteren wordt. Voorbeelden zijn metaalaminezouten zoals Mg(NH<sub>3</sub>)<sub>6</sub>Cl<sub>2</sub>, ammoniumzouten zoals ammoniumcarbonaat ((NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub>), en urea (CO(NH<sub>2</sub>)<sub>2</sub>). Beide types zouten moeten opgewarmd worden, eventueel in een vacuüm, vooraleer ze uiteenvallen en ammoniak vrijgeven, wat gebeurt op 200°C (in vacuüm) resp. 58 °C [8]. Een kanttekening hierbij is dat deze temperatuur niet te laag mag zijn voor een veilige opslag, maar ook niet te hoog om de opstart niet te energie intensief te maken . Bovendien moeten in het geval van de metaalaminezouten de niet-stikstofbestanddelen gerecycleerd worden. Urea van zijn kant, kan gemakkelijk m.b.v. water gesplitst worden in ammoniak en CO<sub>2</sub>. Jammer genoeg brengen deze chemische opslagmethodes opnieuw een efficiëntieverlies met zich mee.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Je kan je nu natuurlijk afvragen waarom er geen ammoniakmotoren zijn. Dat komt doordat deze nog maar in de vroege onderzoeksfase zijn, want ammoniak kan op verschillende manieren aangewend worden in een motor. Het kan bv. direct verbrand worden in een nieuw type verbrandingsmotor. Zo nieuw zijn deze motoren nu eigenlijk ook weer niet: België was zelfs pionier hierin in de jaren '40. Door het grote tekort aan brandstof in de nadagen na de Tweede Wereldoorlog, ontwikkelde de Belgische firma Kroch motoren op ammoniak voor het openbaar vervoer [9]. Directe ammoniakverbrandingsmotoren hebben geen koolstofemissies. Naast de beoogde verbrandingsproducten, stikstofgas en waterdamp, is er door de thermodynamica van de verbrandingsreacties wel onvermijdelijk NOx-uitstoot [4]. Hiervoor bestaan er echter al doeltreffende destructietechnieken op basis van - komt dat even goed uit – ammoniak/urea, die vandaag al worden toegepast in de nieuwste generatie verbrandingsmotoren om de nieuwste Euro-normen te behalen. De meest bekende daarvan is AdBlue, an sich een simpele 35% urea-wateroplossing, die naast de brandstof, apart wordt getankt in het tankstation. Aangezien de AdBlue-infrastructuur al ruim aanwezig is in de huidige tankstations, gaan er ideeën op om ureamotoren te ontwikkelen [8].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ook brandstofcellen zijn een mogelijkheid, ofwel direct gebruik makend van ammoniak of urea, ofwel door ammoniak te ontbinden en het resulterende waterstofgas te gebruiken in een waterstofcel [8].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Uit bovenstaande paragrafen is het begrijpelijk waarom waterstofaandrijvingen maar niet doorbreken: de opslagtechnologie staat nog niet op punt en daarom is het nog te vroeg en te kostelijk om een wijd vertakt distributienet op te zetten. Nieuwe opslagtechnologieën kunnen dit echter verhelpen, maar verder onderzoek moet dit nog uitklaren. Qua ideale brandstofcriteria scoort ammoniak eigenlijk veel beter dan waterstofgas en bovendien is het ook minder kostelijk om op te slaan. Nieuwe opslagmethodes maken het ook hier mogelijk verdere progressie te boeken. In dit geval staat de motortechnologie zelf nog niet op punt daar het onderzoek minder ver staat dan bij waterstofmotoren. Desalniettemin is de kans reëel dat ammoniakaandrijvingen een rol zullen spelen in een niet al te verre toekomst door het gunstige prijskaartje.</p>\n<!-- /wp:paragraph -->",
+        "post_title": "Ammoniak: het nieuwe waterstof?",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "ammoniak-het-nieuwe-waterstof",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2021-05-25 19:48:58",
+        "post_modified_gmt": "2021-05-25 17:48:58",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://www.yera.be/?post_type=article&#038;p=4474",
+        "menu_order": 0,
+        "post_type": "article",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Ammoniak: het nieuwe waterstof? -</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/\" />\n<meta property=\"og:locale\" content=\"nl_NL\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Ammoniak: het nieuwe waterstof? -\" />\n<meta property=\"og:description\" content=\"&#8212; Article only available in Dutch &#8212; Transport op waterstof, het lijkt maar niet door te breken. Reeds enkele decennia wordt waterstof uitgeroepen als de brandstof van de toekomst, maar telkens opnieuw moeten enthousiaste pionierende bedrijven de economische realiteit onder ogen komen. Het resultaat is er ook naar: in 2019 werden er slechts 31 nieuwe [&hellip;]\" />\n<meta property=\"og:url\" content=\"https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/YeraBelgium\" />\n<meta property=\"article:modified_time\" content=\"2023-08-23T17:22:10+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@yera_belgium\" />\n<meta name=\"twitter:label1\" content=\"Geschatte leestijd\" />\n\t<meta name=\"twitter:data1\" content=\"1 minuut\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/ammoniak-het-nieuwe-waterstof\\/\",\"url\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/ammoniak-het-nieuwe-waterstof\\/\",\"name\":\"Ammoniak: het nieuwe waterstof? -\",\"isPartOf\":{\"@id\":\"http:\\/\\/www.yera.be\\/#website\"},\"datePublished\":\"2021-05-20T19:17:32+00:00\",\"dateModified\":\"2023-08-23T17:22:10+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/ammoniak-het-nieuwe-waterstof\\/#breadcrumb\"},\"inLanguage\":\"nl-NL\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.yera.be\\/carousel_item_en\\/ammoniak-het-nieuwe-waterstof\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.yera.be\\/carousel_item_en\\/ammoniak-het-nieuwe-waterstof\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.yera.be\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Ammoniak: het nieuwe waterstof?\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/www.yera.be\\/#website\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"name\":\"https:\\/\\/www.yera.be\\/\",\"description\":\"Young Energy Reviewers Association\",\"publisher\":{\"@id\":\"http:\\/\\/www.yera.be\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/www.yera.be\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nl-NL\"},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/www.yera.be\\/#organization\",\"name\":\"Young Energy Reviewers Associations\",\"url\":\"http:\\/\\/www.yera.be\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"nl-NL\",\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"contentUrl\":\"https:\\/\\/www.yera.be\\/wp-content\\/uploads\\/2025\\/07\\/logo.aebede0.png\",\"width\":300,\"height\":110,\"caption\":\"Young Energy Reviewers Associations\"},\"image\":{\"@id\":\"http:\\/\\/www.yera.be\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/YeraBelgium\",\"https:\\/\\/x.com\\/yera_belgium\",\"https:\\/\\/www.linkedin.com\\/company\\/yera-young-energy-reviewers-association\\/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Ammoniak: het nieuwe waterstof? -",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Ammoniak: het nieuwe waterstof? -",
+      "og_description": "&#8212; Article only available in Dutch &#8212; Transport op waterstof, het lijkt maar niet door te breken. Reeds enkele decennia wordt waterstof uitgeroepen als de brandstof van de toekomst, maar telkens opnieuw moeten enthousiaste pionierende bedrijven de economische realiteit onder ogen komen. Het resultaat is er ook naar: in 2019 werden er slechts 31 nieuwe [&hellip;]",
+      "og_url": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/",
+      "article_publisher": "https://www.facebook.com/YeraBelgium",
+      "article_modified_time": "2023-08-23T17:22:10+00:00",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "@yera_belgium",
+      "twitter_misc": {
+        "Geschatte leestijd": "1 minuut"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/",
+            "url": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/",
+            "name": "Ammoniak: het nieuwe waterstof? -",
+            "isPartOf": {
+              "@id": "http://www.yera.be/#website"
+            },
+            "datePublished": "2021-05-20T19:17:32+00:00",
+            "dateModified": "2023-08-23T17:22:10+00:00",
+            "breadcrumb": {
+              "@id": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/#breadcrumb"
+            },
+            "inLanguage": "nl-NL",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.yera.be/carousel_item_en/ammoniak-het-nieuwe-waterstof/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yera.be/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ammoniak: het nieuwe waterstof?"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://www.yera.be/#website",
+            "url": "http://www.yera.be/",
+            "name": "https://www.yera.be/",
+            "description": "Young Energy Reviewers Association",
+            "publisher": {
+              "@id": "http://www.yera.be/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "http://www.yera.be/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "http://www.yera.be/#organization",
+            "name": "Young Energy Reviewers Associations",
+            "url": "http://www.yera.be/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "http://www.yera.be/#/schema/logo/image/",
+              "url": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "contentUrl": "https://www.yera.be/wp-content/uploads/2025/07/logo.aebede0.png",
+              "width": 300,
+              "height": 110,
+              "caption": "Young Energy Reviewers Associations"
+            },
+            "image": {
+              "@id": "http://www.yera.be/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/YeraBelgium",
+              "https://x.com/yera_belgium",
+              "https://www.linkedin.com/company/yera-young-energy-reviewers-association/"
+            ]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en/4480",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/carousel_item_en"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/types/carousel_item_en"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.yera.be/wp-json/wp/v2/media?parent=4480"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

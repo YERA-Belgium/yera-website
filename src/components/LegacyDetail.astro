@@ -1,0 +1,12 @@
+---
+import site from '@/data/site.json';import {url} from '@/lib/utils';
+interface Props{kind:'article'|'event';}
+const {kind}=Astro.props;
+const items=kind==='article'?site.articles:site.events;
+const mappings=Object.fromEntries(items.map(item=>[item.id,url(item.path)]));
+---
+<section class="section container"><h1>{kind==='article'?'Articles':'Events'}</h1><p>Choose a publication below if you are not redirected automatically.</p><ul class="legacy-list">{items.map(item=><li><a href={url(item.path)}>{item.title}</a></li>)}</ul></section>
+<script define:vars={{mappings}}>
+const id=new URLSearchParams(window.location.search).get('id');
+if(id&&Object.hasOwn(mappings,id))window.location.replace(mappings[id]+window.location.hash);
+</script>

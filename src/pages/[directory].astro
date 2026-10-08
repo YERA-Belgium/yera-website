@@ -1,0 +1,6 @@
+---
+import Layout from '@/layouts/Layout.astro';import Directory from '@/components/Directory.astro';
+export function getStaticPaths(){return ['board','alumni','authors'].map(kind=>({params:{directory:kind},props:{kind:kind as 'board'|'alumni'|'authors'}}));}
+const {kind}=Astro.props;
+---
+<Layout title={kind==='board'?'Former boards':kind==='alumni'?'Honorary members':'Authors'}><Directory kind={kind}/></Layout>

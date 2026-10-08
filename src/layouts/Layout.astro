@@ -1,0 +1,19 @@
+---
+import '@/styles/global.css';
+import { url } from '@/lib/utils';
+import { buttonVariants } from '@/components/ui/button';
+import site from '@/data/site.json';
+interface Props {title?:string;description?:string;noindex?:boolean;locale?:'en'|'nl';}
+const {title='Young Energy Reviewers Association',description='Young Energy Reviewers Association',noindex=false,locale='en'}=Astro.props;
+const copy=site.messages[locale];
+const prefix=locale==='nl'?'nl/':'';
+const navigation=[{label:copy.navigation.articles,path:'articles/'},{label:copy.navigation.events,path:'events/'},{label:copy.navigation.about,path:'about/'}];
+const canonical=new URL(Astro.url.pathname,Astro.site);
+const currentPath=Astro.url.pathname.replace(import.meta.env.BASE_URL,'').replace(/^nl\//,'');
+const translated=['','articles/','events/','about/','board/','alumni/','authors/','contact/'].includes(currentPath)?currentPath:'';
+---
+<!doctype html><html lang={locale}><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>{title} | YERA</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/><link rel="icon" href={url(site.favicon)}/><meta name="theme-color" content="#102541"/><meta property="og:title" content={`${title} | YERA`}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={canonical}/>{noindex&&<meta name="robots" content="noindex"/>}</head><body>
+<a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container header-inner"><a class="wordmark" href={url(prefix)} aria-label="YERA home"><img src={url(site.logo)} alt="YERA — Young Energy Reviewers Association" width="300" height="110"/></a><span class="brand-caption">Young Energy Reviewers<br/>Association · Leuven</span><nav class="desktop-nav" aria-label="Main navigation">{navigation.map(item=><a href={url(prefix+item.path)} aria-current={Astro.url.pathname===url(prefix+item.path)?'page':undefined}>{item.label}</a>)}<a class="language-link" href={url(locale==='en'?'nl/'+translated:translated)} lang={locale==='en'?'nl':'en'}>{locale==='en'?'NL':'EN'}</a></nav><a class:list={['header-cta',buttonVariants({size:'sm'})]} href={url(prefix+'contact/')}>{copy.navigation.contact}</a><details class="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation">{navigation.map(item=><a href={url(prefix+item.path)}>{item.label}</a>)}<a href={url(prefix+'contact/')}>{copy.navigation.contact}</a><a href={url(locale==='en'?'nl/'+translated:translated)}>{locale==='en'?'Nederlands':'English'}</a></nav></details></div></header>
+<main id="main"><slot/></main>
+<footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a class="wordmark" href={url(prefix)}><img src={url(site.logo)} alt="YERA" width="300" height="110"/></a><p>Young Energy Reviewers Association<br/>Leuven</p></div><nav class="footer-links" aria-label="Footer navigation"><strong>YERA</strong>{navigation.map(item=><a href={url(prefix+item.path)}>{item.label}</a>)}<a href={url(prefix+'board/')}>{copy.navigation.formerBoards}</a><a href={url(prefix+'alumni/')}>{copy.alumni.title}</a><a href={url(prefix+'authors/')}>{copy.author.title}</a></nav><div class="footer-links"><strong>{copy.footer.socials}</strong><a href="mailto:info@yera.be">info@yera.be</a><a href="https://www.linkedin.com/company/yera-young-energy-reviewers-association/">LinkedIn</a><a href="https://www.facebook.com/YeraBelgium">Facebook</a><a href="https://www.instagram.com/yera_belgium/">Instagram</a></div></div><div class="footer-bottom"><span>© {new Date().getFullYear()} YERA vzw</span></div></div></footer>
+</body></html>
