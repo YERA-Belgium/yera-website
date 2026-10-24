@@ -3,15 +3,23 @@ import {readFileSync} from 'node:fs';
 const site=JSON.parse(readFileSync('src/data/site.json','utf8')); 
 test('article search, language filter and complete detail pages',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('/articles/');await expect(page.getByRole('status')).toHaveText('13 articles');
- await page.getByRole('combobox',{name:'Language'}).selectOption('dutch');await expect(page.getByRole('status')).toHaveText('114 articles');
- await page.getByRole('combobox',{name:'Language'}).selectOption('english');await expect(page.getByRole('status')).toHaveText('13 articles');
+ await page.goto('/articles/');
+ await page.locator('.journal-library[data-hydrated="true"]').waitFor();
+ await expect(page.getByRole('status')).toHaveText('14 articles');
+ await page.getByRole('combobox',{name:'Language'}).selectOption('dutch');
+ await expect(page.getByRole('status')).toHaveText('115 articles');
+ await page.getByRole('combobox',{name:'Language'}).selectOption('english');
+ await expect(page.getByRole('status')).toHaveText('14 articles');
  await page.getByRole('searchbox').fill('Kobe');await expect(page.getByRole('status')).toHaveText('3 articles');
  await page.getByRole('heading',{name:'28 April 2025 Iberian Blackout',exact:true}).getByRole('link').click();
  await expect(page.locator('.original-content')).toContainText('The restoration process');await expect(page.locator('.sources')).toContainText('ENTSO-E');
- await page.goto('/articles/');await page.getByRole('searchbox').fill('no matching result xyz');await expect(page.getByRole('heading',{name:'No matching articles.'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await expect(page.getByRole('status')).toHaveText('13 articles');
- await page.goto('/nl/articles/');await expect(page.getByRole('status')).toHaveText('114 artikels');
- await page.getByRole('combobox',{name:'Taal'}).selectOption('english');await expect(page.getByRole('status')).toHaveText('13 artikels');
+ await page.goto('/articles/');
+ await page.locator('.journal-library[data-hydrated="true"]').waitFor();
+ await page.getByRole('searchbox').fill('no matching result xyz');await expect(page.getByRole('heading',{name:'No matching articles.'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await expect(page.getByRole('status')).toHaveText('14 articles');
+ await page.goto('/nl/articles/');
+ await page.locator('.journal-library[data-hydrated="true"]').waitFor();
+ await expect(page.getByRole('status')).toHaveText('115 artikels');
+ await page.getByRole('combobox',{name:'Taal'}).selectOption('english');await expect(page.getByRole('status')).toHaveText('14 artikels');
  expect(errors).toEqual([]);
 });
 test('legacy query links resolve to matching records',async({page})=>{
@@ -48,7 +56,7 @@ test('topic links preserve filters and article contents reach original sections'
  await page.reload();
  await expect(page.getByRole('status')).toHaveText('4 articles');
  await page.getByRole('button',{name:'All topics',exact:true}).click();
- await expect(page.getByRole('status')).toHaveText('13 articles');
+ await expect(page.getByRole('status')).toHaveText('14 articles');
  await expect(page).not.toHaveURL(/topic=/);
  await page.goto('/article-english/28-april-2025-iberian-blackout/');
  const contents=page.getByRole('navigation',{name:'In this article'});

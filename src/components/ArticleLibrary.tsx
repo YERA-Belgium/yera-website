@@ -10,11 +10,13 @@ type CardArticle=Omit<Article,'content'|'sources'>;
 
 export default function ArticleLibrary({articles,locale='en'}:{articles:CardArticle[];locale?:'en'|'nl'}){
  const nl=locale==='nl';
+ const [hydrated,setHydrated]=useState(false);
  const [query,setQuery]=useState('');
  const [topic,setTopic]=useState('all');
  const [language,setLanguage]=useState<'dutch'|'english'>(locale==='nl'?'dutch':'english');
 
  useEffect(()=>{
+  setHydrated(true);
   const t=new URLSearchParams(window.location.search).get('topic');
   if(topics.some(x=>x.id===t))setTopic(t!);
   const l=new URLSearchParams(window.location.search).get('language')||new URLSearchParams(window.location.search).get('lang');
@@ -53,7 +55,7 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
 
  const currentLangLocale=isDutch?'nl':'en';
 
- return <div className="journal-library">
+ return <div className="journal-library" data-hydrated={hydrated}>
  <div className="topic-filters" role="group" aria-label={nl?'Onderwerp':'Filter by topic'}>
   <button className={topic==='all'?'active':''} onClick={()=>selectTopic('all')} aria-pressed={topic==='all'}>{nl?'Alle onderwerpen':'All topics'}</button>
   {topics.map(t=><button key={t.id} className={topic===t.id?'active':''} onClick={()=>selectTopic(t.id)} aria-pressed={topic===t.id}>{t[locale]}</button>)}
@@ -65,13 +67,13 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
    <Input id="article-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder={nl?'Zoek een onderwerp, titel of auteur':'Search a topic, title or author'}/>
   </div>
   <div className="archive-selects">
-   <label>
+   <label htmlFor="article-language-select">
     {nl?'Taal':'Language'}
-    <select value={language} onChange={e=>selectLanguage(e.target.value as 'dutch'|'english')}>
-     <option value="dutch">{nl?'Nederlands':'Dutch'}</option>
-     <option value="english">{nl?'Engels':'English'}</option>
-    </select>
    </label>
+   <select id="article-language-select" aria-label={nl?'Taal':'Language'} value={language} onChange={e=>selectLanguage(e.target.value as 'dutch'|'english')}>
+    <option value="dutch">{nl?'Nederlands':'Dutch'}</option>
+    <option value="english">{nl?'Engels':'English'}</option>
+   </select>
   </div>
  </div>
  <div className="archive-results">
