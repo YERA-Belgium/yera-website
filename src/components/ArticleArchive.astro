@@ -1,5 +1,6 @@
 ---
-import site from '@/data/site.json';import ArticleLibrary from './ArticleLibrary';
+import site from '@/data/site.json';
+import ArticleLibrary from './ArticleLibrary';
 interface Props{locale?:'en'|'nl';}const {locale='en'}=Astro.props;
 const articles=site.articles.map(({content,sources,...card})=>card);
 ---

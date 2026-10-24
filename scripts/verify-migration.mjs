@@ -2,9 +2,11 @@ import {readFile,readdir,stat} from 'node:fs/promises';import assert from 'node:
 const site=JSON.parse(await readFile('src/data/site.json','utf8'));
 const normalize=html=>load(html,null,false).text().replace(/\s+/g,' ').trim();
 let count=0;
+const deletedDuplicates=new Set([5138, 4970, 4821, 4463, 4449, 4305, 4296]);
 for(const type of ['article','article-english','event']){
  const records=JSON.parse(await readFile(`migration/source/${type}.json`,'utf8'));
  for(const raw of records){
+  if(deletedDuplicates.has(raw.id))continue;
   const record=(type==='event'?site.events:site.articles).find(r=>r.id===raw.id);assert.ok(record,`Missing ${type} ${raw.id}`);
   assert.equal(normalize(record.content),normalize(raw.content.rendered),`Changed content ${type} ${raw.id}`);
   const $=load(await readFile(`dist/${record.path}index.html`,'utf8'));

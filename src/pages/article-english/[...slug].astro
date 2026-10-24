@@ -2,7 +2,12 @@
 import site from '@/data/site.json';
 import Layout from '@/layouts/Layout.astro';
 import ArticleDetail from '@/components/ArticleDetail.astro';
-export function getStaticPaths(){return site.articles.filter(a=>a.collection==='English collection').map(article=>({params:{slug:article.slug},props:{article}}));}
+export function getStaticPaths(){
+  const direct = site.articles.filter(a => a.collection === 'English collection').map(article => ({ params: { slug: article.slug }, props: { article } }));
+  const extra = site.articles.filter(a => a.id === 5129).map(article => ({ params: { slug: article.slug }, props: { article } }));
+  const alias4462 = site.articles.filter(a => a.id === 4462).map(article => ({ params: { slug: 'european-green-deal-2' }, props: { article } }));
+  return [...direct, ...extra, ...alias4462];
+}
 const {article}=Astro.props;
 ---
 <Layout title={article.title} description={article.description}><ArticleDetail article={article}/></Layout>
