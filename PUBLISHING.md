@@ -59,6 +59,7 @@ Official instructions: [GitHub Pages custom workflows](https://docs.github.com/e
 
 - Edit layouts and components in `src/`; the shared theme is `src/styles/global.css`.
 - Imported content is in `src/data/site.json`, original media in `public/`.
+- Add new articles and events with a unique slug and matching `path`; use the event/article `date` for ordering and do not add a numeric `id`. Existing numeric IDs are retained only for legacy WordPress redirects.
 - `migration/` preserves original source records and asset checksums; keep it with the source repository. It is not copied into the published site.
 - The original main and English collections contain some duplicate articles. Both records and their URLs are intentionally preserved.
 - The contact form opens an email draft; it does not submit messages to a server.
