@@ -2281,6 +2281,21 @@
   ],
   "events": [
     {
+      "id": 9999,
+      "slug": "dummy-event",
+      "path": "event/dummy-event/",
+      "title": "Dummy event",
+      "content": "",
+      "extraContent": "",
+      "subtitle": "",
+      "date": "01/01/2027",
+      "start": "19:00",
+      "end": "20:00",
+      "location": "Leuven",
+      "image": "/wp-content/uploads/2026/03/Scherm­afbeelding-2026-03-22-om-10.28.09-e1774172160527.png",
+      "source": ""
+    },
+    {
       "id": 5195,
       "slug": "energy-geopolitics-policy-leuven-april-1",
       "path": "event/energy-geopolitics-policy-leuven-april-1/",
