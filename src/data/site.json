@@ -2281,6 +2281,21 @@
   ],
   "events": [
     {
+      "slug": "energy-start-up-tour",
+      "path": "event/energy-start-up-tour/",
+      "title": "Energy Start-up Tour: Powering up in Ghent",
+      "content": "<p>Curious about how software and innovation are driving the energy transition? Join us for an exclusive trip to four start-ups in Ghent.</p><p>We are visiting Ella Energy AI, verity.global, Powernaut, and Companion.energy to see firsthand how they are tackling today's grid and energy challenges. We will also visit the iconic Wintercircus during the day!</p><p>Thursday 26 November, 08:30 – 19:30<br>Departure by bus from Parking Bodart, Veilingweg, 3001 Leuven</p><p>This event is completely free and open to all students, but places are strictly limited.<br>Register via the link before Thursday 12/11!</p><p><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScdVqAnI7MDqIXsGpZ1YnDMkOrMbI89o7zBeRlePE-aztFDcQ/viewform\">Start-up tour Ghent 26/11</a></p>",
+      "extraContent": "",
+      "subtitle": "",
+      "date": "26/11/2026",
+      "start": "08:30",
+      "end": "19:30",
+      "location": "Ghent City",
+      "image": "/wp-content/uploads/2026/events/EnergyStartUpTour/EnergyStartUpTour.png",
+      "image2": "/wp-content/uploads/2026/events/EnergyStartUpTour/TourSchedule.png",
+      "source": ""
+    },
+    {
       "slug": "yie2026",
       "path": "event/yie2026/",
       "title": "Young Inspires Experienced 2026 – 7th edition",
