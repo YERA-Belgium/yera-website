@@ -1,5 +1,5 @@
-import {useEffect,useState} from 'react';
-import {Search} from 'lucide-react';
+import {useEffect,useRef,useState,type KeyboardEvent} from 'react';
+import {Check,ChevronDown,Search} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import type {Article} from '@/data/articles';
@@ -14,6 +14,11 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
  const [query,setQuery]=useState('');
  const [topic,setTopic]=useState('all');
  const [language,setLanguage]=useState<'dutch'|'english'>(locale==='nl'?'dutch':'english');
+ const [languageMenuOpen,setLanguageMenuOpen]=useState(false);
+ const languageMenuRef=useRef<HTMLDivElement>(null);
+ const languageTriggerRef=useRef<HTMLButtonElement>(null);
+ const languageOptionRefs=useRef<Array<HTMLButtonElement|null>>([]);
+ const languageOptions=[{value:'dutch',label:nl?'Nederlands':'Dutch'},{value:'english',label:nl?'Engels':'English'}] as const;
 
  useEffect(()=>{
   setHydrated(true);
@@ -24,11 +29,39 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
   else if(l==='english'||l==='en')setLanguage('english');
  },[]);
 
+ useEffect(()=>{
+  if(!languageMenuOpen)return;
+  const selectedIndex=languageOptions.findIndex(option=>option.value===language);
+  languageOptionRefs.current[selectedIndex]?.focus();
+  function closeOnOutsideClick(event:PointerEvent){
+   if(!languageMenuRef.current?.contains(event.target as Node))setLanguageMenuOpen(false);
+  }
+  document.addEventListener('pointerdown',closeOnOutsideClick);
+  return ()=>document.removeEventListener('pointerdown',closeOnOutsideClick);
+ },[languageMenuOpen,language]);
+
  function selectTopic(id:string){
   setTopic(id);
   const u=new URL(window.location.href);
   if(id==='all')u.searchParams.delete('topic');else u.searchParams.set('topic',id);
   window.history.replaceState(null,'',u);
+ }
+
+ function handleLanguageMenuKeyDown(event:KeyboardEvent<HTMLDivElement>){
+  if(event.key==='Escape'){
+   event.preventDefault();
+   setLanguageMenuOpen(false);
+   languageTriggerRef.current?.focus();
+   return;
+  }
+  if(event.key==='ArrowDown'||event.key==='ArrowUp'||event.key==='Home'||event.key==='End'){
+   event.preventDefault();
+   const currentIndex=languageOptionRefs.current.indexOf(document.activeElement as HTMLButtonElement);
+   const nextIndex=event.key==='Home'?0:event.key==='End'?languageOptions.length-1:
+    event.key==='ArrowDown'?(currentIndex+1+languageOptions.length)%languageOptions.length:
+    (currentIndex-1+languageOptions.length)%languageOptions.length;
+   languageOptionRefs.current[nextIndex]?.focus();
+  }
  }
 
  function selectLanguage(lang:'dutch'|'english'){
@@ -67,13 +100,54 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
    <Input id="article-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder={nl?'Zoek een onderwerp, titel of auteur':'Search a topic, title or author'}/>
   </div>
   <div className="archive-selects">
-   <label htmlFor="article-language-select">
-    {nl?'Taal':'Language'}
-   </label>
-   <select id="article-language-select" aria-label={nl?'Taal':'Language'} value={language} onChange={e=>selectLanguage(e.target.value as 'dutch'|'english')}>
-    <option value="dutch">{nl?'Nederlands':'Dutch'}</option>
-    <option value="english">{nl?'Engels':'English'}</option>
-   </select>
+   <div className="language-select" ref={languageMenuRef}>
+    <span className="language-select-label" id="article-language-label">{nl?'Taal':'Language'}</span>
+    <button
+     className="language-select-trigger"
+     type="button"
+     id="article-language-select"
+     ref={languageTriggerRef}
+     aria-label={`${nl?'Taal':'Language'}: ${languageOptions.find(option=>option.value===language)?.label}`}
+     aria-labelledby={`article-language-label article-language-value`}
+     aria-haspopup="menu"
+     aria-expanded={languageMenuOpen}
+     aria-controls="article-language-menu"
+     onClick={()=>setLanguageMenuOpen(open=>!open)}
+     onKeyDown={event=>{
+      if(event.key==='ArrowDown'||event.key==='ArrowUp'){
+       event.preventDefault();
+       setLanguageMenuOpen(true);
+      }
+     }}
+    >
+     <span id="article-language-value">{languageOptions.find(option=>option.value===language)?.label}</span>
+     <ChevronDown size={16} aria-hidden="true"/>
+    </button>
+    {languageMenuOpen&&<div
+     className="language-select-menu"
+     id="article-language-menu"
+     role="menu"
+     aria-labelledby="article-language-label"
+     onKeyDown={handleLanguageMenuKeyDown}
+    >
+     {languageOptions.map((option,index)=><button
+      className="language-select-option"
+      type="button"
+      role="menuitemradio"
+      aria-checked={language===option.value}
+      key={option.value}
+      ref={element=>{languageOptionRefs.current[index]=element;}}
+      onClick={()=>{
+       selectLanguage(option.value);
+       setLanguageMenuOpen(false);
+       languageTriggerRef.current?.focus();
+      }}
+     >
+      <span>{option.label}</span>
+      {language===option.value&&<Check size={16} aria-hidden="true"/>}
+     </button>)}
+    </div>}
+   </div>
   </div>
  </div>
  <div className="archive-results">
