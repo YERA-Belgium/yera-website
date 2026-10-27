@@ -3,14 +3,7 @@ import site from '@/data/site.json';import {url} from '@/lib/utils';
 interface Props{kind:'article'|'event';}
 const {kind}=Astro.props;
 const items=kind==='article'?site.articles:site.events;
-const legacyAliases: Record<number, string> = {
-  5138: url('article-english/28-april-2025-iberian-blackout/'),
-  4970: url('article-english/electric-vessels-the-next-tech-of-energy-storage/'),
-  4821: url('article-english/unravelling-the-energy-crisis-key-contributors-impact-and-mitigation-strategies/'),
-  4305: url('article/impact-van-de-elektriciteitsproductie-op-de-volksgezondheid/'),
-  4296: url('article/smart-cities-energie-in-de-nabije-toekomst-2/')
-};
-const mappings=Object.assign(Object.fromEntries(items.map(item=>[item.id,url(item.path)])), legacyAliases);
+const mappings=Object.fromEntries(items.filter(item=>'id' in item&&typeof item.id==='number').map(item=>[item.id,url(item.path)]));
 ---
 <section class="section container"><h1>{kind==='article'?'Articles':'Events'}</h1><p>Choose a publication below if you are not redirected automatically.</p><ul class="legacy-list">{items.map(item=><li><a href={url(item.path)}>{item.title}</a></li>)}</ul></section>
 <script define:vars={{mappings}}>

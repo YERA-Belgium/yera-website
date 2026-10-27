@@ -1,6 +1,42 @@
 ---
 import site from '@/data/site.json';import EventRow from './EventRow.astro';
 interface Props{locale?:'en'|'nl';}const {locale='en'}=Astro.props;
-const years=[...new Set(site.events.map(e=>e.date.split('/')[2]||'Archive'))].sort((a,b)=>b.localeCompare(a));
+const parseEventDate=(date:string)=>{const [day,month,year]=date.split('/');return new Date(`${year}-${month}-${day}T12:00:00Z`).getTime();};
+const now=Date.now();
+const pastEvents=[...site.events].filter(event=>parseEventDate(event.date)<now).sort((a,b)=>parseEventDate(b.date)-parseEventDate(a.date));
+const upcomingEvents=[...site.events].filter(event=>parseEventDate(event.date)>=now).sort((a,b)=>parseEventDate(a.date)-parseEventDate(b.date));
+const groupedYears=(events:typeof site.events)=>[...new Set(events.map(e=>e.date.split('/')[2]||'Archive'))].sort((a,b)=>b.localeCompare(a));
 ---
-<section class="page-intro"><div class="container archive-intro"><div><span class="eyebrow">{locale==='nl'?'Het gesprek gaat verder':'Beyond the page'}</span><h1>{site.messages[locale].navigation.events}</h1></div><p>{locale==='nl'?'Lezingen, debatten en bezoeken. Ontdek waar het energiegesprek ons brengt.':'Lectures, debates and visits. Explore where the energy conversation takes us.'}</p></div></section><section class="section container"><p class="result-count" style="margin-bottom:35px">{site.events.length} events</p>{years.map(year=><section class="event-year"><h2>{year}</h2><div>{site.events.filter(e=>(e.date.split('/')[2]||'Archive')===year).map(event=><EventRow event={event} locale={locale}/>)}</div></section>)}</section>
+<section class="page-intro"><div class="container archive-intro"><div><h1>{site.messages[locale].navigation.events}</h1></div><p>{locale==='nl'?'Lezingen, debatten en bezoeken. Ontdek waar het energiegesprek ons brengt.':'Lectures, debates and visits. Explore where the energy conversation takes us.'}</p></div></section>
+<section class="section container event-archive">
+ <div class="topic-filters event-filters" role="group" aria-label={locale==='nl'?'Filter op datum':'Filter by date'}>
+  <button type="button" class="active" data-event-filter="upcoming" aria-pressed="true">{locale==='nl'?'Aankomende events':'Upcoming events'}</button>
+  <button type="button" data-event-filter="past" aria-pressed="false">{locale==='nl'?'Voorbije events':'Past events'}</button>
+ </div>
+ {[
+   {id:'past',events:pastEvents},
+   {id:'upcoming',events:upcomingEvents}
+ ].map(view=><div class="event-view" data-event-view={view.id} hidden={view.id!=='upcoming'}>
+   <div class="archive-results"><p class="result-count">{view.events.length} {locale==='nl'?'events':'events'}</p></div>
+  {groupedYears(view.events).map(year=><section class="event-year"><h2>{year}</h2><div>{view.events.filter(e=>(e.date.split('/')[2]||'Archive')===year).map(event=><EventRow event={event} locale={locale}/>)}</div></section>)}
+  {view.events.length===0&&<p class="empty-results">{locale==='nl'?'Geen events gevonden.':'No events found.'}</p>}
+ </div>)}
+</section>
+<script>
+ const archive=document.querySelector<HTMLElement>('.event-archive');
+ archive?.querySelectorAll<HTMLButtonElement>('[data-event-filter]').forEach(button=>button.addEventListener('click',()=>{
+  const filter=button.dataset.eventFilter;
+  if(!filter)return;
+  archive.querySelectorAll<HTMLButtonElement>('[data-event-filter]').forEach(item=>{
+   const active=item===button;
+   item.classList.toggle('active',active);
+   item.setAttribute('aria-pressed',String(active));
+  });
+  archive.querySelectorAll<HTMLElement>('[data-event-view]').forEach(view=>{view.hidden=view.dataset.eventView!==filter;});
+  const url=new URL(window.location.href);
+  if(filter==='past')url.searchParams.delete('period');else url.searchParams.set('period',filter);
+  window.history.replaceState(null,'',url);
+ }));
+ const selected=new URLSearchParams(window.location.search).get('period');
+ if(selected==='past')archive?.querySelector<HTMLButtonElement>('[data-event-filter="past"]')?.click();
+</script>
