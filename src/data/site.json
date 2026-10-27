@@ -288,7 +288,7 @@
       "source": "https://www.yera.be/article-english/european-green-deal-2/",
       "locale": "en"
     },
-    {
+        {
       "id": 4462,
       "slug": "european-green-deal",
       "path": "article-english/european-green-deal/",
@@ -324,7 +324,7 @@
       "source": "https://www.yera.be/article/europese-green-deal-2/",
       "locale": "nl"
     },
-    {
+        {
       "id": 4436,
       "slug": "europese-green-deal-english",
       "path": "article/europese-green-deal-english/",
