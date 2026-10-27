@@ -4784,6 +4784,7 @@
   "messages": {
     "nl": {
       "navigation": {
+        "home": "Home",
         "articles": "Artikels",
         "events": "Events",
         "contact": "Contact",
@@ -4845,6 +4846,7 @@
     },
     "en": {
       "navigation": {
+        "home": "Home",
         "articles": "Articles",
         "events": "Events",
         "contact": "Contact",

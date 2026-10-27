@@ -7,7 +7,7 @@ interface Props {title?:string;description?:string;noindex?:boolean;locale?:'en'
 const {title='Young Energy Reviewers Association',description='Young Energy Reviewers Association',noindex=false,locale='en'}=Astro.props;
 const copy=site.messages[locale];
 const prefix=locale==='nl'?'nl/':'';
-const navigation=[{label:copy.navigation.articles,path:'articles/'},{label:copy.navigation.events,path:'events/'},{label:copy.navigation.about,path:'about/'}];
+const navigation=[{label:copy.navigation.home,path:''},{label:copy.navigation.articles,path:'articles/'},{label:copy.navigation.events,path:'events/'},{label:copy.navigation.about,path:'about/'}];
 const canonical=new URL(Astro.url.pathname,Astro.site);
 const currentPath=Astro.url.pathname.replace(import.meta.env.BASE_URL,'').replace(/^nl\//,'');
 const translated=['','articles/','events/','about/','board/','alumni/','authors/','contact/'].includes(currentPath)?currentPath:'';
