@@ -6,7 +6,8 @@ import {topics,topicFor,topicLabel,formatDate} from '@/lib/topics';
 import {buttonVariants} from './ui/button';
 interface Props {locale?:'en'|'nl';}
 const {locale='en'}=Astro.props;const nl=locale==='nl';const copy=site.messages[locale];const prefix=nl?'nl/':'';
-const seen=new Set<string>();const curated=site.articles.filter(a=>{const key=a.title.toLowerCase();if(seen.has(key))return false;seen.add(key);return true;});
+const nonEnglishSlugs=new Set(['het-eu-emissiehandelsysteem','kernuitstap-of-toch-niet','wereldwijde-cyberbeveiliging-in-de-energiesector-bewustwording-en-kwetsbaarheden']);
+const seen=new Set<string>();const curated=site.articles.filter(a=>!nonEnglishSlugs.has(a.slug)).filter(a=>{const key=a.title.toLowerCase();if(seen.has(key))return false;seen.add(key);return true;});
 const lead=curated[0];const recentPages=[curated.slice(1,4),curated.slice(4,7)].filter(page=>page.length>0);const current=site.boards.find(b=>b.current);
 const faces=(current?.memberIds||[]).map(id=>site.members.find(m=>m.id===id)).filter(m=>m?.image).slice(0,5);
 const parseEventDate=(date:string)=>{const [day,month,year]=date.split('/');return new Date(`${year}-${month}-${day}T23:59:59Z`);};
