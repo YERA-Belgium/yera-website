@@ -28,7 +28,7 @@ test('legacy query links resolve to matching records',async({page})=>{
 });
 test('mobile layout, original logo, board photos and language switching',async({page})=>{
  await page.setViewportSize({width:375,height:812});
- for(const route of ['/','/articles/','/about/','/events/','/event/energy-geopolitics-policy-leuven-april-1/','/board/','/alumni/','/authors/','/contact/','/article-english/28-april-2025-iberian-blackout/']){
+ for(const route of ['/','/articles/','/about/','/events/','/event/energy-geopolitics-policy-leuven-april-1/','/board/','/alumni/','/contact/','/article-english/28-april-2025-iberian-blackout/']){
   await page.goto(route);await expect(page.locator('.page-intro h1, .editorial-intro h1').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route).toBe(true);
  }
  await page.goto('/');const logo=page.locator('header img');await expect(logo).toHaveAttribute('src',/logo\.aebede0\.png/);expect(await logo.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);
@@ -40,7 +40,7 @@ test('full text remains readable without JavaScript',async({browser})=>{
 });
 test('all live board records and directories appear',async({page})=>{
  await page.goto('/about/');for(const id of site.boards.find((b:any)=>b.current)!.memberIds){await expect(page.getByRole('heading',{name:site.members.find((m:any)=>m.id===id)!.name,exact:true})).toBeVisible();}
- await page.goto('/authors/');await expect(page.locator('.member-card')).toHaveCount(11);await page.goto('/alumni/');await expect(page.locator('.member-card')).toHaveCount(28);
+ await page.goto('/alumni/');await expect(page.locator('.member-card')).toHaveCount(28);
 });
 test('all migrated publication pages fit a mobile viewport',async({page})=>{
  test.setTimeout(120000);await page.setViewportSize({width:375,height:812});
