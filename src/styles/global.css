@@ -39,7 +39,8 @@ a.bg-primary{color:var(--primary-foreground)}
 .lead-image{border-radius:48px 12px 12px 12px;overflow:hidden}.event-feature-copy .event-date{margin-top:0}.event-feature-copy h3{font-size:clamp(2.2rem,3.4vw,3.4rem);line-height:1.06}.event-feature-copy h3 a:hover{color:var(--primary)}.event-feature-copy .event-info{margin-block:20px 25px}.event-feature-image img{height:auto;max-height:520px;object-fit:contain}
 .cover-link{border-radius:12px}
 .member-card>img,.board-photo{border-radius:14px}
-.editorial-intro h1,.cursive-heading{font-style:italic}.editorial-intro h1{color:#01146c}.cursive-heading{color:#000064}
+.editorial-intro h1{font-style:italic;color:#000}
+.upcoming-event .section-heading h2,.latest-posts-section .section-heading h2,.latest-section .section-heading h2{font-family:var(--font-sans);font-size:clamp(1.6rem,2.2vw,2.1rem);font-style:normal;font-weight:750;letter-spacing:-.04em;line-height:1.15;color:#000;border-left:3px solid #01146c;padding-left:12px}
 .story-kicker .eyebrow{display:flex;align-items:center;gap:10px}
 .story-kicker .eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--primary)}
 .issue-line{max-width:80px;background:#d8bca0}
