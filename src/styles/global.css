@@ -54,7 +54,8 @@ a.bg-primary{color:var(--primary-foreground)}
 .issue-line{max-width:80px;background:#d8bca0}
 .topic-index a{border-radius:8px;transition:background .2s,padding .2s}
 .topic-index a:hover{background:var(--secondary);padding-left:12px;padding-right:12px}
-.topic-number{color:var(--primary)}
+.topic-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;color:var(--primary)}
+.topic-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .community-portraits{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0}
 .community-portraits img{width:62px;height:62px;border-radius:50%;object-fit:cover;border:3px solid var(--background)}
 .contribute-section{background:var(--secondary);border:0;border-radius:20px;padding:40px;margin-bottom:64px}

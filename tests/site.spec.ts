@@ -49,6 +49,8 @@ test('all migrated publication pages fit a mobile viewport',async({page})=>{
 
 test('topic links preserve filters and article contents reach original sections',async({page})=>{
  await page.goto('/');
+ await expect(page.locator('.topic-index .topic-number')).toHaveCount(0);
+ await expect(page.locator('.topic-index .topic-icon svg')).toHaveCount(6);
  await page.locator('.topic-index a').first().click();
  await expect(page).toHaveURL(/topic=grids/);
  await expect(page.getByRole('button',{name:'Electricity & grids',exact:true})).toHaveAttribute('aria-pressed','true');
