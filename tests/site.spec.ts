@@ -40,6 +40,7 @@ test('full text remains readable without JavaScript',async({browser})=>{
 });
 test('all live board records and directories appear',async({page})=>{
  await page.goto('/about/');for(const id of site.boards.find((b:any)=>b.current)!.memberIds){await expect(page.getByRole('heading',{name:site.members.find((m:any)=>m.id===id)!.name,exact:true})).toBeVisible();}
+ await expect(page.locator('.member-photo--close')).toHaveCount(8);
  await page.goto('/alumni/');await expect(page.locator('.member-card')).toHaveCount(28);
 });
 test('all migrated publication pages fit a mobile viewport',async({page})=>{
