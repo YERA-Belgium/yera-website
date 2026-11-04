@@ -154,7 +154,7 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
   <p className="result-count" role="status">{filtered.length} {nl?'artikels':'articles'}</p>
   <span>{nl?'Nieuwste eerst':'Latest first'}</span>
  </div>
- <div className="article-grid library-grid">
+ <div key={topic} className="article-grid library-grid page-content-enter">
   {filtered.map(a=><article className="article-card" key={a.id}>
    {a.image&&<a className="cover-link" href={url(a.path)} aria-hidden="true" tabIndex={-1}><img className="article-cover" src={url(a.image)} alt={a.imageAlt} width="600" height="360" loading="lazy"/></a>}
    <div className="article-meta"><span className="category">{topicLabel(a.title,currentLangLocale)}</span><time dateTime={a.date}>{formatDate(a.date,currentLangLocale)}</time></div>
