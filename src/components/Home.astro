@@ -23,7 +23,7 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
 <div class="container">
 <section class="editorial-intro"><h1>{nl?'Energie in perspectief':'Energy in perspective'}</h1><p>{nl?'Onafhankelijke inzichten van een nieuwe generatie.':'Independent thinking from a new generation.'}</p></section>
 
-<section class="lead-story page-content-enter" aria-labelledby="lead-title"><a class="lead-image" href={url(lead.path)} tabindex="-1" aria-hidden="true"><img src={url(lead.image)} alt={lead.imageAlt} width="900" height="670" fetchpriority="high"/></a><div class="lead-copy"><div class="story-kicker"><span class="eyebrow">{nl?'Uitgelicht':'In focus'}</span><span class="issue-line"></span></div><a class="topic-label" href={url(prefix+`articles/?topic=${topicFor(lead.title)}`)}>{topicLabel(lead.title,locale)}</a><h2 id="lead-title"><a href={url(lead.path)}>{lead.title}</a></h2><p class="lead-excerpt">{lead.description}…</p><div class="story-credit"><span>{lead.author}</span><time datetime={lead.date}>{formatDate(lead.date,locale)}</time></div><a class="text-link" href={url(lead.path)}>{nl?'Lees het artikel':'Read the story'}</a></div></section>
+<section class="lead-story" aria-labelledby="lead-title"><a class="lead-image" href={url(lead.path)} tabindex="-1" aria-hidden="true"><img src={url(lead.image)} alt={lead.imageAlt} width="900" height="670" fetchpriority="high"/></a><div class="lead-copy"><div class="story-kicker"><span class="eyebrow">{nl?'Uitgelicht':'In focus'}</span><span class="issue-line"></span></div><a class="topic-label" href={url(prefix+`articles/?topic=${topicFor(lead.title)}`)}>{topicLabel(lead.title,locale)}</a><h2 id="lead-title"><a href={url(lead.path)}>{lead.title}</a></h2><p class="lead-excerpt">{lead.description}…</p><div class="story-credit"><span>{lead.author}</span><time datetime={lead.date}>{formatDate(lead.date,locale)}</time></div><a class="text-link" href={url(lead.path)}>{nl?'Lees het artikel':'Read the story'}</a></div></section>
 
 <section class="section upcoming-event" aria-labelledby="upcoming-event-title"><div class="section-heading"><div><h2 class="cursive-heading" id="upcoming-event-title">{nl?'Save the Date':'Save the Date'}</h2></div><a class="text-link" href={url(prefix+'events/')}>{copy.event.showAll}</a></div><div class="lead-story event-feature"><div class="lead-copy event-feature-copy"><h3><a href={url(upcomingEvent.path)}>{upcomingEvent.title}</a></h3><div class="event-meta"><div class="event-date"><span>{eventMonthText} {eventYear}</span><strong>{eventDay}</strong></div><div class="event-details"><p class="event-time">{upcomingEvent.start} – {upcomingEvent.end}</p><p class="event-location">{upcomingEvent.location}</p></div></div><a class="text-link" href={url(upcomingEvent.path)}>{nl?'Bekijk evenement':'View event'}</a></div><a class="lead-image event-feature-image" href={url(upcomingEvent.path)} tabindex="-1" aria-hidden="true"><img src={url(upcomingEvent.image)} alt={upcomingEvent.title} loading="lazy"/></a></div></section>
 
@@ -46,21 +46,22 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
 <section class="contribute-section container" id="contact"><span class="eyebrow">{nl?'Jouw perspectief telt':'Bring your perspective'}</span><div><h2>{nl?'Een vraag, een idee, \nEen andere kijk?':'A question, an idea,\nA different view?'}</h2><div><p>{nl?'Schrijf mee, stel je vragen of help ons mensen samen te brengen.':'Write with us, ask a question, or help bring people together.'}</p><a class={buttonVariants({size:'lg'})} href={url(prefix+'contact/')}>{nl?'Neem contact op':'Get in touch'}</a></div></div></section>
 
 <script>
- const showSliderPage=(page:HTMLElement,active:boolean)=>{
-  page.classList.remove('article-page-enter');
+ type SliderDirection='next'|'previous';
+ const showSliderPage=(page:HTMLElement,active:boolean,direction:SliderDirection='next')=>{
   page.hidden=!active;
   page.setAttribute('aria-hidden',String(!active));
-   page.querySelectorAll<HTMLElement>('[data-reveal]').forEach(item=>item.classList.remove('slider-card-enter'));
+   const cards=page.querySelectorAll<HTMLElement>('[data-reveal]');
+   cards.forEach(item=>{
+    item.classList.remove('slider-card-enter');
+    item.style.removeProperty('--slider-offset');
+   });
    if(active){
-    page.querySelectorAll<HTMLElement>('[data-reveal]').forEach(item=>{
+    cards.forEach(item=>{
      item.classList.add('is-revealed');
+     item.style.setProperty('--slider-offset',direction==='next'?'24px':'-24px');
      void item.offsetWidth;
      item.classList.add('slider-card-enter');
     });
-    page.style.animation='none';
-    void page.offsetWidth;
-    page.style.animation='';
-    page.classList.add('article-page-enter');
    }
   };
  const articleSection=document.querySelector<HTMLElement>('.latest-section');
@@ -70,8 +71,9 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
  pageButtons?.forEach(button=>button.addEventListener('click',()=>{
   if(!articlePages?.length)return;
   currentPage=Math.max(0,Math.min(articlePages.length-1,currentPage+Number(button.dataset.articlePageDirection)));
+  const direction=Number(button.dataset.articlePageDirection)>0?'next':'previous';
   articlePages.forEach((page,index)=>{
-   showSliderPage(page,index===currentPage);
+   showSliderPage(page,index===currentPage,direction);
   });
   pageButtons.forEach(item=>{item.disabled=(currentPage===0&&item.dataset.articlePageDirection==='-1')||(currentPage===articlePages.length-1&&item.dataset.articlePageDirection==='1');});
  }));
@@ -82,25 +84,33 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
  postButtons?.forEach(button=>button.addEventListener('click',()=>{
   if(!postPagesElements?.length)return;
   currentPostPage=Math.max(0,Math.min(postPagesElements.length-1,currentPostPage+Number(button.dataset.postPageDirection)));
+  const direction=Number(button.dataset.postPageDirection)>0?'next':'previous';
   postPagesElements.forEach((page,index)=>{
-   showSliderPage(page,index===currentPostPage);
+   showSliderPage(page,index===currentPostPage,direction);
   });
   postButtons.forEach(item=>{item.disabled=(currentPostPage===0&&item.dataset.postPageDirection==='-1')||(currentPostPage===postPagesElements.length-1&&item.dataset.postPageDirection==='1');});
  }));
-  const revealTargets=document.querySelectorAll<HTMLElement>('main > .container > section:not(.topic-section), main > section:not(.topic-section)');
+  const revealTargets=[...document.querySelectorAll<HTMLElement>('main > .container > section:not(.topic-section), main > section:not(.topic-section)')].filter(target=>!target.querySelector('.social-post-card, .article-card'));
   const revealItems=document.querySelectorAll<HTMLElement>('.social-post-card, .article-card');
   const topicItems=document.querySelectorAll<HTMLElement>('.topic-index a');
   const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if(!reduceMotion){
    document.documentElement.classList.add('has-scroll-reveal');
-   revealTargets.forEach(target=>target.dataset.reveal='');
+   const isAboveFold=(target:HTMLElement)=>target.getClientRects().length>0&&target.getBoundingClientRect().top<window.innerHeight;
+   revealTargets.forEach(target=>{
+    if(!isAboveFold(target))target.dataset.reveal='';
+   });
    revealItems.forEach((item,index)=>{
-    item.dataset.reveal='';
-    item.style.setProperty('--reveal-delay',`${(index%3)*70}ms`);
+    if(!isAboveFold(item)){
+     item.dataset.reveal='';
+     item.style.setProperty('--reveal-delay',`${(index%3)*70}ms`);
+    }
    });
    topicItems.forEach((item,index)=>{
-    item.dataset.reveal='';
-    item.style.setProperty('--reveal-delay',`${index*70}ms`);
+    if(!isAboveFold(item)){
+     item.dataset.reveal='';
+     item.style.setProperty('--reveal-delay',`${index*70}ms`);
+    }
    });
    const revealObserver=new IntersectionObserver(entries=>{
     entries.forEach(entry=>{
