@@ -78,4 +78,24 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
   });
   postButtons.forEach(item=>{item.disabled=(currentPostPage===0&&item.dataset.postPageDirection==='-1')||(currentPostPage===postPagesElements.length-1&&item.dataset.postPageDirection==='1');});
  }));
+  const revealTargets=document.querySelectorAll<HTMLElement>('main > .container > section, main > section');
+  const revealItems=document.querySelectorAll<HTMLElement>('.social-post-card, .article-card, .topic-index a');
+  const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduceMotion){
+   document.documentElement.classList.add('has-scroll-reveal');
+   revealTargets.forEach(target=>target.dataset.reveal='');
+   revealItems.forEach((item,index)=>{
+    item.dataset.reveal='';
+    item.style.setProperty('--reveal-delay',`${(index%3)*70}ms`);
+   });
+   const revealObserver=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+     if(entry.isIntersecting){
+      entry.target.classList.add('is-revealed');
+      revealObserver.unobserve(entry.target);
+     }
+    });
+   },{threshold:.12,rootMargin:'0px 0px -36px'});
+   document.querySelectorAll<HTMLElement>('[data-reveal]').forEach(target=>revealObserver.observe(target));
+  }
 </script>
