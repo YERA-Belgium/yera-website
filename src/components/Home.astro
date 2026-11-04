@@ -46,6 +46,23 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
 <section class="contribute-section container" id="contact"><span class="eyebrow">{nl?'Jouw perspectief telt':'Bring your perspective'}</span><div><h2>{nl?'Een vraag, een idee, \nEen andere kijk?':'A question, an idea,\nA different view?'}</h2><div><p>{nl?'Schrijf mee, stel je vragen of help ons mensen samen te brengen.':'Write with us, ask a question, or help bring people together.'}</p><a class={buttonVariants({size:'lg'})} href={url(prefix+'contact/')}>{nl?'Neem contact op':'Get in touch'}</a></div></div></section>
 
 <script>
+ const showSliderPage=(page:HTMLElement,active:boolean)=>{
+  page.classList.remove('article-page-enter');
+  page.hidden=!active;
+  page.setAttribute('aria-hidden',String(!active));
+   page.querySelectorAll<HTMLElement>('[data-reveal]').forEach(item=>item.classList.remove('slider-card-enter'));
+   if(active){
+    page.querySelectorAll<HTMLElement>('[data-reveal]').forEach(item=>{
+     item.classList.add('is-revealed');
+     void item.offsetWidth;
+     item.classList.add('slider-card-enter');
+    });
+    page.style.animation='none';
+    void page.offsetWidth;
+    page.style.animation='';
+    page.classList.add('article-page-enter');
+   }
+  };
  const articleSection=document.querySelector<HTMLElement>('.latest-section');
  const articlePages=articleSection?.querySelectorAll<HTMLElement>('[data-article-page]');
  const pageButtons=articleSection?.querySelectorAll<HTMLButtonElement>('[data-article-page-direction]');
@@ -54,11 +71,7 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
   if(!articlePages?.length)return;
   currentPage=Math.max(0,Math.min(articlePages.length-1,currentPage+Number(button.dataset.articlePageDirection)));
   articlePages.forEach((page,index)=>{
-   const active=index===currentPage;
-   page.classList.remove('article-page-enter');
-   page.hidden=!active;
-   page.setAttribute('aria-hidden',String(!active));
-   if(active)requestAnimationFrame(()=>page.classList.add('article-page-enter'));
+   showSliderPage(page,index===currentPage);
   });
   pageButtons.forEach(item=>{item.disabled=(currentPage===0&&item.dataset.articlePageDirection==='-1')||(currentPage===articlePages.length-1&&item.dataset.articlePageDirection==='1');});
  }));
@@ -70,16 +83,13 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
   if(!postPagesElements?.length)return;
   currentPostPage=Math.max(0,Math.min(postPagesElements.length-1,currentPostPage+Number(button.dataset.postPageDirection)));
   postPagesElements.forEach((page,index)=>{
-   const active=index===currentPostPage;
-   page.classList.remove('article-page-enter');
-   page.hidden=!active;
-   page.setAttribute('aria-hidden',String(!active));
-   if(active)requestAnimationFrame(()=>page.classList.add('article-page-enter'));
+   showSliderPage(page,index===currentPostPage);
   });
   postButtons.forEach(item=>{item.disabled=(currentPostPage===0&&item.dataset.postPageDirection==='-1')||(currentPostPage===postPagesElements.length-1&&item.dataset.postPageDirection==='1');});
  }));
-  const revealTargets=document.querySelectorAll<HTMLElement>('main > .container > section, main > section');
-  const revealItems=document.querySelectorAll<HTMLElement>('.social-post-card, .article-card, .topic-index a');
+  const revealTargets=document.querySelectorAll<HTMLElement>('main > .container > section:not(.topic-section), main > section:not(.topic-section)');
+  const revealItems=document.querySelectorAll<HTMLElement>('.social-post-card, .article-card');
+  const topicItems=document.querySelectorAll<HTMLElement>('.topic-index a');
   const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if(!reduceMotion){
    document.documentElement.classList.add('has-scroll-reveal');
@@ -87,6 +97,10 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
    revealItems.forEach((item,index)=>{
     item.dataset.reveal='';
     item.style.setProperty('--reveal-delay',`${(index%3)*70}ms`);
+   });
+   topicItems.forEach((item,index)=>{
+    item.dataset.reveal='';
+    item.style.setProperty('--reveal-delay',`${index*70}ms`);
    });
    const revealObserver=new IntersectionObserver(entries=>{
     entries.forEach(entry=>{
