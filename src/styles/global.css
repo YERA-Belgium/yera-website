@@ -66,8 +66,9 @@ a.bg-primary{color:var(--primary-foreground)}
 .story-kicker .eyebrow{display:flex;align-items:center;gap:10px}
 .story-kicker .eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--primary)}
 .issue-line{max-width:80px;background:#d8bca0}
-.topic-index a{border-radius:8px;transition:background .2s}
+.topic-index a{border-radius:8px;padding-inline:8px;margin-inline:-8px;transition:background .2s}.topic-index a:first-child{padding-top:15px}
 .topic-index a:hover{background:var(--secondary)}
+.topic-link-content{display:inline-flex;align-items:center;gap:20px;transition:transform .2s ease}.topic-index a:hover .topic-link-content,.topic-index a:focus-visible .topic-link-content{transform:translateX(8px)}
 .topic-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;color:var(--primary)}
 .topic-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .community-portraits{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0}
@@ -85,6 +86,7 @@ a.bg-primary{color:var(--primary-foreground)}
  .contribute-section{padding:28px 24px;margin-bottom:40px}
  .event-date strong{font-size:2rem}
 }
+@media(prefers-reduced-motion:reduce){.topic-link-content{transition:none}}
 
 /* Primary buttons use the navy blue sampled from the original YERA logo. */
 :is(a,button).bg-primary{--primary:#01146c}

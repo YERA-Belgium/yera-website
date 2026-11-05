@@ -4,6 +4,6 @@ export function getStaticPaths(){return [undefined,'articles','events','about','
 const page=Astro.params.page;
 const titles:Record<string,string>={articles:'Artikels',events:'Events',about:'Over YERA',board:'Oud bestuur',alumni:'Ereleden',contact:'Contacteer ons'};
 ---
-<Layout locale="nl" title={titles[page||'']||'Young Energy Reviewers Association'} animatePage={Boolean(page)}>
+<Layout locale="nl" title={titles[page||'']||'Young Energy Reviewers Association'} animatePage={true}>
 {!page&&<Home locale="nl"/>}{page==='about'&&<About locale="nl"/>}{page==='contact'&&<Contact locale="nl"/>}{page==='events'&&<Events locale="nl"/>}{['board','alumni'].includes(page||'')&&<Directory locale="nl" kind={page as 'board'|'alumni'}/>}{page==='articles'&&<ArticleArchive locale="nl"/>}
 </Layout>
