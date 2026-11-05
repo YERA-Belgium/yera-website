@@ -38,6 +38,7 @@
 .has-scroll-reveal .topic-index a{transition:opacity .55s ease var(--reveal-delay,0ms),transform .55s ease var(--reveal-delay,0ms),background .2s ease 0ms}.has-scroll-reveal .topic-index a.is-revealed:hover,.has-scroll-reveal .topic-index a.is-revealed:focus-visible{background:var(--secondary)}@media(prefers-reduced-motion:reduce){.has-scroll-reveal .topic-index a{transition:none}}
 @keyframes slider-card-enter-next{from{opacity:0;transform:translateX(var(--slider-offset,24px))}to{opacity:1;transform:none}}.has-scroll-reveal .slider-card-enter{animation:slider-card-enter-next .55s ease var(--reveal-delay,0ms) both}@media(prefers-reduced-motion:reduce){.has-scroll-reveal .slider-card-enter{animation:none}}
 @keyframes page-content-in{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}.page-content-enter{animation:page-content-in .55s ease both}@media(prefers-reduced-motion:reduce){.page-content-enter{animation:none}}
+ .event-view-enter{animation:page-content-in .45s ease both}@media(prefers-reduced-motion:reduce){.event-view-enter{animation:none}}
 @keyframes title-divider-in{from{transform:scaleX(0)}to{transform:scaleX(1)}}@media(prefers-reduced-motion:reduce){.page-intro::after,.editorial-intro::after,.desktop-nav a[aria-current=page]::after,.topic-filters button.active::after{animation:none;transform:scaleX(1)}}
 @media print{.has-scroll-reveal [data-reveal]{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}}
 @media(max-width:760px){.upcoming-event{padding-bottom:24px}.upcoming-event .event-feature{width:100%;min-width:0;overflow:hidden}.upcoming-event .event-feature-copy,.upcoming-event .event-feature-image{width:100%;min-width:0}.upcoming-event .event-feature-image img{width:100%;max-width:100%;height:auto}.upcoming-event .event-feature-copy h3{font-size:2.2rem;line-height:1.1}.upcoming-event .event-meta{align-items:flex-start;gap:14px;min-width:0}.upcoming-event .event-details{min-width:0}.upcoming-event .event-location{overflow-wrap:anywhere}.latest-section,.latest-posts-section{padding-top:24px}.social-post-grid{grid-template-columns:1fr;gap:32px}.social-post-card h3{font-size:1.8rem}}
@@ -72,7 +73,9 @@ a.bg-primary{color:var(--primary-foreground)}
 .topic-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;color:var(--primary)}
 .topic-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .community-portraits{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0}
-.community-portraits img{width:62px;height:62px;border-radius:50%;object-fit:cover;border:3px solid var(--background)}
+.community-portrait{width:62px;height:62px;border:3px solid var(--background);border-radius:50%;overflow:hidden}
+.community-portrait img{display:block;width:100%;height:100%;object-fit:cover}
+.community-portrait--close img{transform:scale(1.35) translateY(-5%)}
 .contribute-section{background:var(--secondary);border:0;border-radius:20px;padding:40px;margin-bottom:64px}
 .contribute-section .eyebrow{color:var(--primary)}
 .contribute-section a.bg-primary,.contact-form button{border-radius:999px}
@@ -82,7 +85,7 @@ a.bg-primary{color:var(--primary-foreground)}
  .editorial-intro{padding-block:32px}
  .lead-image{border-top-left-radius:36px}
  .community-portraits{gap:8px}
- .community-portraits img{width:52px;height:52px}
+ .community-portrait{width:52px;height:52px}
  .contribute-section{padding:28px 24px;margin-bottom:40px}
  .event-date strong{font-size:2rem}
 }

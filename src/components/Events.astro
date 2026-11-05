@@ -24,6 +24,17 @@ const groupedYears=(events:typeof site.events)=>[...new Set(events.map(e=>e.date
 </section>
 <script>
  const archive=document.querySelector<HTMLElement>('.event-archive');
+ const showEventView=(filter:string)=>{
+  const activeView=archive?.querySelector<HTMLElement>(`[data-event-view="${filter}"]`);
+  archive?.querySelectorAll<HTMLElement>('[data-event-view]').forEach(view=>{
+   view.hidden=view!==activeView;
+   view.classList.remove('event-view-enter');
+  });
+  if(activeView){
+   void activeView.offsetWidth;
+   activeView.classList.add('event-view-enter');
+  }
+ };
  archive?.querySelectorAll<HTMLButtonElement>('[data-event-filter]').forEach(button=>button.addEventListener('click',()=>{
   const filter=button.dataset.eventFilter;
   if(!filter)return;
@@ -32,7 +43,7 @@ const groupedYears=(events:typeof site.events)=>[...new Set(events.map(e=>e.date
    item.classList.toggle('active',active);
    item.setAttribute('aria-pressed',String(active));
   });
-  archive.querySelectorAll<HTMLElement>('[data-event-view]').forEach(view=>{view.hidden=view.dataset.eventView!==filter;});
+  showEventView(filter);
   const url=new URL(window.location.href);
   if(filter==='past')url.searchParams.delete('period');else url.searchParams.set('period',filter);
   window.history.replaceState(null,'',url);
