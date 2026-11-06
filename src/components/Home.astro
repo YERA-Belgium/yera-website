@@ -56,40 +56,70 @@ const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>pag
     item.style.removeProperty('--slider-offset');
    });
    if(active){
-    cards.forEach(item=>{
+    void page.offsetWidth;
+    cards.forEach((item,index)=>{
      item.classList.add('is-revealed');
      item.style.setProperty('--slider-offset',direction==='next'?'24px':'-24px');
+     item.style.setProperty('--reveal-delay',`${index*70}ms`);
      void item.offsetWidth;
      item.classList.add('slider-card-enter');
     });
    }
   };
- const articleSection=document.querySelector<HTMLElement>('.latest-section');
- const articlePages=articleSection?.querySelectorAll<HTMLElement>('[data-article-page]');
- const pageButtons=articleSection?.querySelectorAll<HTMLButtonElement>('[data-article-page-direction]');
- let currentPage=0;
- pageButtons?.forEach(button=>button.addEventListener('click',()=>{
-  if(!articlePages?.length)return;
-  currentPage=Math.max(0,Math.min(articlePages.length-1,currentPage+Number(button.dataset.articlePageDirection)));
-  const direction=Number(button.dataset.articlePageDirection)>0?'next':'previous';
-  articlePages.forEach((page,index)=>{
-   showSliderPage(page,index===currentPage,direction);
+ const setupSlider=(sectionSelector:string,pageSelector:string,buttonSelector:string)=>{
+  const section=document.querySelector<HTMLElement>(sectionSelector);
+  const pages=section?.querySelectorAll<HTMLElement>(pageSelector);
+  const buttons=section?.querySelectorAll<HTMLButtonElement>(buttonSelector);
+  if(!section||!pages?.length||pages.length<2)return;
+  const directionKey=buttonSelector.includes('post')?'postPageDirection':'articlePageDirection';
+  let currentPage=0;
+  let autoScrollTimer:ReturnType<typeof setInterval>|undefined;
+  let paused=false;
+  const updateButtons=()=>{
+   buttons?.forEach(button=>{
+    const direction=Number(button.dataset[directionKey]);
+    button.disabled=(currentPage===0&&direction<0)||(currentPage===pages.length-1&&direction>0);
+   });
+  };
+  const showPage=(pageIndex:number,direction:SliderDirection)=>{
+   currentPage=(pageIndex+pages.length)%pages.length;
+   pages.forEach((page,index)=>showSliderPage(page,index===currentPage,direction));
+   updateButtons();
+  };
+  const advance=()=>{
+   if(!paused&&!document.hidden)showPage(currentPage+1,'next');
+  };
+  const stopAutoScroll=()=>{
+   if(autoScrollTimer){
+    clearInterval(autoScrollTimer);
+    autoScrollTimer=undefined;
+   }
+  };
+  const startAutoScroll=()=>{
+   stopAutoScroll();
+   if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    autoScrollTimer=setInterval(advance,8000);
+   }
+  };
+  buttons?.forEach(button=>button.addEventListener('click',()=>{
+   const pageChange=Number(button.dataset[directionKey]);
+   showPage(currentPage+pageChange,pageChange>0?'next':'previous');
+   startAutoScroll();
+  }));
+  section.addEventListener('mouseenter',()=>{paused=true;});
+  section.addEventListener('mouseleave',()=>{paused=false;});
+  section.addEventListener('focusin',()=>{paused=true;});
+  section.addEventListener('focusout',event=>{
+   if(!section.contains(event.relatedTarget as Node|null))paused=false;
   });
-  pageButtons.forEach(item=>{item.disabled=(currentPage===0&&item.dataset.articlePageDirection==='-1')||(currentPage===articlePages.length-1&&item.dataset.articlePageDirection==='1');});
- }));
- const postSection=document.querySelector<HTMLElement>('.latest-posts-section');
- const postPagesElements=postSection?.querySelectorAll<HTMLElement>('[data-post-page]');
- const postButtons=postSection?.querySelectorAll<HTMLButtonElement>('[data-post-page-direction]');
- let currentPostPage=0;
- postButtons?.forEach(button=>button.addEventListener('click',()=>{
-  if(!postPagesElements?.length)return;
-  currentPostPage=Math.max(0,Math.min(postPagesElements.length-1,currentPostPage+Number(button.dataset.postPageDirection)));
-  const direction=Number(button.dataset.postPageDirection)>0?'next':'previous';
-  postPagesElements.forEach((page,index)=>{
-   showSliderPage(page,index===currentPostPage,direction);
+  document.addEventListener('visibilitychange',()=>{
+   if(document.hidden)stopAutoScroll();else startAutoScroll();
   });
-  postButtons.forEach(item=>{item.disabled=(currentPostPage===0&&item.dataset.postPageDirection==='-1')||(currentPostPage===postPagesElements.length-1&&item.dataset.postPageDirection==='1');});
- }));
+  updateButtons();
+  startAutoScroll();
+ };
+ setupSlider('.latest-section','[data-article-page]','[data-article-page-direction]');
+ setupSlider('.latest-posts-section','[data-post-page]','[data-post-page-direction]');
   const revealTargets=[...document.querySelectorAll<HTMLElement>('main > .container > section:not(.topic-section), main > section:not(.topic-section)')].filter(target=>!target.querySelector('.social-post-card, .article-card'));
   const revealItems=document.querySelectorAll<HTMLElement>('.social-post-card, .article-card');
   const topicItems=document.querySelectorAll<HTMLElement>('.topic-index a');
