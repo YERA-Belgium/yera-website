@@ -31,7 +31,7 @@ test('mobile layout, original logo, board photos and language switching',async({
  for(const route of ['/','/articles/','/about/','/events/','/event/energy-geopolitics-policy-leuven-april-1/','/board/','/alumni/','/contact/','/article-english/28-april-2025-iberian-blackout/']){
   await page.goto(route);await expect(page.locator('.page-intro h1, .editorial-intro h1').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route).toBe(true);
  }
- await page.goto('/');const logo=page.locator('header img');await expect(logo).toHaveAttribute('src',/logo\.aebede0\.png/);expect(await logo.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);
+ await page.goto('/');const logo=page.locator('header img');await expect(logo).toHaveAttribute('src',/yera_logo\.svg/);expect(await logo.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);
  await page.locator('#board a').click();await page.locator('#board img').first().scrollIntoViewIfNeeded();await expect.poll(()=>page.locator('#board img').first().evaluate((e:HTMLImageElement)=>e.naturalWidth)).toBeGreaterThan(0);
  await page.locator('summary').click();await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('link',{name:'Nederlands'}).click();await expect(page.locator('html')).toHaveAttribute('lang','nl');await expect(page.locator('main')).toContainText('betrouwbare, onbevooroordeelde');
 });
