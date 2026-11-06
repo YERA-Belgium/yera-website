@@ -94,8 +94,10 @@ a.bg-primary{color:var(--primary-foreground)}
  .event-date strong{font-size:2rem}
  .reading-layout{grid-template-columns:1fr;gap:40px;padding-block:35px 60px}
  .reading-sticky{position:static;max-height:none;overflow:visible;padding-right:0}
- .reading-sidebar ol{border-left:0}
- .reading-sidebar li a{padding:9px 0;border-bottom:1px solid var(--border)}
+ .reading-sidebar nav{width:100%}
+ .reading-sidebar ol{display:block;border-left:0}
+ .reading-sidebar li{display:block;width:100%}
+ .reading-sidebar li a{display:block;width:100%;padding:9px 0;border-bottom:1px solid var(--border)}
  .reading-sidebar li a:hover{border-left:0;margin-left:0}
  .reading-sidebar .sidebar-note{margin-top:30px}
  .original-content{font-size:1.12rem}
