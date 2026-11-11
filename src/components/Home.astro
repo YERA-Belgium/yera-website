@@ -3,6 +3,7 @@ import site from '@/data/site.json';
 import ArticleCard from './ArticleCard.astro';
 import {url} from '@/lib/utils';
 import {topics,topicFor,topicLabel,formatDate} from '@/lib/topics';
+import {eventDate,isPastEvent} from '@/lib/events';
 import {buttonVariants} from './ui/button';
 interface Props {locale?:'en'|'nl';}
 const {locale='en'}=Astro.props;const nl=locale==='nl';const copy=site.messages[locale];const prefix=nl?'nl/':'';
@@ -10,11 +11,10 @@ const nonEnglishSlugs=new Set(['het-eu-emissiehandelsysteem','kernuitstap-of-toc
 const seen=new Set<string>();const curated=site.articles.filter(a=>!nonEnglishSlugs.has(a.slug)).filter(a=>{const key=a.title.toLowerCase();if(seen.has(key))return false;seen.add(key);return true;});
 const lead=curated[0];const recentPages=[curated.slice(1,4),curated.slice(4,7)].filter(page=>page.length>0);const current=site.boards.find(b=>b.current);
 const faces=(current?.memberIds||[]).map(id=>site.members.find(m=>m.id===id)).filter(m=>m?.image).slice(0,5);
-const parseEventDate=(date:string)=>{const [day,month,year]=date.split('/');return new Date(`${year}-${month}-${day}T23:59:59Z`);};
-const upcomingEvent=site.events.filter(event=>parseEventDate(event.date)>new Date()).sort((a,b)=>parseEventDate(a.date).getTime()-parseEventDate(b.date).getTime())[0];
+const upcomingEvent=site.events.filter(event=>!isPastEvent(event.date)).sort((a,b)=>eventDate(a.date).getTime()-eventDate(b.date).getTime())[0];
 const [eventDay,,eventYear]=upcomingEvent.date.split('/');
-const eventDate=parseEventDate(upcomingEvent.date);
-const eventMonthText=new Intl.DateTimeFormat(nl?'nl-BE':'en-GB',{month:'short',timeZone:'UTC'}).format(eventDate);
+const upcomingEventDate=eventDate(upcomingEvent.date);
+const eventMonthText=new Intl.DateTimeFormat(nl?'nl-BE':'en-GB',{month:'short',timeZone:'UTC'}).format(upcomingEventDate);
 interface SocialPost {slug:string;title:string;authors:string[];date:string;image:string;imageAlt:string;linkedinUrl:string;}
 const postModules=import.meta.glob('../content/posts/*.json',{eager:true,import:'default'}) as Record<string,SocialPost>;
 const latestPosts=Object.values(postModules).sort((a,b)=>(Date.parse(b.date)||0)-(Date.parse(a.date)||0));
