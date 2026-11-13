@@ -4,6 +4,7 @@ import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import type {Article} from '@/data/articles';
 import {url} from '@/lib/utils';
+import {responsiveImage} from '@/lib/images';
 import {topics,topicFor,topicLabel,formatDate} from '@/lib/topics';
 
 type CardArticle=Omit<Article,'content'|'sources'>;
@@ -156,7 +157,7 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
  </div>
  <div key={`${topic}-${language}`} className="article-grid library-grid page-content-enter">
   {filtered.map(a=><article className="article-card" key={a.id}>
-   {a.image&&<a className="cover-link" href={url(a.path)} aria-hidden="true" tabIndex={-1}><img className="article-cover" src={url(a.image)} alt={a.imageAlt} width="600" height="360" loading="lazy"/></a>}
+   {a.image&&<a className="cover-link" href={url(a.path)} aria-hidden="true" tabIndex={-1}>{(()=>{const image=responsiveImage(a.image,600);return <img className="article-cover" src={image.src} srcSet={image.srcset} sizes={image.sizes} alt={a.imageAlt} width={image.width} height={image.height} loading="lazy" decoding="async"/>})()}</a>}
    <div className="article-meta"><span className="category">{topicLabel(a.title,currentLangLocale)}</span><time dateTime={a.date}>{formatDate(a.date,currentLangLocale)}</time></div>
    <h3><a href={url(a.path)}>{a.title}</a></h3>
    {a.subtitle&&<p>{a.subtitle}</p>}

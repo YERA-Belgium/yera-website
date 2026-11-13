@@ -23,6 +23,13 @@ jobs:
         with:
           node-version: 24
           cache: npm
+      - name: Cache responsive image variants
+        uses: actions/cache@v4
+        with:
+          path: |
+            public/generated
+            src/generated
+          key: responsive-images-${{ hashFiles('public/wp-content/uploads/**/*', 'scripts/generate-responsive-images.mjs') }}
       - name: Read Pages configuration
         id: pages
         uses: actions/configure-pages@v5
