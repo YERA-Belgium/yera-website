@@ -18,4 +18,4 @@ export function topicFor(title:string):TopicId {
  return 'climate';
 }
 export function topicLabel(title:string,locale:'en'|'nl'='en'){return topics.find(t=>t.id===topicFor(title))![locale];}
-export function formatDate(date:string,locale:'en'|'nl'='en'){return new Intl.DateTimeFormat(locale==='nl'?'nl-BE':'en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(date));}
+export function formatDate(date:string,locale:'en'|'nl'='en'){return new Intl.DateTimeFormat(locale==='nl'?'nl-BE':'en-GB',{day:'2-digit',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(date));}
