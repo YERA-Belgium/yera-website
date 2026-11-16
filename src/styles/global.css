@@ -111,7 +111,20 @@ a.bg-primary{color:var(--primary-foreground)}
 /* Upcoming event poster: the frame hugs the poster (any aspect ratio) instead of letterboxing it in a fixed box. */
 .upcoming-event .event-feature-image{justify-self:end;align-self:start;width:fit-content;max-width:100%;background:none;border-radius:0;overflow:visible}
 .upcoming-event .event-feature-image img{width:auto;max-width:100%;height:auto;min-height:0;max-height:520px;object-fit:fill;border-radius:36px 12px 12px 12px;box-shadow:0 22px 40px -28px #15213566}
-@media(max-width:760px){.upcoming-event .event-feature-image{justify-self:start}.upcoming-event .event-feature-image img{max-height:480px}}
+@media(max-width:760px){.upcoming-event .event-feature-image{justify-self:end}.upcoming-event .event-feature-image img{max-height:480px}.upcoming-event .event-feature-copy>.text-link{margin-top:28px}}
 /* Tailwind's built-in `container` utility also matches .container and snaps it to 640/768/1024/1280px max-widths.
    Switch that off so the fluid widths above apply. More specific caps (e.g. .article-intro .container) still win. */
 .container{max-width:none}
+/* Home sliders on mobile: one swipeable strip with all cards (the next card peeks in) instead of stacked pages + arrows. */
+@media(max-width:760px){
+ .latest-section .article-page-button,.latest-posts-section .article-page-button{display:none}
+ /* The strip spans the full screen width; side padding lets the first and last cards reach the centre too. */
+ .latest-article-pages,.latest-post-pages{--strip-card:calc((100vw - 40px) * .85);display:flex;gap:16px;height:auto;margin-inline:-20px;padding-inline:calc((100vw - var(--strip-card)) / 2);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none}
+ .latest-article-pages::-webkit-scrollbar,.latest-post-pages::-webkit-scrollbar{display:none}
+ .latest-section .latest-article-pages>[data-article-page],.latest-section .latest-article-pages>[data-article-page][hidden],.latest-posts-section .latest-post-pages>[data-post-page],.latest-posts-section .latest-post-pages>[data-post-page][hidden]{display:contents;opacity:1;visibility:visible;transform:none;transition:none}
+ .latest-article-pages .article-card,.latest-post-pages .social-post-card{flex:0 0 var(--strip-card);min-width:0;scroll-snap-align:center}
+ .has-scroll-reveal :is(.latest-article-pages,.latest-post-pages) [data-reveal]{opacity:1;transform:none;transition:none}
+ /* Focus effect (enabled by the slider script via data-focus): cards other than the snapped one shrink and fade. */
+ :is(.latest-article-pages,.latest-post-pages)[data-focus] :is(.article-card,.social-post-card){transform-origin:center;transition:transform .4s cubic-bezier(.2,.8,.2,1),opacity .4s ease}
+ :is(.latest-article-pages,.latest-post-pages)[data-focus] :is(.article-card,.social-post-card):not(.is-current){transform:scale(.92);opacity:.45}
+}

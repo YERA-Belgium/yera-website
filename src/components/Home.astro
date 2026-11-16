@@ -23,7 +23,7 @@ const latestPosts=Object.values(postModules).sort((a,b)=>(Date.parse(b.date)||0)
 const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>page.length>0);
 const leadImage=responsiveImage(lead.image,imageSizes.lead(imageAspect(lead.image)));
 const upcomingImage=upcomingEvent?.image?responsiveImage(upcomingEvent.image,imageSizes.eventFeature(imageAspect(upcomingEvent.image))):undefined;
-const postImages=new Map(latestPosts.map(post=>[post,responsiveImage(post.image,imageSizes.card)]));
+const postImages=new Map(latestPosts.map(post=>[post,responsiveImage(post.image,imageSizes.carouselCard)]));
 const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image,imageSizes.portrait(closeCropScale(member!.portraitCrop)))]));
 ---
 <div class="container">
@@ -44,7 +44,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
 {topic.id==='climate'&&<svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>}
 </span><span>{topic[locale]}</span></span><span class="topic-count">{site.articles.filter(a=>topicFor(a.title)===topic.id).length}</span></a>)}</nav></section>
 
-<section class="section latest-section" aria-label={nl?'Meer artikels':'More articles'}><div class="section-heading"><div><h2 class="cursive-heading">{nl?'Energie van dichterbij':'A closer look at energy'}</h2></div><div class="latest-articles-controls">{recentPages.length>1&&<><button class="article-page-button" type="button" data-article-page-direction="-1" aria-label={nl?'Vorige artikels':'Previous articles'} disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button><button class="article-page-button" type="button" data-article-page-direction="1" aria-label={nl?'Volgende artikels':'Next articles'}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button></>}<a class="text-link" href={url(prefix+'articles/')}>{nl?'Alle artikels':'All articles'}</a></div></div><div class="latest-article-pages">{recentPages.map((page,index)=><div class="article-grid" data-article-page={index} aria-hidden={index!==0} hidden={index!==0}>{page.map(article=><ArticleCard article={article} locale={locale} showSubtitle={!homepageDescriptionlessSlugs.has(article.slug)}/>)}</div>)}</div></section>
+<section class="section latest-section" aria-label={nl?'Meer artikels':'More articles'}><div class="section-heading"><div><h2 class="cursive-heading">{nl?'Energie van dichterbij':'A closer look at energy'}</h2></div><div class="latest-articles-controls">{recentPages.length>1&&<><button class="article-page-button" type="button" data-article-page-direction="-1" aria-label={nl?'Vorige artikels':'Previous articles'} disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button><button class="article-page-button" type="button" data-article-page-direction="1" aria-label={nl?'Volgende artikels':'Next articles'}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button></>}<a class="text-link" href={url(prefix+'articles/')}>{nl?'Alle artikels':'All articles'}</a></div></div><div class="latest-article-pages">{recentPages.map((page,index)=><div class="article-grid" data-article-page={index} aria-hidden={index!==0} hidden={index!==0}>{page.map(article=><ArticleCard article={article} locale={locale} showSubtitle={!homepageDescriptionlessSlugs.has(article.slug)} sizes={imageSizes.carouselCard}/>)}</div>)}</div></section>
 
 </div>
 <section class="community-band" id="about"><div class="container community-grid"><div><span class="eyebrow">Young Energy Reviewers Association</span><h2>{nl?'Jonge denkers \nGrote vraagstukken':'Young minds \nBig energy questions'}</h2><div class="community-portraits">{faces.map(member=><div class:list={['community-portrait',{'community-portrait--close':member!.portraitCrop==='close'}]}><img {...faceImages.get(member)} alt={member!.name} loading="lazy" decoding="async"/></div>)}</div><a class="light-link" href={url(prefix+'about/')}>{nl?'Ontmoet YERA':'Meet YERA'}</a></div><div><p set:html={copy.about.text}/><div class="community-note" id="board"><span>{current?.title}</span><a href={url(prefix+'about/#board')}>{copy.about.boardOf}</a></div></div></div></section>
@@ -73,6 +73,8 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
    });
   });
  };
+ // <=760px: CSS shows every page as one horizontal swipe strip, so the pager steps aside.
+ const mobileQuery=window.matchMedia('(max-width: 760px)');
  const setupSlider=(sectionSelector:string,pageSelector:string,buttonSelector:string)=>{
   const section=document.querySelector<HTMLElement>(sectionSelector);
   const pages=section?.querySelectorAll<HTMLElement>(pageSelector);
@@ -89,14 +91,11 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
     button.disabled=(currentPage===0&&direction<0)||(currentPage===pages.length-1&&direction>0);
    });
   };
-  pages.forEach((page,index)=>{
-   page.classList.toggle('slider-page-active',index===0);
-   page.hidden=index!==0;
-  });
   const pageContainer=pages[0].parentElement;
   const syncPageHeight=()=>{
    if(!pageContainer)return;
    pageContainer.style.removeProperty('--slider-page-height');
+   if(mobileQuery.matches)return;
    const hiddenStates=Array.from(pages,page=>page.hidden);
    pages.forEach(page=>{
     page.hidden=false;
@@ -132,6 +131,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
    const finishTransition=()=>{
     if(activeTransition!==transitionId)return;
     if(cleanupTimer)window.clearTimeout(cleanupTimer);
+    if(mobileQuery.matches)return;
     previousPage.removeEventListener('transitionend',handleTransitionEnd);
     previousPage.hidden=true;
     previousPage.classList.remove('slider-page-leaving','slider-page-leave-next','slider-page-leave-previous');
@@ -155,6 +155,16 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   };
   const advance=()=>{
    if(paused||document.hidden)return;
+   if(mobileQuery.matches){
+    // Mobile strip: smoothly centre the next card, wrapping back to the first after the last.
+    if(!pageContainer||!stripCards.length)return;
+    const index=stripCards.findIndex(card=>card.classList.contains('is-current'));
+    const next=stripCards[(index+1)%stripCards.length];
+    const stripRect=pageContainer.getBoundingClientRect();
+    const cardRect=next.getBoundingClientRect();
+    pageContainer.scrollTo({left:pageContainer.scrollLeft+(cardRect.left+cardRect.width/2)-(stripRect.left+stripRect.width/2),behavior:'smooth'});
+    return;
+   }
    const nextPage=(currentPage+1)%pages.length;
    const wrapsToStart=currentPage===pages.length-1;
    showPage(nextPage,wrapsToStart?'previous':'next');
@@ -176,8 +186,14 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
    showPage(currentPage+pageChange,pageChange>0?'next':'previous');
    startAutoScroll();
   }));
-  section.addEventListener('mouseenter',()=>{paused=true;});
-  section.addEventListener('mouseleave',()=>{paused=false;});
+  // Hover pauses for real mice only: taps fire a mouseenter with no matching mouseleave.
+  section.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')paused=true;});
+  section.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse')paused=false;});
+  // Touch: hold still while the finger is down, then wait a full interval after the swipe.
+  pageContainer?.addEventListener('touchstart',()=>{paused=true;stopAutoScroll();},{passive:true});
+  const resumeAfterTouch=()=>{paused=false;startAutoScroll();};
+  pageContainer?.addEventListener('touchend',resumeAfterTouch,{passive:true});
+  pageContainer?.addEventListener('touchcancel',resumeAfterTouch,{passive:true});
   section.addEventListener('focusin',()=>{paused=true;});
   section.addEventListener('focusout',event=>{
    if(!section.contains(event.relatedTarget as Node|null))paused=false;
@@ -185,8 +201,43 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   document.addEventListener('visibilitychange',()=>{
    if(document.hidden)stopAutoScroll();else startAutoScroll();
   });
-  updateButtons();
-  startAutoScroll();
+  // Mobile strip: the card snapped to the centre is "current"; CSS dims and shrinks the others.
+  const stripCards=pageContainer?Array.from(pageContainer.querySelectorAll<HTMLElement>('.article-card, .social-post-card')):[];
+  const updateFocus=()=>{
+   if(!pageContainer||!mobileQuery.matches)return;
+   const stripRect=pageContainer.getBoundingClientRect();
+   const stripCentre=stripRect.left+stripRect.width/2;
+   // Compare centres: the scale transform keeps a card's centre where its layout box is.
+   const distance=(card:HTMLElement)=>{const rect=card.getBoundingClientRect();return Math.abs(rect.left+rect.width/2-stripCentre);};
+   const current=stripCards.reduce((best,card)=>distance(card)<distance(best)?card:best,stripCards[0]);
+   stripCards.forEach(card=>card.classList.toggle('is-current',card===current));
+  };
+  let focusFrame=0;
+  pageContainer?.addEventListener('scroll',()=>{
+   cancelAnimationFrame(focusFrame);
+   focusFrame=requestAnimationFrame(updateFocus);
+  },{passive:true});
+  // Mobile: expose every card (the strip scrolls). Desktop: show only the current page.
+  const applyLayout=()=>{
+   const mobile=mobileQuery.matches;
+   if(pageContainer){
+    if(mobile)pageContainer.dataset.focus='';
+    else{delete pageContainer.dataset.focus;stripCards.forEach(card=>card.classList.remove('is-current'));}
+   }
+   updateFocus();
+   pages.forEach((page,index)=>{
+    const visible=mobile||index===currentPage;
+    page.hidden=!visible;
+    page.setAttribute('aria-hidden',String(!visible));
+    page.classList.remove('slider-page-leaving','slider-page-leave-next','slider-page-leave-previous','slider-page-enter-next','slider-page-enter-previous');
+    page.classList.toggle('slider-page-active',!mobile&&index===currentPage);
+   });
+   syncPageHeight();
+   updateButtons();
+   startAutoScroll();
+  };
+  mobileQuery.addEventListener('change',applyLayout);
+  applyLayout();
  };
  setupSlider('.latest-section','[data-article-page]','[data-article-page-direction]');
  setupSlider('.latest-posts-section','[data-post-page]','[data-post-page-direction]');

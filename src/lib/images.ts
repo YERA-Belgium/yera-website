@@ -21,6 +21,8 @@ export type ResponsiveImage = { src: string; srcset?: string; sizes?: string; wi
 export const imageSizes = {
   // .article-grid / .social-post-grid: 3 columns, 30px gap; 1 column <=760px.
   card: '(max-width: 760px) calc(100vw - 40px), (max-width: 1050px) calc((100vw - 116px) / 3), (max-width: 1336px) calc((100vw - 156px) / 3), 394px',
+  // Home sliders: same 3-column pages on desktop; on <=760px a swipe strip with cards at 85% width.
+  carouselCard: '(max-width: 760px) calc((100vw - 40px) * 0.85), (max-width: 1050px) calc((100vw - 116px) / 3), (max-width: 1336px) calc((100vw - 156px) / 3), 394px',
   // .lead-story image: first column of 1.07fr 1fr (gap 52px; 30px <=1050px); full width <=760px.
   // It is object-fit:cover in a box 280px tall (<=760px) or up to 560px tall, so a wide image
   // renders wider than its column: never ask for less than boxHeight * aspect ratio.

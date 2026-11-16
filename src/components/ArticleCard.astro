@@ -3,9 +3,9 @@ import {url} from '@/lib/utils';
 import {responsiveImage,imageSizes} from '@/lib/images';
 import {topicLabel,formatDate} from '@/lib/topics';
 import type {Article} from '@/data/articles';
-interface Props {article:Article;locale?:'en'|'nl';showSubtitle?:boolean;}
-const {article,locale='en',showSubtitle=true}=Astro.props;
-const image=article.image&&responsiveImage(article.image,imageSizes.card);
+interface Props {article:Article;locale?:'en'|'nl';showSubtitle?:boolean;sizes?:string;}
+const {article,locale='en',showSubtitle=true,sizes=imageSizes.card}=Astro.props;
+const image=article.image&&responsiveImage(article.image,sizes);
 ---
 <article class="article-card">
 {image&&<a class="cover-link" href={url(article.path)} tabindex="-1" aria-hidden="true"><img class="article-cover" src={image.src} srcset={image.srcset} sizes={image.sizes} alt={article.imageAlt} loading="lazy" decoding="async" width={image.width} height={image.height}/></a>}
