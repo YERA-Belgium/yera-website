@@ -213,14 +213,19 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   // so the bar keeps running while someone uses the controls.
   pageContainer.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse'){hoverPaused=true;updatePauseState();}});
   pageContainer.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'){hoverPaused=false;updatePauseState();}});
-  // Keyboard focus on a card pauses; focus on the controls does not.
-  section.addEventListener('focusin',event=>{focusPaused=!controls?.contains(event.target as Node);updatePauseState();});
+  // Keyboard focus on a card pauses; focus from a tap or click (no focus ring), or on the controls, does not.
+  section.addEventListener('focusin',event=>{
+   const target=event.target as HTMLElement;
+   focusPaused=!controls?.contains(target)&&target.matches(':focus-visible');
+   updatePauseState();
+  });
   section.addEventListener('focusout',event=>{
    if(!section.contains(event.relatedTarget as Node|null)){focusPaused=false;updatePauseState();}
   });
-  // Touch: hold still while the finger is down, then give the new card a full interval.
+  // Touch: hold still while the finger is down, then continue where the bar was (like hover on desktop).
+  // A swipe that lands on another card still starts that card's own bar, via updateFocus.
   pageContainer.addEventListener('touchstart',()=>{touchPaused=true;updatePauseState();},{passive:true});
-  const resumeAfterTouch=()=>{touchPaused=false;restartProgress();updatePauseState();};
+  const resumeAfterTouch=()=>{touchPaused=false;updatePauseState();};
   pageContainer.addEventListener('touchend',resumeAfterTouch,{passive:true});
   pageContainer.addEventListener('touchcancel',resumeAfterTouch,{passive:true});
   document.addEventListener('visibilitychange',updatePauseState);
