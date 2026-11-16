@@ -1,9 +1,9 @@
 ---
-import site from '@/data/site.json';import EventRow from './EventRow.astro';import {eventDate,isPastEvent} from '@/lib/events';
+import site from '@/data/site.json';import EventRow from './EventRow.astro';import {academicYear,eventDate,isPastEvent} from '@/lib/events';
 interface Props{locale?:'en'|'nl';}const {locale='en'}=Astro.props;
 const pastEvents=[...site.events].filter(event=>isPastEvent(event.date)).sort((a,b)=>eventDate(b.date).getTime()-eventDate(a.date).getTime());
 const upcomingEvents=[...site.events].filter(event=>!isPastEvent(event.date)).sort((a,b)=>eventDate(a.date).getTime()-eventDate(b.date).getTime());
-const groupedYears=(events:typeof site.events)=>[...new Set(events.map(e=>e.date.split('/')[2]||'Archive'))].sort((a,b)=>b.localeCompare(a));
+const groupedAcademicYears=(events:typeof site.events,newestFirst:boolean)=>[...new Set(events.map(e=>academicYear(e.date)))].sort((a,b)=>newestFirst?b.localeCompare(a):a.localeCompare(b));
 ---
 <section class="page-intro events-page-intro"><div class="container archive-intro"><div><span class="eyebrow">{locale==='nl'?'Ga het gesprek aan':'Start the conversation'}</span><h1>{locale==='nl'?'Leer, Ontmoet & verbind':'Learn, Meet & Connect'}</h1></div><p>{locale==='nl'?'Lezingen, debatten en bezoeken. Ontdek waar het energiegesprek ons brengt.':'Lectures, debates and visits. Explore where the energy conversation takes us.'}</p></div></section>
 <section class="section container event-archive">
@@ -16,7 +16,7 @@ const groupedYears=(events:typeof site.events)=>[...new Set(events.map(e=>e.date
    {id:'upcoming',events:upcomingEvents}
  ].map(view=><div class="event-view" data-event-view={view.id} hidden={view.id!=='upcoming'}>
    <div class="archive-results"><p class="result-count">{view.events.length} {locale==='nl'?'events':'events'}</p></div>
-  {groupedYears(view.events).map(year=><section class="event-year"><h2>{year}</h2><div>{view.events.filter(e=>(e.date.split('/')[2]||'Archive')===year).map(event=><EventRow event={event} locale={locale}/>)}</div></section>)}
+  {groupedAcademicYears(view.events,view.id==='past').map(year=><section class="event-year"><h2>{year!=='Archive'&&<span class="event-year-label">{locale==='nl'?'Academiejaar':'Academic year'}</span>}{year}</h2><div>{view.events.filter(e=>academicYear(e.date)===year).map(event=><EventRow event={event} locale={locale}/>)}</div></section>)}
   {view.events.length===0&&<p class="empty-results">{locale==='nl'?'Geen events gevonden.':'No events found.'}</p>}
  </div>)}
 </section>

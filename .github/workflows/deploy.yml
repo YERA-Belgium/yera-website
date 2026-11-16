@@ -30,6 +30,8 @@ jobs:
             public/generated
             src/generated
           key: responsive-images-${{ hashFiles('public/wp-content/uploads/**/*', 'scripts/generate-responsive-images.mjs') }}
+          # Fall back to the newest previous cache: the script only (re)generates changed images.
+          restore-keys: responsive-images-
       - name: Read Pages configuration
         id: pages
         uses: actions/configure-pages@v5

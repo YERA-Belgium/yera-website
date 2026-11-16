@@ -4,10 +4,11 @@ import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import type {Article} from '@/data/articles';
 import {url} from '@/lib/utils';
-import {responsiveImage} from '@/lib/images';
+import type {ResponsiveImage} from '@/lib/images';
 import {topics,topicFor,topicLabel,formatDate} from '@/lib/topics';
 
-type CardArticle=Omit<Article,'content'|'sources'>;
+// `cover` is computed server-side (ArticleArchive.astro); importing the image helpers here would ship the manifest to the browser.
+type CardArticle=Omit<Article,'content'|'sources'>&{cover?:ResponsiveImage};
 
 export default function ArticleLibrary({articles,locale='en'}:{articles:CardArticle[];locale?:'en'|'nl'}){
  const nl=locale==='nl';
@@ -157,7 +158,7 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
  </div>
  <div key={`${topic}-${language}`} className="article-grid library-grid page-content-enter">
   {filtered.map(a=><article className="article-card" key={a.id}>
-   {a.image&&<a className="cover-link" href={url(a.path)} aria-hidden="true" tabIndex={-1}>{(()=>{const image=responsiveImage(a.image,600);return <img className="article-cover" src={image.src} srcSet={image.srcset} sizes={image.sizes} alt={a.imageAlt} width={image.width} height={image.height} loading="lazy" decoding="async"/>})()}</a>}
+   {a.cover&&<a className="cover-link" href={url(a.path)} aria-hidden="true" tabIndex={-1}><img className="article-cover" src={a.cover.src} srcSet={a.cover.srcset} sizes={a.cover.sizes} alt={a.imageAlt} width={a.cover.width} height={a.cover.height} loading="lazy" decoding="async"/></a>}
    <div className="article-meta"><span className="category">{topicLabel(a.title,currentLangLocale)}</span><time dateTime={a.date}>{formatDate(a.date,currentLangLocale)}</time></div>
    <h3><a href={url(a.path)}>{a.title}</a></h3>
    {a.subtitle&&<p>{a.subtitle}</p>}

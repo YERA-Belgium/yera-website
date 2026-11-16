@@ -6,10 +6,16 @@ import sharp from 'sharp';
 const root = process.cwd();
 const sourceRoot = path.join(root, 'public');
 const outputRoot = path.join(root, 'public', 'generated', 'images');
-const manifestPath = path.join(root, 'src', 'generated', 'image-manifest.ts');
+const generatedRoot = path.join(root, 'src', 'generated');
+// Imported by src/lib/images.ts at build time: keep it to what pages need.
+const manifestPath = path.join(generatedRoot, 'image-manifest.json');
+// Only read by this script to skip unchanged images; never imported by the site.
+const cachePath = path.join(generatedRoot, 'image-cache.json');
+const legacyManifestPath = path.join(generatedRoot, 'image-manifest.ts');
 const widths = [160, 400, 800, 1200, 1600];
-const quality = 90;
-const configHash = createHash('sha256').update(JSON.stringify({ widths, quality, preserveSourceWidth: true })).digest('hex');
+const maxWidth = widths.at(-1);
+const quality = 80;
+const configHash = createHash('sha256').update(JSON.stringify({ widths, quality, cap: maxWidth })).digest('hex');
 const imagePathPattern = /\/wp-content\/uploads\/[^"'\\\s)<>]+\.(?:jpe?g|png|gif|webp)/gi;
 
 async function referencedPaths() {
@@ -18,8 +24,9 @@ async function referencedPaths() {
     const entries = await fs.readdir(directory, { withFileTypes: true });
     for (const entry of entries) {
       const entryPath = path.join(directory, entry.name);
-      if (entry.isDirectory()) await collectSourceFiles(entryPath);
-      else if (/\.(?:astro|tsx?|json)$/i.test(entry.name)) files.push(entryPath);
+      if (entry.isDirectory()) {
+        if (entryPath !== generatedRoot) await collectSourceFiles(entryPath);
+      } else if (/\.(?:astro|tsx?|json)$/i.test(entry.name)) files.push(entryPath);
     }
   }
   await collectSourceFiles(path.join(root, 'src'));
@@ -31,13 +38,23 @@ async function referencedPaths() {
   return references;
 }
 
+/** Variant widths for a source: the standard steps it can fill, plus its own width when it is below the cap. */
+function variantWidths(sourceWidth) {
+  const steps = widths.filter(width => width <= sourceWidth);
+  if (sourceWidth < maxWidth && !steps.includes(sourceWidth)) steps.push(sourceWidth);
+  return steps;
+}
+
+const exists = file => fs.stat(file).then(() => true, () => false);
+
 const references = await referencedPaths();
-let previousManifest = {};
+let previousCache = {};
 try {
-  const previous = await fs.readFile(manifestPath, 'utf8');
-  previousManifest = JSON.parse(previous.match(/= (.*) as const;/s)?.[1] ?? '{}');
+  previousCache = JSON.parse(await fs.readFile(cachePath, 'utf8'));
 } catch {}
 const manifest = {};
+const cache = {};
+const expectedFiles = new Set();
 let generated = 0;
 let processed = 0;
 
@@ -46,43 +63,57 @@ for (const relativePath of [...references].sort()) {
   try {
     const metadata = await sharp(sourcePath).metadata();
     if (!metadata.width || !metadata.height) continue;
+    // Use display orientation so width/height match what the browser renders.
+    const rotated = (metadata.orientation ?? 1) >= 5;
+    const width = rotated ? metadata.height : metadata.width;
+    const height = rotated ? metadata.width : metadata.height;
     const sourceHash = createHash('sha256').update(await fs.readFile(sourcePath)).digest('hex');
-    const extension = path.extname(relativePath);
-    const relativeWithoutExtension = relativePath.slice(0, -extension.length);
-    const outputDirectory = path.join(outputRoot, relativeWithoutExtension);
-    const variants = [];
-    const previous = previousManifest[relativePath];
-    const expectedWidths = [...new Set([...widths.filter(width => width <= metadata.width), metadata.width])].sort((a, b) => a - b);
-    const outputsExist = (await Promise.all(expectedWidths.map(async width => {
-      try {
-        await fs.stat(path.join(outputDirectory, `${width}.webp`));
-        return true;
-      } catch {
-        return false;
-      }
-    }))).every(Boolean);
-    const skipGeneration = previous?.sourceHash === sourceHash && previous?.configHash === configHash && outputsExist;
-    for (const width of expectedWidths) {
-      const outputPath = path.join(outputDirectory, `${width}.webp`);
-      if (!skipGeneration) {
-        await fs.mkdir(outputDirectory, { recursive: true });
-        await sharp(sourcePath).resize({ width, withoutEnlargement: true }).webp({ quality }).toFile(outputPath);
+    const outputDirectory = path.join(outputRoot, relativePath.slice(0, -path.extname(relativePath).length));
+    const expectedWidths = variantWidths(width);
+    const outputPaths = expectedWidths.map(variantWidth => path.join(outputDirectory, `${variantWidth}.webp`));
+    outputPaths.forEach(file => expectedFiles.add(file));
+    const previous = previousCache[relativePath];
+    const upToDate = previous?.sourceHash === sourceHash && previous?.configHash === configHash
+      && (await Promise.all(outputPaths.map(exists))).every(Boolean);
+    if (!upToDate) {
+      await fs.mkdir(outputDirectory, { recursive: true });
+      for (const [index, variantWidth] of expectedWidths.entries()) {
+        await sharp(sourcePath).rotate().resize({ width: variantWidth, withoutEnlargement: true }).webp({ quality }).toFile(outputPaths[index]);
         generated++;
       }
-      variants.push({ width, src: `/generated/images/${relativeWithoutExtension}/${width}.webp` });
+      processed++;
     }
-    if (variants.length) {
-      manifest[relativePath] = { width: metadata.width, height: metadata.height, sourceHash, configHash, variants };
-      if (!skipGeneration) processed++;
-    }
+    manifest[relativePath] = { width, height, widths: expectedWidths };
+    cache[relativePath] = { sourceHash, configHash };
   } catch (error) {
     if (error?.code !== 'ENOENT') console.warn(`Skipping image ${relativePath}: ${error.message}`);
   }
 }
 
-await fs.mkdir(path.dirname(manifestPath), { recursive: true });
-await fs.writeFile(
-  manifestPath,
-  `// Generated by scripts/generate-responsive-images.mjs. Do not edit.\nexport const imageManifest = ${JSON.stringify(manifest, null, 2)} as const;\n`,
-);
-console.log(`Responsive images: ${Object.keys(manifest).length} sources, ${processed} processed, ${generated} variants generated.`);
+// Remove variants no longer referenced or no longer produced (e.g. after a config change),
+// so stale files don't get copied into dist or carried along in the CI cache.
+let pruned = 0;
+async function prune(directory) {
+  let entries = [];
+  try {
+    entries = await fs.readdir(directory, { withFileTypes: true });
+  } catch {
+    return;
+  }
+  for (const entry of entries) {
+    const entryPath = path.join(directory, entry.name);
+    if (entry.isDirectory()) await prune(entryPath);
+    else if (!expectedFiles.has(entryPath)) {
+      await fs.rm(entryPath);
+      pruned++;
+    }
+  }
+  if (directory !== outputRoot && (await fs.readdir(directory)).length === 0) await fs.rmdir(directory);
+}
+await prune(outputRoot);
+
+await fs.mkdir(generatedRoot, { recursive: true });
+await fs.writeFile(manifestPath, `${JSON.stringify(manifest)}\n`);
+await fs.writeFile(cachePath, `${JSON.stringify(cache, null, 1)}\n`);
+await fs.rm(legacyManifestPath, { force: true });
+console.log(`Responsive images: ${Object.keys(manifest).length} sources, ${processed} processed, ${generated} variants generated, ${pruned} stale variants removed.`);
