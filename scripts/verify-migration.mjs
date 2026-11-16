@@ -3,6 +3,17 @@ const site=JSON.parse(await readFile('src/data/site.json','utf8'));
 const normalize=html=>load(html,null,false).text().replace(/\s+/g,' ').trim();
 let count=0;
 const deletedDuplicates=new Set([5138, 4970, 4821, 4305, 4296]);
+// Titles deliberately corrected after the migration: WordPress id -> {from: original title, to: corrected title}.
+// `from` must still match the source export, so the exception can't silently cover other changes.
+const correctedTitles=new Map([
+ [5152,{from:'Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Build Today',to:'Upgrading High-Voltage Grids: How The Electricity System of Tomorrow is Being Built Today'}],
+]);
+const expectedTitle=raw=>{
+ const original=normalize(raw.title.rendered);const correction=correctedTitles.get(raw.id);
+ if(!correction)return original;
+ assert.equal(original,correction.from,`Source title of ${raw.id} no longer matches its correction entry`);
+ return correction.to;
+};
 for(const type of ['article','article-english','event']){
  const records=JSON.parse(await readFile(`migration/source/${type}.json`,'utf8'));
  for(const raw of records){
@@ -12,7 +23,7 @@ for(const type of ['article','article-english','event']){
   const $=load(await readFile(`dist/${record.path}index.html`,'utf8'));
   assert.equal(normalize($('.original-content>div').first().html()||''),normalize(raw.content.rendered),`Built content ${raw.id}`);
   if(type!=='event'){assert.equal(record.sources,raw.acf.sources||'');assert.equal($('.source-text').text().replace(/\s+/g,' ').trim(),normalize(raw.acf.sources||''));assert.equal(record.author,raw.acf.author||'');}
-  assert.equal($('.page-intro h1').text(),normalize(raw.title.rendered));count++;
+  assert.equal($('.page-intro h1').text(),expectedTitle(raw),`Title ${type} ${raw.id}`);count++;
  }
 }
 const manifest=JSON.parse(await readFile('migration/assets.json','utf8'));
