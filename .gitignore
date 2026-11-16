@@ -3,6 +3,8 @@ node_modules/
 
 # Astro build output and generated types
 /dist/
+/public/generated/
+/src/generated/
 /.astro/
 *.tsbuildinfo
 

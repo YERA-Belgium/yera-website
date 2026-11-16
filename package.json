@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 0.0.0.0",
-    "build": "astro check && astro build",
+    "build": "npm run images && astro check && astro build",
+    "images": "node scripts/generate-responsive-images.mjs",
     "preview": "astro preview --host 0.0.0.0",
     "check": "astro check",
     "test": "playwright test",
@@ -34,6 +35,7 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "cheerio": "^1.2.0",
+    "sharp": "^0.35.5",
     "typescript": "^5.9.0"
   }
 }

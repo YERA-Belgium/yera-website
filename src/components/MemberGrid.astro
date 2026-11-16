@@ -1,11 +1,11 @@
 ---
 import site from '@/data/site.json';
-import { url } from '@/lib/utils';
+import {responsiveImage} from '@/lib/images';
 interface Props { memberIds?:number[]; compact?:boolean; }
 const { memberIds=[],compact=false }=Astro.props;
 const members=memberIds.map(id=>site.members.find(m=>m.id===id)).filter(m=>!!m);
 ---
 <div class:list={['member-grid',{'compact-members':compact}]}>{members.map(member=><article class="member-card">
-{member.image&&<div class:list={['member-photo',{'member-photo--close':member.portraitCrop==='close'}]}><img src={url(member.image)} alt={member.name} width="320" height="320" loading="lazy" /></div>}
+{member.image&&<div class:list={['member-photo',{'member-photo--close':member.portraitCrop==='close'}]}>{(()=>{const image=responsiveImage(member.image,320);return <img src={image.src} srcset={image.srcset} sizes={image.sizes} alt={member.name} width={image.width} height={image.height} loading="lazy" decoding="async" />})()}</div>}
 <h3>{member.name}</h3><p>{member.role}</p>{!compact&&member.email&&<a href={`mailto:${member.email}`}>{member.email}</a>}{member.linkedin&&<a class="member-link" href={member.linkedin}>LinkedIn</a>}
 </article>)}</div>
