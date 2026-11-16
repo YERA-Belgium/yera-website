@@ -28,8 +28,12 @@ export const imageSizes = {
     const cover = (height: number) => `${Math.round(height * aspect)}px`;
     return `(max-width: 760px) max(calc(100vw - 40px), ${cover(280)}), (max-width: 1050px) max(calc((100vw - 86px) * 0.517), ${cover(560)}), (max-width: 1336px) max(calc((100vw - 148px) * 0.517), ${cover(560)}), max(614px, ${cover(560)})`;
   },
-  // .event-feature image: second column (1fr) of the same grid, object-fit:contain.
-  eventFeature: '(max-width: 760px) calc(100vw - 40px), (max-width: 1050px) calc((100vw - 86px) * 0.483), (max-width: 1336px) calc((100vw - 148px) * 0.483), 574px',
+  // .upcoming-event poster: second column (1fr) of the same grid, but shown at its own aspect
+  // ratio with max-height 520px (480px <=760px), so it is often narrower than the column.
+  eventFeature: (aspect = 1) => {
+    const capped = (height: number) => `${Math.round(height * aspect)}px`;
+    return `(max-width: 760px) min(calc(100vw - 40px), ${capped(480)}), (max-width: 1050px) min(calc((100vw - 86px) * 0.483), ${capped(520)}), (max-width: 1336px) min(calc((100vw - 148px) * 0.483), ${capped(520)}), min(574px, ${capped(520)})`;
+  },
   // .member-grid: 4 columns (26px gap); 3 columns <=1050px; 2 columns (18px gap) <=760px.
   // `scale` covers .member-photo--close, which zooms the image 1.35x inside its frame.
   member: (scale = 1) => `(max-width: 760px) calc((100vw - 58px) / 2 * ${scale}), (max-width: 1050px) calc((100vw - 108px) / 3 * ${scale}), (max-width: 1336px) calc((100vw - 174px) / 4 * ${scale}), ${Math.round(291 * scale)}px`,

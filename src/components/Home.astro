@@ -22,7 +22,7 @@ const postModules=import.meta.glob('../content/posts/*.json',{eager:true,import:
 const latestPosts=Object.values(postModules).sort((a,b)=>(Date.parse(b.date)||0)-(Date.parse(a.date)||0));
 const postPages=[latestPosts.slice(0,3),latestPosts.slice(3,6)].filter(page=>page.length>0);
 const leadImage=responsiveImage(lead.image,imageSizes.lead(imageAspect(lead.image)));
-const upcomingImage=upcomingEvent?.image?responsiveImage(upcomingEvent.image,imageSizes.eventFeature):undefined;
+const upcomingImage=upcomingEvent?.image?responsiveImage(upcomingEvent.image,imageSizes.eventFeature(imageAspect(upcomingEvent.image))):undefined;
 const postImages=new Map(latestPosts.map(post=>[post,responsiveImage(post.image,imageSizes.card)]));
 const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image,imageSizes.portrait(closeCropScale(member!.portraitCrop)))]));
 ---
