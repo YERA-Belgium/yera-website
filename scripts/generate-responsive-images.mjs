@@ -8,6 +8,8 @@ const sourceRoot = path.join(root, 'public');
 const outputRoot = path.join(root, 'public', 'generated', 'images');
 const manifestPath = path.join(root, 'src', 'generated', 'image-manifest.ts');
 const widths = [160, 400, 800, 1200, 1600];
+const quality = 90;
+const configHash = createHash('sha256').update(JSON.stringify({ widths, quality, preserveSourceWidth: true })).digest('hex');
 const imagePathPattern = /\/wp-content\/uploads\/[^"'\\\s)<>]+\.(?:jpe?g|png|gif|webp)/gi;
 
 async function referencedPaths() {
@@ -50,7 +52,7 @@ for (const relativePath of [...references].sort()) {
     const outputDirectory = path.join(outputRoot, relativeWithoutExtension);
     const variants = [];
     const previous = previousManifest[relativePath];
-    const expectedWidths = widths.filter(width => width <= metadata.width);
+    const expectedWidths = [...new Set([...widths.filter(width => width <= metadata.width), metadata.width])].sort((a, b) => a - b);
     const outputsExist = (await Promise.all(expectedWidths.map(async width => {
       try {
         await fs.stat(path.join(outputDirectory, `${width}.webp`));
@@ -59,19 +61,18 @@ for (const relativePath of [...references].sort()) {
         return false;
       }
     }))).every(Boolean);
-    const skipGeneration = previous?.sourceHash === sourceHash && outputsExist;
-    for (const width of widths) {
-      if (width > metadata.width) continue;
+    const skipGeneration = previous?.sourceHash === sourceHash && previous?.configHash === configHash && outputsExist;
+    for (const width of expectedWidths) {
       const outputPath = path.join(outputDirectory, `${width}.webp`);
       if (!skipGeneration) {
         await fs.mkdir(outputDirectory, { recursive: true });
-        await sharp(sourcePath).resize({ width, withoutEnlargement: true }).webp({ quality: 82 }).toFile(outputPath);
+        await sharp(sourcePath).resize({ width, withoutEnlargement: true }).webp({ quality }).toFile(outputPath);
         generated++;
       }
       variants.push({ width, src: `/generated/images/${relativeWithoutExtension}/${width}.webp` });
     }
     if (variants.length) {
-      manifest[relativePath] = { width: metadata.width, height: metadata.height, sourceHash, variants };
+      manifest[relativePath] = { width: metadata.width, height: metadata.height, sourceHash, configHash, variants };
       if (!skipGeneration) processed++;
     }
   } catch (error) {
