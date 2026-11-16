@@ -151,3 +151,10 @@ a.bg-primary{color:var(--primary-foreground)}
 .slider-pause{width:40px;height:40px}.slider-pause svg{width:22px;height:22px}.slider-segments{gap:0}
 .slider-segment{--seg-inset:7px;--seg-height:8px;width:22px;transition:width .35s cubic-bezier(.2,.8,.2,1)}.slider-segment.is-active{width:50px}
 .slider-segment-fill{background:#d3cbbd}}
+/* Articles page: each row of cards shares one grid (subgrid), so the author lines start at the same height across the row,
+   even when a title, subtitle or a long list of authors wraps. The homepage cards are not affected. */
+/* The grid's row gap would also open up inside every card, so the space between rows of cards is a margin instead. */
+.library-grid{row-gap:0}.library-grid .article-card{display:grid;grid-row:span 4;grid-template-rows:subgrid;row-gap:0;margin-bottom:38px}@media(max-width:760px){.library-grid .article-card{margin-bottom:32px}}
+.library-grid .article-card>.cover-link{grid-row:1}.library-grid .article-card>.article-meta{grid-row:2}.library-grid .article-card>.article-card-text{grid-row:3}
+/* Title and subtitle share one row so a subtitle stays right under its own title. */
+.library-grid .article-card>.byline{grid-row:4;align-self:start;padding-top:10px}

@@ -160,8 +160,10 @@ export default function ArticleLibrary({articles,locale='en'}:{articles:CardArti
   {filtered.map(a=><article className="article-card" key={a.id}>
    {a.cover&&<a className="cover-link" href={url(a.path)} aria-hidden="true" tabIndex={-1}><img className="article-cover" src={a.cover.src} srcSet={a.cover.srcset} sizes={a.cover.sizes} alt={a.imageAlt} width={a.cover.width} height={a.cover.height} loading="lazy" decoding="async"/></a>}
    <div className="article-meta"><span className="category">{topicLabel(a.title,currentLangLocale)}</span><time dateTime={a.date}>{formatDate(a.date,currentLangLocale)}</time></div>
-   <h3><a href={url(a.path)}>{a.title}</a></h3>
-   {a.subtitle&&<p>{a.subtitle}</p>}
+   <div className="article-card-text">
+    <h3><a href={url(a.path)}>{a.title}</a></h3>
+    {a.subtitle&&<p>{a.subtitle}</p>}
+   </div>
    <div className="byline">{a.author}</div>
   </article>)}
  </div>
