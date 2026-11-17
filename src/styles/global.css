@@ -158,3 +158,17 @@ a.bg-primary{color:var(--primary-foreground)}
 .library-grid .article-card>.cover-link{grid-row:1}.library-grid .article-card>.article-meta{grid-row:2}.library-grid .article-card>.article-card-text{grid-row:3}
 /* Title and subtitle share one row so a subtitle stays right under its own title. */
 .library-grid .article-card>.byline{grid-row:4;align-self:start;padding-top:10px}
+/* Home sliders, desktop: small arrows in the white space beside the cards. Each fades out when it has nowhere to go.
+   Only from 1051px, where the side margins are wide enough; they sit mid-margin but never more than ~72px from the cards. */
+.slider-arrow{display:none}
+@media(min-width:1051px){
+ .latest-article-pages,.latest-post-pages{position:relative}
+ .slider-arrow{--arrow-offset:max(-72px,calc((min(1240px,100vw - 96px) - 100vw) / 4 - 16px));position:absolute;z-index:2;top:var(--slider-arrow-top,110px);display:grid;place-items:center;width:32px;height:32px;margin-top:-16px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--foreground);cursor:pointer;transition:opacity .25s ease,visibility 0s,color .18s ease,background-color .18s ease}
+ .slider-arrow--prev{left:var(--arrow-offset)}.slider-arrow--next{right:var(--arrow-offset)}
+ .slider-arrow svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+ .slider-arrow:hover,.slider-arrow:focus-visible{color:var(--primary);background:var(--muted)}
+ /* Become visible (and focusable) at once when shown; stay visible until the fade-out has finished when hidden. */
+ .slider-arrow.is-hidden{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .25s ease,visibility 0s linear .25s,color .18s ease,background-color .18s ease}
+}
+/* Figures restored from empty WordPress image links (see restoreLostFigures in src/lib/content.ts): on their own line, above the caption. */
+.original-content img.restored-figure{display:block;margin:28px 0 10px}

@@ -16,7 +16,18 @@ const widths = [160, 400, 800, 1200, 1600];
 const maxWidth = widths.at(-1);
 const quality = 80;
 const configHash = createHash('sha256').update(JSON.stringify({ widths, quality, cap: maxWidth })).digest('hex');
-const imagePathPattern = /\/wp-content\/uploads\/[^"'\\\s)<>]+\.(?:jpe?g|png|gif|webp)/gi;
+// Uploads referenced by the site: root-relative paths, or URLs on the dead old WordPress host (yera.ulyssis.be).
+// Paths that are part of any other URL are someone else's files and are ignored.
+const imagePathPattern = /(?:(https?:\/\/yera\.ulyssis\.be)|(?<![\w.:/-]))(\/wp-content\/uploads\/[^"'\\\s)<>]+\.(?:jpe?g|png|gif|webp))/gi;
+
+/** Same rule as dropDeadHost() in src/lib/content.ts: an old-host upload is used only if the file, or its
+ *  full-size original (WordPress's "-1024x675" suffix removed), is in public/; otherwise the page drops it. */
+async function oldHostUpload(uploadPath) {
+  for (const candidate of [uploadPath, uploadPath.replace(/-\d+x\d+(\.[a-z]+)$/i, '$1')]) {
+    if (await fs.stat(path.join(sourceRoot, candidate)).then(() => true, () => false)) return candidate;
+  }
+  return undefined;
+}
 
 async function referencedPaths() {
   const files = [];
@@ -33,7 +44,10 @@ async function referencedPaths() {
   const references = new Set();
   for (const file of files) {
     const content = await fs.readFile(file, 'utf8');
-    for (const match of content.matchAll(imagePathPattern)) references.add(match[0].replace(/^\//, ''));
+    for (const [, oldHost, uploadPath] of content.matchAll(imagePathPattern)) {
+      const local = oldHost ? await oldHostUpload(uploadPath) : uploadPath;
+      if (local) references.add(local.replace(/^\//, ''));
+    }
   }
   return references;
 }
