@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predev": "npm run images",
     "dev": "astro dev --host 0.0.0.0",
     "build": "npm run images && astro check && astro build",
     "images": "node scripts/generate-responsive-images.mjs",
