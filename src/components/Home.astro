@@ -416,10 +416,13 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
 
    if(!reducedMotion.matches&&outgoing.animate&&incoming.animate){
     const incomingOffset=direction==='next'?24:-24;
+    const mobileSwipe=window.matchMedia('(max-width: 760px)').matches;
+    const outgoingDuration=mobileSwipe?120:240;
+    const incomingDuration=mobileSwipe?280:420;
     const outgoingAnimation=outgoing.animate([
      {opacity:1,transform:'translateX(0)'},
      {opacity:0,transform:'translateX(0)',offset:1}
-    ],{duration:240,easing:'ease-in',fill:'both'});
+    ],{duration:outgoingDuration,easing:'ease-in',fill:'both'});
 
     outgoingAnimation.finished.then(()=>{
      outgoing.hidden=true;
@@ -429,7 +432,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
      incoming.animate([
       {opacity:0,transform:`translateX(${incomingOffset}px)`},
       {opacity:1,transform:'translateX(0)'}
-     ],{duration:420,easing:'cubic-bezier(.2,.8,.2,1)',fill:'both'});
+     ],{duration:incomingDuration,easing:'cubic-bezier(.2,.8,.2,1)',fill:'both'});
 
      placeArrows();
      transitionTimer=window.setTimeout(()=>{
@@ -437,7 +440,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
       if(container)container.style.removeProperty('height');
       placeArrows();
       transitionTimer=undefined;
-     },420);
+     },incomingDuration);
     }).catch(()=>{});
    }else{
     outgoing.hidden=true;
