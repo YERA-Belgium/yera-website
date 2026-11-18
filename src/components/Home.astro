@@ -101,6 +101,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   const controls=section.querySelector<HTMLElement>('[data-slider-controls]');
   const pauseButton=section.querySelector<HTMLButtonElement>('[data-slider-pause]');
   const segmentList=section.querySelector<HTMLElement>('[data-slider-segments]');
+  const mobileQuery=window.matchMedia('(max-width: 760px)');
   const stripCards=Array.from(pageContainer.querySelectorAll<HTMLElement>('.article-card, .social-post-card'));
   let currentPage=0;
   let currentCard=0;
@@ -337,7 +338,6 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   const pauseButton=slider.querySelector<HTMLButtonElement>('[data-event-slider-pause]');
   const segmentList=slider.querySelector<HTMLElement>('[data-event-slider-segments]');
   const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
-  const mobileQuery=window.matchMedia('(max-width: 760px)');
   let current=0;
   let timer:number|undefined;
   let transitionTimer:number|undefined;
