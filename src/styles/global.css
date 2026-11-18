@@ -110,8 +110,12 @@ a.bg-primary{color:var(--primary-foreground)}
 @media(max-width:760px){.event-gallery{grid-template-columns:1fr}}
 /* Upcoming event poster: the frame hugs the poster (any aspect ratio) instead of letterboxing it in a fixed box. */
 .upcoming-event .event-feature-image{justify-self:end;align-self:start;width:fit-content;max-width:100%;background:none;border-radius:0;overflow:visible}
-.upcoming-event .event-feature-image img{width:auto;max-width:100%;height:auto;min-height:0;max-height:520px;object-fit:fill;border-radius:36px 12px 12px 12px;box-shadow:0 22px 40px -28px #15213566}
+.upcoming-event .event-feature-image img{width:auto;max-width:100%;height:auto;min-height:0;max-height:520px;object-fit:fill;border-radius:36px 12px 12px 12px;box-shadow:0 22px 40px -28px #15213566;transform-origin:center;transition:transform .3s ease,box-shadow .3s ease}
+.upcoming-event .event-feature-image:hover img,.upcoming-event .event-feature-image:focus-visible img{transform:scale(1.025);box-shadow:0 26px 44px -26px #15213566}
+.upcoming-event .event-feature:has(.event-feature-copy h3 a:hover) .event-feature-image img,.upcoming-event .event-feature:has(.event-feature-image:hover) .event-feature-image img,.upcoming-event .event-feature:focus-within .event-feature-image img{transform:scale(1.025);box-shadow:0 26px 44px -26px #15213566}
+.upcoming-event .event-feature:has(.event-feature-image:hover) .event-feature-copy h3 a,.upcoming-event .event-feature:focus-within .event-feature-copy h3 a{color:var(--primary)}
 @media(max-width:760px){.upcoming-event .event-feature-image{justify-self:end}.upcoming-event .event-feature-image img{max-height:480px}.upcoming-event .event-feature-copy>.text-link{margin-top:28px}}
+.event-feature-pages{position:relative;display:grid}.event-feature-page{grid-area:1/1;min-width:0;overflow:hidden;will-change:opacity,transform}.event-feature-page[hidden]{display:none}
 /* Tailwind's built-in `container` utility also matches .container and snaps it to 640/768/1024/1280px max-widths.
    Switch that off so the fluid widths above apply. More specific caps (e.g. .article-intro .container) still win. */
 .container{max-width:none}
@@ -162,7 +166,7 @@ a.bg-primary{color:var(--primary-foreground)}
    Only from 1051px, where the side margins are wide enough; they sit mid-margin but never more than ~72px from the cards. */
 .slider-arrow{display:none}
 @media(min-width:1051px){
- .latest-article-pages,.latest-post-pages{position:relative}
+ .latest-article-pages,.latest-post-pages,.event-feature-pages{position:relative}
  .slider-arrow{--arrow-offset:max(-72px,calc((min(1240px,100vw - 96px) - 100vw) / 4 - 16px));position:absolute;z-index:2;top:var(--slider-arrow-top,110px);display:grid;place-items:center;width:32px;height:32px;margin-top:-16px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--foreground);cursor:pointer;transition:opacity .25s ease,visibility 0s,color .18s ease,background-color .18s ease}
  .slider-arrow--prev{left:var(--arrow-offset)}.slider-arrow--next{right:var(--arrow-offset)}
  .slider-arrow svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
