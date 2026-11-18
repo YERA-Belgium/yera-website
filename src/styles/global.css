@@ -114,6 +114,7 @@ a.bg-primary{color:var(--primary-foreground)}
 .upcoming-event .event-feature-image:hover img,.upcoming-event .event-feature-image:focus-visible img{transform:scale(1.025);box-shadow:0 26px 44px -26px #15213566}
 .upcoming-event .event-feature:has(.event-feature-copy h3 a:hover) .event-feature-image img,.upcoming-event .event-feature:has(.event-feature-image:hover) .event-feature-image img,.upcoming-event .event-feature:focus-within .event-feature-image img{transform:scale(1.025);box-shadow:0 26px 44px -26px #15213566}
 .upcoming-event .event-feature:has(.event-feature-image:hover) .event-feature-copy h3 a,.upcoming-event .event-feature:focus-within .event-feature-copy h3 a{color:var(--primary)}
+@media(max-width:760px){.upcoming-event .event-feature-pages{touch-action:pan-y}}
 @media(max-width:760px){.upcoming-event .event-feature-image{justify-self:end}.upcoming-event .event-feature-image img{max-height:480px}.upcoming-event .event-feature-copy>.text-link{margin-top:28px}}
 .event-feature-pages{position:relative;display:grid}.event-feature-page{grid-area:1/1;min-width:0;overflow:hidden;will-change:opacity,transform}.event-feature-page[hidden]{display:none}
 /* Tailwind's built-in `container` utility also matches .container and snaps it to 640/768/1024/1280px max-widths.

@@ -91,7 +91,6 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   });
  };
  // <=760px: CSS shows every card as one horizontal swipe strip; wider screens show pages of three.
- const mobileQuery=window.matchMedia('(max-width: 760px)');
  const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
  const setupSlider=(sectionSelector:string,pageSelector:string,storageKey:string)=>{
   const section=document.querySelector<HTMLElement>(sectionSelector);
@@ -338,6 +337,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   const pauseButton=slider.querySelector<HTMLButtonElement>('[data-event-slider-pause]');
   const segmentList=slider.querySelector<HTMLElement>('[data-event-slider-segments]');
   const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+  const mobileQuery=window.matchMedia('(max-width: 760px)');
   let current=0;
   let timer:number|undefined;
   let transitionTimer:number|undefined;
@@ -474,6 +474,35 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   slider.addEventListener('pointerleave',event=>{
    if(event.pointerType==='mouse'){paused=false;updatePauseState();}
   });
+  let touchStartX=0;
+  let touchStartY=0;
+  let swiping=false;
+  const container=slider.querySelector<HTMLElement>('.event-feature-pages');
+  container?.addEventListener('touchstart',event=>{
+   const touch=event.changedTouches[0];
+   touchStartX=touch.clientX;
+   touchStartY=touch.clientY;
+   swiping=true;
+   paused=true;
+   updatePauseState();
+  },{passive:true});
+  container?.addEventListener('touchend',event=>{
+   if(!swiping)return;
+   swiping=false;
+   const touch=event.changedTouches[0];
+   const deltaX=touch.clientX-touchStartX;
+   const deltaY=touch.clientY-touchStartY;
+   paused=false;
+   if(Math.abs(deltaX)>55&&Math.abs(deltaX)>Math.abs(deltaY)*1.25){
+    show(deltaX<0?current+1:current-1);
+   }
+   startTimer();
+  },{passive:true});
+  container?.addEventListener('touchcancel',()=>{
+   swiping=false;
+   paused=false;
+   startTimer();
+  },{passive:true});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stopTimer();else startTimer();});
   reducedMotion.addEventListener('change',event=>{stickyPaused=event.matches;startTimer();});
   pages.forEach(page=>page.querySelectorAll('img').forEach(image=>image.addEventListener('load',placeArrows,{once:true})));
