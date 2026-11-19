@@ -92,7 +92,6 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
  };
  // <=760px: CSS shows every card as one horizontal swipe strip; wider screens show pages of three.
  const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
- const mobileQuery=window.matchMedia('(max-width: 760px)');
  const setupSlider=(sectionSelector:string,pageSelector:string,storageKey:string)=>{
   const section=document.querySelector<HTMLElement>(sectionSelector);
   const pages=section?.querySelectorAll<HTMLElement>(pageSelector);
@@ -402,7 +401,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
    const container=slider.querySelector<HTMLElement>('.event-feature-pages');
 
    if(transitionTimer!==undefined)window.clearTimeout(transitionTimer);
-   if(container&&!mobileQuery.matches)container.style.height=`${outgoing.offsetHeight}px`;
+   if(container)container.style.height=`${outgoing.offsetHeight}px`;
    pages.forEach(page=>{
     page.getAnimations().forEach(animation=>animation.cancel());
     if(page!==outgoing&&page!==incoming){
@@ -438,7 +437,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
      placeArrows();
      transitionTimer=window.setTimeout(()=>{
       incoming.getAnimations().forEach(animation=>animation.cancel());
-      if(container&&!mobileQuery.matches)container.style.removeProperty('height');
+      if(container)container.style.removeProperty('height');
       placeArrows();
       transitionTimer=undefined;
      },incomingDuration);
@@ -448,7 +447,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
     outgoing.setAttribute('aria-hidden','true');
     incoming.hidden=false;
     incoming.setAttribute('aria-hidden','false');
-    if(container&&!mobileQuery.matches)container.style.removeProperty('height');
+    if(container)container.style.removeProperty('height');
     placeArrows();
    }
   };
@@ -482,20 +481,6 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   let touchStartY=0;
   let swiping=false;
   const container=slider.querySelector<HTMLElement>('.event-feature-pages');
-  const syncMobileHeight=()=>{
-   if(!container||!mobileQuery.matches)return;
-   const hiddenStates=pages.map(page=>page.hidden);
-   pages.forEach(page=>{
-    page.hidden=false;
-    page.style.visibility='hidden';
-   });
-   const height=Math.max(...pages.map(page=>page.offsetHeight));
-   pages.forEach((page,index)=>{
-    page.hidden=hiddenStates[index];
-    page.style.removeProperty('visibility');
-   });
-   container.style.height=`${height}px`;
-  };
   container?.addEventListener('touchstart',event=>{
    const touch=event.changedTouches[0];
    touchStartX=touch.clientX;
@@ -523,16 +508,10 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   },{passive:true});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stopTimer();else startTimer();});
   reducedMotion.addEventListener('change',event=>{stickyPaused=event.matches;startTimer();});
-  pages.forEach(page=>page.querySelectorAll('img').forEach(image=>image.addEventListener('load',()=>{placeArrows();syncMobileHeight();})));
-  mobileQuery.addEventListener('change',()=>{
-   if(mobileQuery.matches)syncMobileHeight();
-   else container?.style.removeProperty('height');
-  });
-  document.fonts?.ready.then(syncMobileHeight);
-  window.addEventListener('resize',()=>{placeArrows();syncMobileHeight();});
+  pages.forEach(page=>page.querySelectorAll('img').forEach(image=>image.addEventListener('load',placeArrows,{once:true})));
+  window.addEventListener('resize',placeArrows);
   updateArrows();
   placeArrows();
-  syncMobileHeight();
   startTimer();
  };
  setupEventSlider();
