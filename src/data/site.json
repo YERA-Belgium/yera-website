@@ -2335,6 +2335,7 @@
       "start": "18:30",
       "end": "22:30",
       "location": "Aula L, Department of Electrical Engineering (ESAT), Kasteelpark Arenberg 10, 3001 Heverlee",
+      "registration": "https://forms.gle/icbG85ScEh65JFZb7",
       "image": "/wp-content/uploads/2026/events/AwardsExpertPanel/1.png",
       "image2": "/wp-content/uploads/2026/events/AwardsExpertPanel/2.png",
       "source": ""
@@ -2350,6 +2351,7 @@
       "start": "08:30",
       "end": "19:30",
       "location": "Ghent City",
+      "registration": "https://docs.google.com/forms/d/e/1FAIpQLScdVqAnI7MDqIXsGpZ1YnDMkOrMbI89o7zBeRlePE-aztFDcQ/viewform",
       "image": "/wp-content/uploads/2026/events/EnergyStartUpTour/EnergyStartUpTour.png",
       "image2": "/wp-content/uploads/2026/events/EnergyStartUpTour/TourSchedule.png",
       "source": ""
@@ -2365,6 +2367,7 @@
       "start": "18:30",
       "end": "22:30",
       "location": "Aula van de 2de Hoofdwet, Thermotechnisch Instituut, Kasteelpark Arenberg 41, 3001 Heverlee",
+      "registration": "https://ie-net.be/yie2026",
       "image": "/wp-content/uploads/2026/events/YIE/YIE2026_614x520.png",
       "source": ""
     },
