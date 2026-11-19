@@ -36,7 +36,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   const [day,,year]=event.date.split('/');
   const month=new Intl.DateTimeFormat(nl?'nl-BE':'en-GB',{month:'short',timeZone:'UTC'}).format(eventDate(event.date));
   const image=upcomingImages.get(event);
-  return <div class="event-feature-page" data-event-page={index} aria-hidden={index!==0} hidden={index!==0}>
+  return <div class="event-feature-page" data-event-page={index} aria-hidden={index!==0}>
    <div class="lead-story event-feature">
     <div class="lead-copy event-feature-copy">
      <h3><a href={url(event.path)}>{event.title}</a></h3>
@@ -338,6 +338,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
   const pauseButton=slider.querySelector<HTMLButtonElement>('[data-event-slider-pause]');
   const segmentList=slider.querySelector<HTMLElement>('[data-event-slider-segments]');
   const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+  const mobileQuery=window.matchMedia('(max-width: 760px)');
   let current=0;
   let timer:number|undefined;
   let transitionTimer:number|undefined;
@@ -401,11 +402,10 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
    const container=slider.querySelector<HTMLElement>('.event-feature-pages');
 
    if(transitionTimer!==undefined)window.clearTimeout(transitionTimer);
-   if(container)container.style.height=`${outgoing.offsetHeight}px`;
+   if(container&&!mobileQuery.matches)container.style.height=`${outgoing.offsetHeight}px`;
    pages.forEach(page=>{
     page.getAnimations().forEach(animation=>animation.cancel());
     if(page!==outgoing&&page!==incoming){
-     page.hidden=true;
      page.setAttribute('aria-hidden','true');
     }
    });
@@ -425,9 +425,7 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
     ],{duration:outgoingDuration,easing:'ease-in',fill:'both'});
 
     outgoingAnimation.finished.then(()=>{
-     outgoing.hidden=true;
      outgoing.setAttribute('aria-hidden','true');
-     incoming.hidden=false;
      incoming.setAttribute('aria-hidden','false');
      incoming.animate([
       {opacity:0,transform:`translateX(${incomingOffset}px)`},
@@ -437,17 +435,15 @@ const faceImages=new Map(faces.map(member=>[member,responsiveImage(member!.image
      placeArrows();
      transitionTimer=window.setTimeout(()=>{
       incoming.getAnimations().forEach(animation=>animation.cancel());
-      if(container)container.style.removeProperty('height');
+      if(container&&!mobileQuery.matches)container.style.removeProperty('height');
       placeArrows();
       transitionTimer=undefined;
      },incomingDuration);
     }).catch(()=>{});
    }else{
-    outgoing.hidden=true;
     outgoing.setAttribute('aria-hidden','true');
-    incoming.hidden=false;
     incoming.setAttribute('aria-hidden','false');
-    if(container)container.style.removeProperty('height');
+    if(container&&!mobileQuery.matches)container.style.removeProperty('height');
     placeArrows();
    }
   };
